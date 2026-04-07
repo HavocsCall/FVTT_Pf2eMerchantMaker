@@ -1,0 +1,3070 @@
+{
+  "name": "Nature Items",
+  "type": "loot",
+  "ownership": {
+    "default": 1,
+    "GV5Yy0w5XjJdvzJa": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Nature Items",
+    "displayName": 20,
+    "texture": {
+      "src": "icons/magic/nature/tree-roots-glow-yellow.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "details": {
+      "description": "<p>Not all items are bonuses to ALL checks related to the skill. Read the item descriptions to see what actions the items actually increase.</p>",
+      "level": {
+        "value": 0
+      }
+    },
+    "lootSheetType": "Merchant",
+    "hiddenWhenEmpty": false
+  },
+  "img": "icons/magic/nature/tree-roots-glow-yellow.webp",
+  "items": [
+    {
+      "img": "icons/tools/instruments/pipe-flute-yellow.webp",
+      "name": "Animal Call",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Animal calls are often whistles or similar devices that imitate the calls of animals. Each call is for a specific type of animal, such as a duck or bear. When you use the call, it gives you a +1 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Command an Animal}, provided the animal is of the type as the call. You also do not take a circumstance penalty when attempting to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} that animal for not sharing a language.</p>"
+        },
+        "rules": [
+          {
+            "domain": "skill-check",
+            "key": "RollOption",
+            "option": "animal-call",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:command-an-animal",
+              "animal-call"
+            ],
+            "selector": "skill-check",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "animal-call",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Howl of the Wild",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "gBJ4APE6M23w1DUl",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.gBJ4APE6M23w1DUl"
+    },
+    {
+      "img": "icons/consumables/fruit/apple-glowing-green.webp",
+      "name": "Sprite Apple (Chartreuse)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> 1 minute (manipulate)</p><hr /><p>A sparkling candy coating covers a sprite apple. For 10 minutes after consuming a sprite apple, you shed bright light in a @Template[emanation|distance:20] (and dim light for the next 20 feet). While shedding this light, you can't be @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} if you're visible, and if you're @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}, you're concealed instead rather than being undetected. The light matches the vibrant color of the apple's candy coating. Creatures in the bright light are subject to another effect, depending on the type of apple.</p>\n<p>Creatures in the bright light feel more in tune with nature, gaining a +1 item bonus to Nature checks and to Diplomacy checks attempted against animals or plants (if they have the @UUID[Compendium.pf2e.feats-srd.Item.cg816q76S5otM7yD]{Animal Empathy} feat, @UUID[Compendium.pf2e.feats-srd.Item.ahyQpMVDIqhvXkQ4]{Plant Empathy} feat, or some other ability to make such checks).</p>"
+        },
+        "rules": [],
+        "slug": "sprite-apple-chartreuse",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [
+            "alchemical-food"
+          ],
+          "value": [
+            "alchemical",
+            "consumable",
+            "light"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 26
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "rxedd49HQQlpLONQ",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.rxedd49HQQlpLONQ"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/primeval-mistletoe.webp",
+      "name": "Primeval Mistletoe",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This sprig of berry-festooned holly and mistletoe doesn't wilt or rot. It can be used as a primal locus, and it grants a +1 item bonus to Nature checks while you wear it.</p>\n<hr />\n<p><strong>Activate—Anoint</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> You squeeze juice from one of the berries and smear it onto a weapon made primarily of wood to cast @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Runic Weapon} on it, or onto a creature to cast @UUID[Compendium.pf2e.spells-srd.Item.EE7Q5BHIrfWNCPtT]{Runic Body} on it.</p>\n<hr />\n<p><strong>Activate—Bind</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You touch the sprig, then a tree to cast @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants} upon yourself, turning into a vine on the touched tree.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "nature",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "primeval-mistletoe",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 230
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "PoHh4lDTlRq4vpKT",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.PoHh4lDTlRq4vpKT"
+    },
+    {
+      "img": "icons/equipment/back/mantle-collared-green.webp",
+      "name": "Living Mantle",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The base of this cloak is a thick layer of moss, but it slowly picks up native plants from each area it spends time in. You gain a +2 item bonus to Nature checks. You also suffer no effects from severe cold and severe heat.</p>\n<p><strong>Activate—Druidic Secrets</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast an order spell. If you don't spend this Focus Point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a druid.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "living-mantle",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "plant",
+            "primal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "HKI9czbZZxstIHfW",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.HKI9czbZZxstIHfW"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "name": "Tales in Timber",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Dozens of pictorial stories—told in wood carvings, painting, or pyrography—adorn every outer surface of this <em>+1 resilient wooden breastplate</em>. All are old, and many truly ancient, depicting tales set eons ago on the Plane of Wood. You gain a +2 item bonus to Nature checks to Recall Knowledge. If you know the @UUID[Compendium.pf2e.spells-srd.Item.hp6Q64dl7xbdn4gQ]{Collective Memories} ritual, you can use Nature instead of Occultism if you're the primary caster.</p>\n<hr />\n<p><strong>Activate—Statue Disguise</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The armor makes you look like a wooden statue version of one of the creatures depicted on the armor for 1 hour. This is a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, but it can make you look like any creature depicted on the armor. This doesn't change your size or the capabilities of your body, and it scales the appearance of the creature to match yours. You can Dismiss the activation. This disguise is just real enough to make you somewhat closer to a creature of wood. You're affected by two spells while it lasts: @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} and @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}. If you stand still, you gain a +2 item bonus to Deception checks and DCs to appear as an inanimate wooden statue, in addition to the status bonus to Deception from <em>illusory disguise</em>.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "tales-in-timber",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "wood"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": "wooden-breastplate",
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "medium",
+        "group": "wood",
+        "acBonus": 3,
+        "strength": 2,
+        "dexCap": 2,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "grade": null,
+        "runes": {
+          "potency": 1,
+          "resilient": 1,
+          "property": []
+        },
+        "subitems": [],
+        "specific": {
+          "material": {
+            "grade": null,
+            "type": null
+          },
+          "runes": {
+            "potency": 1,
+            "property": [],
+            "resilient": 1
+          }
+        }
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "FLx1SV292REBi8SR",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.FLx1SV292REBi8SR"
+    },
+    {
+      "img": "icons/equipment/back/cloak-layered-pink.webp",
+      "name": "Eidolon Cape",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Though it appears to be one elegant piece, an <em>eidolon cape</em> consists of a mantle for your shoulders and a detachable cape. The cape is designed to resemble your eidolon, either with a direct likeness or with features reminiscent of your eidolon. For instance, if your eidolon is a dragon, the cape might depict a stylized dragon, or it might have a pattern of colorful scales with gold trim. An eidolon cape features the sigil you share with your eidolon prominently in its design. You gain a +2 item bonus to the skill that matches your eidolon's tradition: Arcana for arcane, Religion for divine, Occultism for occult, or Nature for primal.</p>\n<p>When you Manifest your Eidolon, the cape transforms into the eidolon, and when the eidolon unmanifests, it turns back into the cape. If the cape is attached to the mantle, it comes free immediately, and the eidolon appears adjacent to you as normal. If not, the eidolon appears in a space adjacent to the cape. With the cape detached, the mantle is still light Bulk, and the whole cloak remains invested. If the cape is out of range (beyond 100 feet, typically) or there's not enough open space for the eidolon to manifest, your attempt to Manifest your Eidolon fails.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a summoner link spell. If not used by the end of your turn, this Focus Point is lost.</p><hr /><p><strong>Craft Requirements</strong> You are a summoner.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.TraitArcane",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.TraitDivine",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.TraitOccult",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.TraitPrimal",
+                "value": "nature"
+              }
+            ],
+            "flag": "eidolonCapeSelection",
+            "key": "ChoiceSet",
+            "prompt": "Select your eidolon's tradition"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.eidolonCapeSelection}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "eidolon-cape",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1400
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "vxnQ5hp6L2dIL7fE",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.vxnQ5hp6L2dIL7fE"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +2 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "helm-of-zeal",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "QwqjUrJwKaNWMu4N",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.QwqjUrJwKaNWMu4N"
+    },
+    {
+      "img": "icons/commodities/metal/chain-silver.webp",
+      "name": "Warden's Signet",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This symbol shows your dedication to the magic practiced by some rangers. Most rangers wear it on an amulet, ring, or piercing. You gain a +2 item bonus to Nature checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a ranger warden spell. When you use this Focus Point, the warden's signet also casts a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience}spell on you. If not used by the end of your turn, this Focus Point is lost.</p><hr /><p><strong>Craft Requirements</strong> You are a ranger with at least one warden spell.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "wardens-signet",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "HGHxqwRXOO3DTF3O",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.HGHxqwRXOO3DTF3O"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "name": "Tales in Timber (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Dozens of pictorial stories—told in wood carvings, painting, or pyrography—adorn every outer surface of this <em>+2 resilient wooden breastplate</em>. All are old, and many truly ancient, depicting tales set eons ago on the Plane of Wood. You gain a +2 item bonus to Nature checks to Recall Knowledge. If you know the @UUID[Compendium.pf2e.spells-srd.Item.hp6Q64dl7xbdn4gQ]{Collective Memories} ritual, you can use Nature instead of Occultism if you're the primary caster.</p>\n<hr />\n<p><strong>Activate—Statue Disguise</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The armor makes you look like a wooden statue version of one of the creatures depicted on the armor for 1 hour. This is a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, but it can make you look like any creature depicted on the armor. This doesn't change your size or the capabilities of your body, and it scales the appearance of the creature to match yours. You can Dismiss the activation. This disguise is just real enough to make you somewhat closer to a creature of wood. You're affected by two spells while it lasts: 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} and @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}. If you stand still, you gain a +2 item bonus to Deception checks and DCs to appear as an inanimate wooden statue, in addition to the status bonus to Deception from <em>illusory disguise</em>.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "tales-in-timber-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "wood"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 99,
+        "baseItem": "wooden-breastplate",
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2800
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "medium",
+        "group": "wood",
+        "acBonus": 3,
+        "strength": 2,
+        "dexCap": 2,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "grade": null,
+        "runes": {
+          "potency": 2,
+          "resilient": 1,
+          "property": []
+        },
+        "subitems": [],
+        "specific": {
+          "material": {
+            "grade": null,
+            "type": null
+          },
+          "runes": {
+            "potency": 2,
+            "property": [],
+            "resilient": 1
+          }
+        }
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "RojpbLE91pE2pt7Y",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.RojpbLE91pE2pt7Y"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/primeval-mistletoe.webp",
+      "name": "Primeval Mistletoe (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This sprig of berry-festooned holly and mistletoe doesn't wilt or rot. It can be used as a primal locus, and it grants a +2 item bonus to Nature checks while you wear it.</p>\n<hr />\n<p><strong>Activate—Anoint</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> You squeeze juice from one of the berries and smear it onto a weapon made primarily of wood to cast a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Runic Weapon} on it, or onto a creature to cast a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.EE7Q5BHIrfWNCPtT]{Runic Body} on it.</p>\n<hr />\n<p><strong>Activate—Bind</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You touch the sprig, then a tree to cast @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants} upon yourself, turning into a vine on the touched tree.</p>\n<hr />\n<p><strong>Activate—Cultivate</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You plant the <em>greater primeval mistletoe</em> into an area of natural earth or stone. Once planted, the plant immediately sprouts into an area of holly bushes that don't impede movement and that pulse with vitality energy, replicating the effects of a @UUID[Compendium.pf2e.spells-srd.Item.x5rGOmhDRDVQPrnW]{Field of Life} spell. You can Sustain the activation up to 1 minute. When this magic ends, the holly bushes revert back into the original <em>greater primeval mistletoe</em>.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "primeval-mistletoe-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 14
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "AVrRhRaUPkVmoOsY",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.AVrRhRaUPkVmoOsY"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +3 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "helm-of-zeal-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 21000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "h6VNe2KUgSfP7gxf",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.h6VNe2KUgSfP7gxf"
+    },
+    {
+      "img": "icons/equipment/back/mantle-collared-green.webp",
+      "name": "Living Mantle (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The base of this cloak is a thick layer of moss, but it slowly picks up native plants from each area it spends time in. You gain a +3 item bonus to Nature checks. You also suffer no effects from extreme cold and severe heat.</p>\n<p><strong>Activate—Druidic Secrets</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast an order spell. If you don't spend this Focus Point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a druid.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "nature",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "living-mantle-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "plant",
+            "primal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 21000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "6hVzzMmbDrhAszeX",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.6hVzzMmbDrhAszeX"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/possibility-tome.webp",
+      "name": "Possibility Tome",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An array of semiprecious stones is set into the ornate silver and beaten copper cover of this thick and weighty tome. If you open the book before it's been activated, its vellum pages are blank and pristine, but once activated, words dance and swim onto the pages before your eyes.</p>\n<p><strong>Activate—Skim</strong> 10 minutes (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> As you flip through the book, you think about a broad topic you want to know more about.</p>\n<p>Choose one skill: Arcana, Crafting, Medicine, Nature, Occultism, Religion, Society, or a single subcategory of Lore. The book's pages fill with information about that skill, though only you can see the information.</p>\n<p>While the pages are full, you can spend an Interact action perusing the book just before attempting a check to Recall Knowledge with the chosen skill. This grants you a +3 item bonus to the check, and if you roll a critical failure, you get a failure instead.</p>\n<p>The information within the book disappears after 24 hours or when the tome is activated again.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Possibility Tome (Recall Knowledge)",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "skill-check",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "possibility-tome",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 22000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Wsn0YA8UVhPfcQrJ",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.Wsn0YA8UVhPfcQrJ"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "name": "Tales in Timber (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Dozens of pictorial stories—told in wood carvings, painting, or pyrography—adorn every outer surface of this <em>+2 greater resilient wooden breastplate</em>. All are old, and many truly ancient, depicting tales set eons ago on the Plane of Wood. You gain a +3 item bonus to Nature checks to Recall Knowledge. If you know the @UUID[Compendium.pf2e.spells-srd.Item.hp6Q64dl7xbdn4gQ]{Collective Memories} ritual, you can use Nature instead of Occultism if you're the primary caster.</p>\n<hr />\n<p><strong>Activate—Statue Disguise</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The armor makes you look like a wooden statue version of one of the creatures depicted on the armor for 1 hour. This is a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, but it can make you look like any creature depicted on the armor. This doesn't change your size or the capabilities of your body, and it scales the appearance of the creature to match yours. You can Dismiss the activation. This disguise is just real enough to make you somewhat closer to a creature of wood. You're affected by two spells while it lasts: 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} and @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants}. If you stand still, you gain a +2 item bonus to Deception checks and DCs to appear as an inanimate wooden statue, in addition to the status bonus to Deception from <em>illusory disguise</em>.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "nature",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "tales-in-timber-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "wood"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": "wooden-breastplate",
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 22000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "medium",
+        "group": "wood",
+        "acBonus": 3,
+        "strength": 2,
+        "dexCap": 2,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "grade": null,
+        "runes": {
+          "potency": 2,
+          "resilient": 2,
+          "property": []
+        },
+        "subitems": [],
+        "specific": {
+          "material": {
+            "grade": null,
+            "type": null
+          },
+          "runes": {
+            "potency": 2,
+            "property": [],
+            "resilient": 2
+          }
+        }
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "4o71SKG1kDoyyHPL",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.4o71SKG1kDoyyHPL"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/bullhook.webp",
+      "name": "Bullhook",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A <em>bullhook</em> is a stout rod about 4 feet long with a blunt hook on the end. Too dull to be useful as a weapon, a <em>bullhook</em> is instead used to direct animals in training or in performing their tasks. A <em>bullhook</em> grants you a +2 item bonus to Nature checks to Command an Animal while you are holding it.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You wave the <em>bullhook</em> to produce the effects of a first level @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command} spell (DC 18). This spell loses the linguistic trait and can target only animals.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>command</em> of the appropriate rank.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Bullhook (Command an Animal)",
+            "predicate": [
+              "action:command-an-animal"
+            ],
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "bullhook",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #152: Legacy of the Lost God",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 55
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ZL4yj0fb88dIWvaK",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.ZL4yj0fb88dIWvaK"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/armor/specific-magic-armor/spangled-riders-suit.webp",
+      "name": "Spangled Rider's Suit",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This <em>+1 resilient</em> studded leather is adorned with colorful sequins that sparkle in even the faintest light.</p>\n<p>While wearing the spangled rider's suit, you gain a +2 item bonus to Command an Animal you are riding.</p>\n<p>Any animal you ride automatically knows the Drop Prone and Step basic actions, in addition to any other basic actions it knows (normally only Leap, Seek, Stand, Stride, and Strike).</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (move)</p>\n<p><strong>Trigger</strong> You take damage while mounted or your mount Drops Prone</p>\n<hr />\n<p><strong>Effect</strong> You dismount, moving off your mount into a space adjacent to it.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Spangled Rider's Suit (command your mount)",
+            "predicate": [
+              "action:command-an-animal",
+              "target:mount"
+            ],
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "spangled-riders-suit",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #152: Legacy of the Lost God",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": "studded-leather-armor",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 700
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "light",
+        "group": "leather",
+        "acBonus": 2,
+        "strength": 1,
+        "dexCap": 3,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "grade": null,
+        "runes": {
+          "potency": 1,
+          "resilient": 1,
+          "property": []
+        },
+        "subitems": [],
+        "specific": {
+          "material": {
+            "grade": null,
+            "type": null
+          },
+          "runes": {
+            "potency": 1,
+            "property": [],
+            "resilient": 1
+          }
+        }
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "hTZ9s6XxmBVuzJCd",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.hTZ9s6XxmBVuzJCd"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/bullhook.webp",
+      "name": "Bullhook (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A <em>bullhook</em> is a stout rod about 4 feet long with a blunt hook on the end. Too dull to be useful as a weapon, a <em>bullhook</em> is instead used to direct animals in training or in performing their tasks. A <em>bullhook</em> grants you a +2 item bonus to Nature checks to Command an Animal while you are holding it.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You wave the <em>bullhook</em> to produce the effects of a fifth level @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command} spell (DC 30). This spell loses the linguistic trait and can target only animals.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of <em>command</em> of the appropriate rank.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Bullhook (Command an Animal)",
+            "predicate": [
+              "action:command-an-animal"
+            ],
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "bullhook-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #152: Legacy of the Lost God",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ofUdHCAW1xlE8wwY",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.ofUdHCAW1xlE8wwY"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-orange-prism.webp",
+      "name": "Aeon Stone (Amplifying)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Over millennia, these mysterious, intricately cut gemstones have been hoarded by mystics and fanatics hoping to discover their secrets. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to construct the universe in primeval times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful Disarm action against you. A stowed or removed stone remains invested, but its effects are suppressed until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into a special magical item called a <em>wayfinder</em>.</p>\n<hr />\n<p>An <em>Amplifying aeon stone</em> must be activated to provide a benefit. The resonant power grants you a +2 item bonus to Arcana, Nature, Occultism, or Religion checks-whichever corresponds to the tradition of the last spell you enhanced with this <em>aeon stone</em>.</p>\n<hr />\n<p><strong>Activate—Amplify</strong> <span class=\"action-glyph\">1</span> (concentrate, spellshape)</p>\n<p><strong>Effect</strong> If your next action is to Cast a Spell, that spell's rank is 1 higher (maximum 10th rank) for the purposes of counteracting and being counteracted.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.kdcVvwVVsttZgX1Y]{Effect: Aeon Stone Resonance (Amplifying)}</p>"
+        },
+        "rules": [],
+        "slug": "aeon-stone-amplifying",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 16
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 9750
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "7OMAimNDUc0fMRaD",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.7OMAimNDUc0fMRaD"
+    },
+    {
+      "img": "icons/equipment/neck/necklace-simple-teeth.webp",
+      "name": "Broken Tusk Pendant",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The followers of the Broken Tusk have passed down their custom of crafting and gifting these small ivory necklaces for generations. They're typically made from mammoth tusk (though any type of ivory will do), and each is carved to resemble a particular kind of animal-usually a raven, a moose, an ox, or an otter. Because tradition dictates that Broken Tusk followers take ivory only from already-dead animals, <em>Broken Tusk pendants</em> are especially rare; if an individual loses their pendant, it might be years before they acquire the materials necessary to fashion a replacement. <em>Broken Tusk pendants</em> bear no magical powers if they are made for oneself; only gifted pendants have true magical properties.</p>\n<p>You wear a <em>Broken Tusk pendant</em> like jewelry or tie it to your clothing. A <em>Broken Tusk pendant</em> grants you a +1 item bonus to Nature checks; this bonus increases to +2 when you Command an Animal of the specific kind depicted by the pendant.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An animal targets you with a melee attack, and you can see the animal</p>\n<hr />\n<p><strong>Effect</strong> You gain a +1 item bonus to AC against the triggering attack, or a +2 item bonus if the animal is the specific kind depicted by the pendant.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "nature",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:command-an-animal",
+              "broken-tusk-pendant"
+            ],
+            "selector": "nature",
+            "slug": "command-depicted",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "broken-tusk-pendant",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "primal"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #175: Broken Tusk Moon",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "TksjG00jLWGruvsg",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.TksjG00jLWGruvsg"
+    },
+    {
+      "img": "icons/equipment/neck/amulet-round-engraved-gold.webp",
+      "name": "Essence Charm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Anyone can use an <em>essence forge</em> to craft an <em>essence charm</em> without needing to know the formula for an <em>essence charm</em>. No larger than a coin, an <em>essence charm</em> is normally worn around the neck or hung from a belt—its exact appearance is up to the crafter. When an <em>essence charm</em> is created, its crafter selects a skill in which they are at least trained. The <em>essence charm</em> grants a +1 item bonus to that skill when worn.</p><hr /><p><strong>Activate—Lucky Charm</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail or critically fail a check using the <em>essence charm</em>'s chosen skill</p>\n<p><strong>Effect</strong> A failed check becomes a success, and a critical failure becomes a failure.</p>"
+        },
+        "rules": [
+          {
+            "choices": {
+              "config": "skills"
+            },
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "essence-charm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "aW0kjCID9ZxGAMh9",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.aW0kjCID9ZxGAMh9"
+    },
+    {
+      "img": "icons/tools/smithing/crucible.webp",
+      "name": "Essence Forge (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An <em>essence forge</em> consists of a large stone workbench with a receptacle for fuel built into the left side. Sparkling crystals are embedded across the forge's structure, with additional flourishes made from a different material, as appropriate to the type of forge.</p>\n<p><em>Life forges</em> are adorned with fossilized bones and petrified wood. They're used to craft items associated with the divine and primal magic traditions. One must attempt a Nature or Religion check to prime a <em>life forge</em>.</p>\n<p><em>Matter forges</em> are decorated with strips of precious metal. They can be used to craft items associated with the arcane and primal magic traditions. One must attempt an Arcana or Nature check to prime a <em>matter forge</em>.</p>\n<p><em>Mind forges</em> are accentuated with glittering gemstones. They can be used to craft items associated with the arcane and occult magic traditions. One must attempt an Arcana or Occultism check to prime a <em>mind forge</em>.</p>\n<p><em>Spirit forges</em> are emblazoned with strange runes and obscure symbols enhanced by different pigments. They can be used to craft items associated with the divine and occult magic traditions. One must attempt an Occultism or Religion check to prime a <em>spirit forge</em>.</p><hr /><p><strong>Activate—Prime the Forge</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> doesn't currently contain any stored essence</p>\n<p><strong>Effect</strong> You prepare the <em>essence forge</em> for use by placing raw materials in its receptacle then spend an hour concentrating on the forge, using your own magical potential to consume the materials. The combined gp value of the raw materials sets the maximum price of the item you can craft with the <em>essence forge</em>. An <em>essence forge</em>'s receptacle can hold no more than 3 Bulk of raw materials, so coins, gemstones, or small valuable objects or items make for the best sources of fuel. Attempt an @Check[arcana|dc:20], @Check[nature|dc:20], @Check[occultism|dc:20], or @Check[religion|dc:20] check as appropriate for the tradition of <em>essence forge</em> you're using to focus your magical potential on the receptacle.</p>\n<p><strong>Critical Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials. Additional essence overflows back into you, granting a +1 item bonus to the skill you used to Prime the Forge for the next 24 hours.</p>\n<p><strong>Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials.</p>\n<p><strong>Failure</strong> The raw materials are consumed, but the burn is inefficient, and the <em>essence forge</em> stores essence equal to half the value of the raw materials.</p>\n<p><strong>Critical Failure</strong> The raw materials are consumed and lost, but no essence is stored in the forge; the raw materials are wasted.</p><hr /><p><strong>Activate—Craft an Item</strong> 2 hours (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> has been primed with raw materials equaling or exceeding the value of the item you intend to craft, and you are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Effect</strong> You place your hands atop the forge's workspace and focus your concentration on the essence contained within the forge. Choose an item whose formula you have and whose level is equal to or less than the <em>essence forge</em>'s level, or choose an @UUID[Compendium.pf2e.equipment-srd.Item.6BGWlWFEX3gRRnWa]{Essence Charm}. The <em>essence forge</em> begins to construct that item as you concentrate, causing an increasingly realistic illusion of the item to come into focus atop the forge's workspace. Attempt a Crafting check with a DC determined by the forge's type (lesser, moderate, or greater); this check earns Forge Points (using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.EBWqgmHdFUYBTD0a]{Victory Point} system). You can sustain this activation for up to 8 hours; each time you sustain the activation, attempt another Crafting check to earn Forge Points. When you choose to end the activation, you become fatigued, and any remaining essence stored in the forge dissipates with no further effect. Consult the <em>Essence Forge</em> Crafting section below to determine if you were successful in crafting the item you chose.</p><hr /><p><strong>Activate—Absorb Essence</strong> <span class=\"action-glyph\">1</span> (concentrate, healing, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> contains essence</p>\n<p><strong>Effect</strong> You absorb the essence in the forge, emptying it and allowing it to be primed. If the essence value in the forge is equal to or greater than 50 gp, the forge heals you for @Damage[(3d8+10)[healing]] HP. Otherwise the absorbed essence has no effect.</p><h2><em>Essence Forge</em> Crafting</h2><p>When you finish crafting with an <em>essence forge</em>, consult the following to determine how successful you were.</p>\n<p><strong>0 or fewer Forge Points:</strong> The essence was tainted or your concentration was lacking. An illusory object manifests, but it's a non-magical, worthless level 0 replica of the item you intended to craft.</p>\n<p><strong>1–3 Forge Points:</strong> The item you craft is functional but temporary. It falls apart after it's activated or after 24 hours, whichever comes first.</p>\n<p><strong>4–5 Forge Points:</strong> You successfully craft the item.</p>\n<p><strong>6 or more Forge Points:</strong> You successfully craft the item, and it works better than expected. Choose one of the following enhancements to add to the item:</p><ul><li>If the item has an activation that has a frequency of once per day, that activation can be made an additional time each day.</li><li>If the item has an activation that has a save DC or Strike modifier, that DC or Strike gains a +1 bonus.</li><li>If the item is an invested item, it grants a +1 item bonus to initiative checks as long as you have it invested.</li><li>The item is well crafted and can be sold for 60%</li></ul>"
+        },
+        "rules": [],
+        "slug": "essence-forge-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 20
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "XspnPgoZr74YgPZP",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.XspnPgoZr74YgPZP"
+    },
+    {
+      "img": "icons/tools/smithing/crucible.webp",
+      "name": "Essence Forge (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An <em>essence forge</em> consists of a large stone workbench with a receptacle for fuel built into the left side. Sparkling crystals are embedded across the forge's structure, with additional flourishes made from a different material, as appropriate to the type of forge.</p>\n<p><em>Life forges</em> are adorned with fossilized bones and petrified wood. They're used to craft items associated with the divine and primal magic traditions. One must attempt a Nature or Religion check to prime a <em>life forge</em>.</p>\n<p><em>Matter forges</em> are decorated with strips of precious metal. They can be used to craft items associated with the arcane and primal magic traditions. One must attempt an Arcana or Nature check to prime a <em>matter forge</em>.</p>\n<p><em>Mind forges</em> are accentuated with glittering gemstones. They can be used to craft items associated with the arcane and occult magic traditions. One must attempt an Arcana or Occultism check to prime a <em>mind forge</em>.</p>\n<p><em>Spirit forges</em> are emblazoned with strange runes and obscure symbols enhanced by different pigments. They can be used to craft items associated with the divine and occult magic traditions. One must attempt an Occultism or Religion check to prime a <em>spirit forge</em>.</p><hr /><p><strong>Activate—Prime the Forge</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> doesn't currently contain any stored essence</p>\n<p><strong>Effect</strong> You prepare the <em>essence forge</em> for use by placing raw materials in its receptacle then spend an hour concentrating on the forge, using your own magical potential to consume the materials. The combined gp value of the raw materials sets the maximum price of the item you can craft with the <em>essence forge</em>. An <em>essence forge</em>'s receptacle can hold no more than 3 Bulk of raw materials, so coins, gemstones, or small valuable objects or items make for the best sources of fuel. Attempt an @Check[arcana|dc:30], @Check[nature|dc:30], @Check[occultism|dc:30], or @Check[religion|dc:30] check as appropriate for the tradition of <em>essence forge</em> you're using to focus your magical potential on the receptacle.</p>\n<p><strong>Critical Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials. Additional essence overflows back into you, granting a +2 item bonus to the skill you used to Prime the Forge for the next 24 hours.</p>\n<p><strong>Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials.</p>\n<p><strong>Failure</strong> The raw materials are consumed, but the burn is inefficient, and the <em>essence forge</em> stores essence equal to half the value of the raw materials.</p>\n<p><strong>Critical Failure</strong> The raw materials are consumed and lost, but no essence is stored in the forge; the raw materials are wasted.</p><hr /><p><strong>Activate—Craft an Item</strong> 2 hours (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> has been primed with raw materials equaling or exceeding the value of the item you intend to craft, and you are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Effect</strong> You place your hands atop the forge's workspace and focus your concentration on the essence contained within the forge. Choose an item whose formula you have and whose level is equal to or less than the <em>essence forge</em>'s level, or choose an @UUID[Compendium.pf2e.equipment-srd.Item.6BGWlWFEX3gRRnWa]{Essence Charm}. The <em>essence forge</em> begins to construct that item as you concentrate, causing an increasingly realistic illusion of the item to come into focus atop the forge's workspace. Attempt a Crafting check with a DC determined by the forge's type (lesser, moderate, or greater); this check earns Forge Points (using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.EBWqgmHdFUYBTD0a]{Victory Point} system). You can sustain this activation for up to 8 hours; each time you sustain the activation, attempt another Crafting check to earn Forge Points. When you choose to end the activation, you become fatigued, and any remaining essence stored in the forge dissipates with no further effect. Consult the <em>Essence Forge</em> Crafting section below to determine if you were successful in crafting the item you chose.</p><hr /><p><strong>Activate—Absorb Essence</strong> <span class=\"action-glyph\">1</span> (concentrate, healing, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> contains essence</p>\n<p><strong>Effect</strong> You absorb the essence in the forge, emptying it and allowing it to be primed. If the essence value in the forge is equal to or greater than 400 gp, the forge heals you for @Damage[(6d8+20)[healing]] HP. Otherwise the absorbed essence has no effect.</p><h2><em>Essence Forge</em> Crafting</h2><p>When you finish crafting with an <em>essence forge</em>, consult the following to determine how successful you were.</p>\n<p><strong>0 or fewer Forge Points:</strong> The essence was tainted or your concentration was lacking. An illusory object manifests, but it's a non-magical, worthless level 0 replica of the item you intended to craft.</p>\n<p><strong>1–3 Forge Points:</strong> The item you craft is functional but temporary. It falls apart after it's activated or after 24 hours, whichever comes first.</p>\n<p><strong>4–5 Forge Points:</strong> You successfully craft the item.</p>\n<p><strong>6 or more Forge Points:</strong> You successfully craft the item, and it works better than expected. Choose one of the following enhancements to add to the item:</p><ul><li>If the item has an activation that has a frequency of once per day, that activation can be made an additional time each day.</li><li>If the item has an activation that has a save DC or Strike modifier, that DC or Strike gains a +1 bonus.</li><li>If the item is an invested item, it grants a +1 item bonus to initiative checks as long as you have it invested.</li><li>The item is well crafted and can be sold for 60%</li></ul>"
+        },
+        "rules": [],
+        "slug": "essence-forge-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 20
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "VvAsNiHtHNvmBBbI",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.VvAsNiHtHNvmBBbI"
+    },
+    {
+      "img": "icons/equipment/neck/necklace-simple-teeth.webp",
+      "name": "Broken Tusk Pendant (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The followers of the Broken Tusk have passed down their custom of crafting and gifting these small ivory necklaces for generations. They're typically made from mammoth tusk (though any type of ivory will do), and each is carved to resemble a particular kind of animal-usually a raven, a moose, an ox, or an otter. Because tradition dictates that Broken Tusk followers take ivory only from already-dead animals, <em>Broken Tusk pendants</em> are especially rare; if an individual loses their pendant, it might be years before they acquire the materials necessary to fashion a replacement. <em>Broken Tusk pendants</em> bear no magical powers if they are made for oneself; only gifted pendants have true magical properties.</p>\n<p>You wear a <em>Broken Tusk pendant</em> like jewelry or tie it to your clothing. A <em>Broken Tusk pendant</em> grants you a +2 item bonus to Nature checks; this bonus increases to +3 when you Command an Animal of the specific kind depicted by the pendant.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An animal targets you with a melee attack, and you can see the animal</p>\n<hr />\n<p><strong>Effect</strong> You gain a +1 item bonus to AC against the triggering attack, or a +2 item bonus if the animal is the specific kind depicted by the pendant.</p>\n<p>Once per day, when you use the <em>Broken Tusk pendant</em>'s activation, if the animal misses you, the <em>Broken Tusk pendant</em> casts @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate} on the animal (@Check[will|dc:30|name:Dominate|traits:enchantment,incapacitation,primal,mental|overrideTraits:true]). You can choose whether to use this once-per-day effect after the animal misses you.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "nature",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:command-an-animal",
+              "broken-tusk-pendant"
+            ],
+            "selector": "nature",
+            "slug": "command-depicted",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "broken-tusk-pendant-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "primal"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #175: Broken Tusk Moon",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Wo5GMmviWMWO6hip",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.Wo5GMmviWMWO6hip"
+    },
+    {
+      "img": "icons/tools/smithing/crucible.webp",
+      "name": "Essence Forge (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An <em>essence forge</em> consists of a large stone workbench with a receptacle for fuel built into the left side. Sparkling crystals are embedded across the forge's structure, with additional flourishes made from a different material, as appropriate to the type of forge.</p>\n<p><em>Life forges</em> are adorned with fossilized bones and petrified wood. They're used to craft items associated with the divine and primal magic traditions. One must attempt a Nature or Religion check to prime a <em>life forge</em>.</p>\n<p><em>Matter forges</em> are decorated with strips of precious metal. They can be used to craft items associated with the arcane and primal magic traditions. One must attempt an Arcana or Nature check to prime a <em>matter forge</em>.</p>\n<p><em>Mind forges</em> are accentuated with glittering gemstones. They can be used to craft items associated with the arcane and occult magic traditions. One must attempt an Arcana or Occultism check to prime a <em>mind forge</em>.</p>\n<p><em>Spirit forges</em> are emblazoned with strange runes and obscure symbols enhanced by different pigments. They can be used to craft items associated with the divine and occult magic traditions. One must attempt an Occultism or Religion check to prime a <em>spirit forge</em>.</p><hr /><p><strong>Activate—Prime the Forge</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> doesn't currently contain any stored essence</p>\n<p><strong>Effect</strong> You prepare the <em>essence forge</em> for use by placing raw materials in its receptacle then spend an hour concentrating on the forge, using your own magical potential to consume the materials. The combined gp value of the raw materials sets the maximum price of the item you can craft with the <em>essence forge</em>. An <em>essence forge</em>'s receptacle can hold no more than 3 Bulk of raw materials, so coins, gemstones, or small valuable objects or items make for the best sources of fuel. Attempt an @Check[arcana|dc:40], @Check[nature|dc:40], @Check[occultism|dc:40], or @Check[religion|dc:40] check as appropriate for the tradition of <em>essence forge</em> you're using to focus your magical potential on the receptacle.</p>\n<p><strong>Critical Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials. Additional essence overflows back into you, granting a +3 item bonus to the skill you used to Prime the Forge for the next 24 hours.</p>\n<p><strong>Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials.</p>\n<p><strong>Failure</strong> The raw materials are consumed, but the burn is inefficient, and the <em>essence forge</em> stores essence equal to half the value of the raw materials.</p>\n<p><strong>Critical Failure</strong> The raw materials are consumed and lost, but no essence is stored in the forge; the raw materials are wasted.</p><hr /><p><strong>Activate—Craft an Item</strong> 2 hours (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> has been primed with raw materials equaling or exceeding the value of the item you intend to craft, and you are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Effect</strong> You place your hands atop the forge's workspace and focus your concentration on the essence contained within the forge. Choose an item whose formula you have and whose level is equal to or less than the <em>essence forge</em>'s level, or choose an @UUID[Compendium.pf2e.equipment-srd.Item.6BGWlWFEX3gRRnWa]{Essence Charm}. The <em>essence forge</em> begins to construct that item as you concentrate, causing an increasingly realistic illusion of the item to come into focus atop the forge's workspace. Attempt a Crafting check with a DC determined by the forge's type (lesser, moderate, or greater); this check earns Forge Points (using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.EBWqgmHdFUYBTD0a]{Victory Point} system). You can sustain this activation for up to 8 hours; each time you sustain the activation, attempt another Crafting check to earn Forge Points. When you choose to end the activation, you become fatigued, and any remaining essence stored in the forge dissipates with no further effect. Consult the <em>Essence Forge</em> Crafting section below to determine if you were successful in crafting the item you chose.</p><hr /><p><strong>Activate—Absorb Essence</strong> <span class=\"action-glyph\">1</span> (concentrate, healing, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> contains essence</p>\n<p><strong>Effect</strong> You absorb the essence in the forge, emptying it and allowing it to be primed. If the essence value in the forge is equal to or greater than 5,000 gp, the forge heals you for @Damage[(8d8+30)[healing]] HP. Otherwise the absorbed essence has no effect.</p><h2><em>Essence Forge</em> Crafting</h2><p>When you finish crafting with an <em>essence forge</em>, consult the following to determine how successful you were.</p>\n<p><strong>0 or fewer Forge Points:</strong> The essence was tainted or your concentration was lacking. An illusory object manifests, but it's a non-magical, worthless level 0 replica of the item you intended to craft.</p>\n<p><strong>1–3 Forge Points:</strong> The item you craft is functional but temporary. It falls apart after it's activated or after 24 hours, whichever comes first.</p>\n<p><strong>4–5 Forge Points:</strong> You successfully craft the item.</p>\n<p><strong>6 or more Forge Points:</strong> You successfully craft the item, and it works better than expected. Choose one of the following enhancements to add to the item:</p><ul><li>If the item has an activation that has a frequency of once per day, that activation can be made an additional time each day.</li><li>If the item has an activation that has a save DC or Strike modifier, that DC or Strike gains a +1 bonus.</li><li>If the item is an invested item, it grants a +1 item bonus to initiative checks as long as you have it invested.</li><li>The item is well crafted and can be sold for 60%</li></ul>"
+        },
+        "rules": [],
+        "slug": "essence-forge-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 20
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 24000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "275FdX1JTq1YelZo",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.275FdX1JTq1YelZo"
+    },
+    {
+      "img": "icons/equipment/head/hood-leather-fur-brown.webp",
+      "name": "Ursine Avenger Hood",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A gift passed from warrior to warrior, this cowl is made from a cave bear's skull and fur. Once invested, the wearer gains a +1 item bonus to Nature checks to @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Command an Animal}, which increases to +2 if the animal is a bear. The wearer of the hood feels a constant longing for the wilderness and wild places and takes a –1 item penalty to all Diplomacy checks to Gather Information or @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} if they go more than 5 days inside a large town or city without spending at least 4 hours in the wilderness.</p>\n<p><strong>Destruction</strong> Soak the Ursine Avenger Hood in the blood of a linnorm that is at least 16th level and then burn it in a fire that uses only oak and chrysanthemum as fuel.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.CyU3RtrSs4Ssp0DR]{Ursine Avenger Hood}</p>"
+        },
+        "rules": [],
+        "slug": "ursine-avenger-hood",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "invested",
+            "primal"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "VfnBZsHtVDy9b0up",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.VfnBZsHtVDy9b0up"
+    },
+    {
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "name": "The Silent Hag",
+      "system": {
+        "description": {
+          "gm": "<p><strong>Epitome</strong> An unsettling statue of a crouching, eyeless hag with an open mouth manifests in a small chamber in Harrowheart. This mouth can accommodate most crystal balls. A crystal ball placed within the mouth is enhanced— its save DC increases by 1, its <em>scrying</em> activation can be activated three times per day instead of twice per day, and its effects can extend beyond the planar borders of the Harrow Court to target creatures on Golarion.</p>",
+          "value": "<p><strong>Suit</strong> Star (Wis)</p>\n<p><strong>Alignment</strong> neutral evil</p>\n<hr />\n<p><em>The Silent Hag</em> represents insight, treacherous secrets, and strife. As long as you have <em>The Silent Hag</em> invested, it grants you a +2 item bonus to Arcana, Nature, Occultism, or Religion checks to Recall Knowledge—when you invest the card, choose which of these four skills gains the bonus. You can change the skill by investing the card again. This increases to a +3 item bonus if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You choose to lose one of your senses and gain another until you use this activation again. Choose from one of the following:</p>\n<ul>\n<li>Your eyes are replaced by dark pits that see only death. You become @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} and gain lifesense, an imprecise sense out to 60 feet. Lifesense allows you to see the vital essence of living and undead creatures, distinguishing between the vitality energy animating living creatures and void energy animating undead creatures, much as sight distinguishes colors.</li>\n<li>Your ears close up then become covered with hairs that are sensitive to movement. You become @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, but you can't be flanked.</li>\n<li>Your mouth seals over with flesh. You lose the ability to speak, but you do not need to breathe.</li>\n</ul>"
+        },
+        "rules": [],
+        "slug": "the-silent-hag",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "harrow-court",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #190: The Choosing",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "6crMhGu9NIqaUJwQ",
+      "_key": "!actors.items!XlyNMyQzS4zluZ1x.6crMhGu9NIqaUJwQ"
+    }
+  ],
+  "folder": "MSWx8zu0hnkMWkWU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.1",
+    "createdTime": 1772505758442,
+    "modifiedTime": 1772508557371,
+    "lastModifiedBy": "GV5Yy0w5XjJdvzJa"
+  },
+  "_id": "XlyNMyQzS4zluZ1x",
+  "sort": 1000000,
+  "_key": "!actors!XlyNMyQzS4zluZ1x"
+}

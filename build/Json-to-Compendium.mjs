@@ -1,7 +1,3 @@
-/*
-This is used for 
-*/
-
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
 import { promises as fs } from "fs";
 

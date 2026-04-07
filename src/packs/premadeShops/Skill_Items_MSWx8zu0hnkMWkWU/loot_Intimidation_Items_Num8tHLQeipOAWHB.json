@@ -1,0 +1,5391 @@
+{
+  "name": "Intimidation Items",
+  "type": "loot",
+  "ownership": {
+    "default": 1,
+    "GV5Yy0w5XjJdvzJa": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Intimidation Items",
+    "displayName": 20,
+    "texture": {
+      "src": "icons/skills/wounds/injury-face-impact-orange.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "details": {
+      "description": "<p>Not all items are bonuses to ALL checks related to the skill. Read the item descriptions to see what actions the items actually increase.</p>",
+      "level": {
+        "value": 0
+      }
+    },
+    "lootSheetType": "Merchant",
+    "hiddenWhenEmpty": false
+  },
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "items": [
+    {
+      "img": "icons/weapons/staves/staff-simple-gold.webp",
+      "name": "Marshal's Baton",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This short, thick, stick-like object is crafted of wood and steel. Precious metals decorate the grip, and fine filigree marks the caps on each end. A marshal's baton grants you a +1 item bonus to Diplomacy and Intimidation checks against troops, individual soldiers, and military leaders.</p><hr /><p><strong>Activate—Stentorian Order</strong> <span class=\"action-glyph\">2</span> (auditory, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You issue a command in a booming voice while gesturing with the marshal's baton and cast a @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command} spell (DC 18). This spell affects troops and swarms as if they were a single creature.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "marshals-baton"
+            ],
+            "selector": [
+              "diplomacy",
+              "intimidation"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "marshals-baton",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 0,
+            "gp": 60,
+            "pp": 0,
+            "sp": 0
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "UEgjs3hTCM5MJQTC",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.UEgjs3hTCM5MJQTC"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Menacing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Common among brutes who use the magic to scare others into compliance, menacing runes lend you a formidable appearance, granting you a +1 item bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce} others.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:coerce"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "menacing",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "applied-to-any-visible-article-of-clothing"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "rdAqYHYfKCQEqtxl",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.rdAqYHYfKCQEqtxl"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/tattoos/one-hundred-victories.webp",
+      "name": "One Hundred Victories",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>One hundred cuts, healed into diamond-shaped scars, represent the ability to withstand the attacks of your enemies. Orc warriors covet these scar patterns and cluster them around what they consider to be their strongest assets—a pattern around the heart signifies a warrior with great endurance, while one along the arms indicates great upper body strength.</p>\n<p>You gain a +1 item bonus to Intimidation checks. If you have Ferocity (such as from the @UUID[Compendium.pf2e.feats-srd.Item.PlhPpdwIV0rIAJ8K]{Orc Ferocity} feat or a similar ability), the first time each day you use it, instead of remaining at 1 Hit Point, your Hit Points are set to an amount equal to your ancestry Hit Points, even if this amount is more than you had before using Ferocity.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "one-hundred-victories",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "tattoo"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 60
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "tattooed-on-the-body"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ijGbPpNzxBOjbJ3k",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.ijGbPpNzxBOjbJ3k"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/demon-mask.webp",
+      "name": "Demon Mask",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This terrifying mask is crafted in the visage of a leering demon and grants a +1 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Leering Mask</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The mask casts a @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear} spell with a DC of 20.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "demon-mask",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 85
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornmask"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "8YxW9NkoFBV9ACGl",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.8YxW9NkoFBV9ACGl"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-brass-steel.webp",
+      "name": "Dread Helm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The faceplate of a dread helm has a fierce visage that magnifies the effects of fear. Concealed within is a reservoir that can hold a single @UUID[Compendium.pf2e.equipment-srd.Item.ds0OdA989ZZw9km1]{Dread Ampoule}, which takes 3 Interact actions to install.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> A dread ampoule is installed in the helm</p><hr /><p><strong>Effect</strong> The dread ampoule atomizes, creating a fear-inducing mist that hangs around your face for 3 rounds. The mist grants an item bonus to Intimidation checks equal to the dread ampoule's item bonus. The mist also deals mental damage equal to the dread ampoule's splash damage to all creatures within a @Template[type:emanation|distance:5] other than you. The activation uses up the dread ampoule, and the helm can't be activated again until a new one is installed.</p>"
+        },
+        "rules": [],
+        "slug": "dread-helm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "aura",
+            "emotion",
+            "fear",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "O7bFH2lGdnwIbo6b",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.O7bFH2lGdnwIbo6b"
+    },
+    {
+      "img": "icons/equipment/waist/belt-buckle-gem-red.webp",
+      "name": "Killer's Belt",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Small blood-red rubies decorate this black leather belt, which is a fashion accessory for only the most bloodthirsty soldiers. When you wear this belt, you gain a +1 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Bleeding Rubies</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You have a free hand and your last action was to deal damage to an enemy with a Strike or spell attack roll</p><hr /><p><strong>Effect</strong> You pull a ruby off your belt and crush it into dust. As this dust reaches the enemy you just harmed, it embeds into the skin, causing them to bleed. The target takes @Damage[1d6[persistent,bleed]] damage. The ruby reappears on the belt after 24 hours.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "killers-belt",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 95
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornbelt"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "JJdlZs45RqIiusEk",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.JJdlZs45RqIiusEk"
+    },
+    {
+      "img": "icons/equipment/head/crown-horns-brown.webp",
+      "name": "Druid's Crown",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Made of materials scavenged from wild places, a <em>druid's crown</em> can be rebuilt for a variety of benefits. The crown grants you a +1 item bonus to a skill, and can be activated to cast a spell, both depending on the material used to build the crown, as listed on the table below. If you invest and wear <em>living mantle</em> along with the crown, the crown's item bonus increases by 1 and its spell's DC rises to 27.</p>\n<p>You can invest this item only if you're a druid. When you do, as a 10-minute activity that has the manipulate trait, you can disassemble and rebuild the crown with different materials, changing its item bonus and spell accordingly.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The crown casts its spell at 2nd rank (DC 20).</p><hr /><p><strong>Craft Requirements</strong> You are a druid.</p><table class=\"pf2e\"><thead><tr><th>Material</th><th>Item Bonus</th><th>Spell</th></tr></thead><tbody><tr style=\"height:51px\"><td style=\"height:51px\">Antlers</td><td style=\"height:51px\">Intimidation</td><td style=\"height:51px\">@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}</td></tr><tr style=\"height:51px\"><td style=\"height:51px\">Flowers</td><td style=\"height:51px\">Diplomacy</td><td style=\"height:51px\">@UUID[Compendium.pf2e.spells-srd.Item.Aap7nGpC7neTWm78]{Animal Allies}</td></tr><tr style=\"height:17px\"><td style=\"height:17px\">Leaves</td><td style=\"height:17px\">Stealth</td><td style=\"height:17px\">@UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}</td></tr></tbody></table>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.druidCrownType}",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "alwaysActive": true,
+            "domain": "skill-check",
+            "key": "RollOption",
+            "option": "druid-crown-type",
+            "suboptions": [
+              {
+                "label": "PF2E.SpecificRule.Equipment.DruidsCrown.AntlersLabel",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.SpecificRule.Equipment.DruidsCrown.FlowersLabel",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.SpecificRule.Equipment.DruidsCrown.LeavesLabel",
+                "value": "stealth"
+              }
+            ],
+            "toggleable": true
+          }
+        ],
+        "slug": "druids-crown",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "primal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 220
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "tHTeGQ4K5V0vofns",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.tHTeGQ4K5V0vofns"
+    },
+    {
+      "img": "icons/magic/unholy/barrier-fire-pink.webp",
+      "name": "Ash Gown",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Ash gowns</em> are formal wear spun from smoke, ash, and char collected from the Plane of Fire. Typically, they're voluminous floor-length dresses or three-piece suits, but regardless of their specific tailoring, <em>ash gowns</em> are always an ostentatious display of wealth and loyalty to the powers of the Plane of Fire. They're exceptionally popular in the courts of the Elemental Lords and among the high society of Medina Mudii'a. The gown grants you resistance 5 to fire and a +1 item bonus to Intimidation checks.</p>\n<hr />\n<p><strong>Activate—Blazing Promenade</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The <em>ash gown</em> ignites in a ferocious blaze, flames licking the floor and trailing behind you like a dancing cape. You Stride and make a Strike at the end of your movement. During the Stride, your flames incinerate minor obstacles in your path; you ignore non-magical difficult terrain, and any you move through is destroyed. Creatures that are adjacent to you at any point during your movement take @Damage[2d6[fire]] damage with a @Check[reflex|dc:23|basic] save. A creature doesn't need to attempt this save more than once, even if you move past it multiple times.</p>"
+        },
+        "rules": [
+          {
+            "key": "Resistance",
+            "type": "fire",
+            "value": 5
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "ash-gown",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 350
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornclothing"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "5W0J2RCU4ODanS3C",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.5W0J2RCU4ODanS3C"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/mask-of-the-banshee.webp",
+      "name": "Guise of the Smirking Devil",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ice-blue half-mask is adorned with a wicked silver grin that covers the wearer's mouth, leaving the rest of the face uncovered. You gain a +2 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Hideous Wail</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The mask emits a soul-chilling scream that deals @Damage[6d10[void]|options:area-damage] damage to each living creature in a @Template[emanation|distance:20] (@Check[fortitude|dc:25|basic|options:area-effect] save).</p><hr /><p><strong>Craft Requirements</strong> Supply a casting of @UUID[Compendium.pf2e.spells-srd.Item.FEsuyf203wTNE2et]{Wails of the Damned}.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "guise-of-the-smirking-devil",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "invested",
+            "magical",
+            "void"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 700
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornmask"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "kEpKHIZBxWd6QYMa",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.kEpKHIZBxWd6QYMa"
+    },
+    {
+      "img": "icons/equipment/waist/belt-buckle-gem-red.webp",
+      "name": "Killer's Belt (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Small blood-red rubies decorate this black leather belt, which is a fashion accessory for only the most bloodthirsty soldiers. When you wear this belt, you gain a +2 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Bleeding Rubies</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You have a free hand and your last action was to deal damage to an enemy with a Strike or spell attack roll</p><hr /><p><strong>Effect</strong> You pull a ruby off your belt and crush it into dust. As this dust reaches the enemy you just harmed, it embeds into the skin, causing them to bleed. The target takes @Damage[2d6[persistent,bleed]] damage. The ruby reappears on the belt after 24 hours.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "killers-belt-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 650
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornbelt"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "HbrYlwuL62dLEHk4",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.HbrYlwuL62dLEHk4"
+    },
+    {
+      "img": "icons/equipment/head/hat-cocked-purple.webp",
+      "name": "Admiral's Bicorne",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ostentatious hat is trimmed with gold thread and tiny jewels, all proclaiming your position of authority on the high seas. While wearing the bicorne, you gain a +2 item bonus to Intimidation and Sailing Lore checks.</p><hr /><p><strong>Activate—Fight On</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You take damage from an enemy's Strike or spell attack roll</p><hr /><p><strong>Effect</strong> Despite your wounds, your troops are inspired to fight on. For 1 minute, all allies in a @Template[type:emanation|distance:30] gain a +2 status bonus to saving throws against fear effects.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.pXHLq8EZyxGBhHSL]{Effect: Fight On}</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "intimidation",
+              "sailing-lore"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "admirals-bicorne",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "dHDwsyTp5XaY9qIZ",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.dHDwsyTp5XaY9qIZ"
+    },
+    {
+      "img": "icons/equipment/finger/ring-crown-gold-pink.webp",
+      "name": "Crown of Witchcraft",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An elegant accoutrement for a witch who has come into the higher echelons of power, a <em>crown of witchcraft</em> typically looks like a garland of flowering twigs, a jeweled circlet, or a tall hat of fine fabric. You gain a +1 item bonus to Intimidation checks, and if you're a witch, you gain a +2 item bonus to your patron skill.</p>\n<p>If you have a familiar, you can attach a small portion of the crown's material to your familiar, such as a strip of fabric from a hat tied around its tail or a sprig of natural material linked to its collar; the familiar doesn't need to invest the item itself. If you do this, your familiar gains the tough pet ability as long as the crown is invested by you.</p>\n<p><strong>Activate—Defiant Hex</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Gain 1 Focus Point, which you can spend only to cast a witch hex spell. If you don't spend this point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a witch.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "crown-of-witchcraft",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "iYcr23vkfHKyPfTC",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.iYcr23vkfHKyPfTC"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/demon-mask.webp",
+      "name": "Demon Mask (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This terrifying mask is crafted in the visage of a leering demon and grants a +2 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Leering Mask</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The mask casts a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear} spell with a DC of 29.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "demon-mask-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornmask"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "GyVz07QCn4tJzKQ1",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.GyVz07QCn4tJzKQ1"
+    },
+    {
+      "img": "icons/equipment/neck/choker-rounded-gold-green.webp",
+      "name": "Entertainer's Cincture",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The designs adorning these lush sashes often imitate the decor of famous opera houses, theaters, and museums. When you invest this item, choose Deception, Diplomacy, Intimidation, or Performance; you gain a +2 item bonus to that skill.</p>\n<hr />\n<p><strong>Activate—Encore!</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Gain 1 Focus Point, which you can spend only to cast a bard composition spell. If you don't spend this point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Activate—Transcribe</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You tuck a small roll of paper into the cincture. For the next 10 minutes or until you Dismiss the activation, any performance you make is recorded on the paper, and the paper expands as necessary to accommodate it. Depending on the type of performance, this might take the form of sheet music, a transcript, or a diagram of dance moves.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a bard.</p>"
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "key": "RollOption",
+            "option": "entertainers-cincture-skill",
+            "suboptions": [
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              }
+            ],
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.entertainersCinctureSkill}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "entertainers-cincture",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "occult"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornbelt"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "kE0VgutPXzmDmWn8",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.kE0VgutPXzmDmWn8"
+    },
+    {
+      "img": "icons/magic/unholy/barrier-fire-pink.webp",
+      "name": "Ash Gown (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Greater ash gowns</em> are formal wear spun from smoke, ash, and char collected from the Plane of Fire. Typically, they're voluminous floor-length dresses or three-piece suits, but regardless of their specific tailoring, <em>greater ash gowns</em> are always an ostentatious display of wealth and loyalty to the powers of the Plane of Fire. They're exceptionally popular in the courts of the Elemental Lords and among the high society of Medina Mudii'a. The gown grants you resistance 10 to fire and a +2 item bonus to Intimidation checks.</p>\n<hr />\n<p><strong>Activate—Blazing Promenade</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Effect</strong> The <em>greater ash gown</em> ignites in a ferocious blaze, flames licking the floor and trailing behind you like a dancing cape. You Stride and make a Strike at the end of your movement. During the Stride, your flames incinerate minor obstacles in your path; you ignore non-magical difficult terrain, and any you move through is destroyed. Creatures that are adjacent to you at any point during your movement take @Damage[4d6[fire]] damage with a @Check[reflex|dc:28|basic] save. A creature doesn't need to attempt this save more than once, even if you move past it multiple times.</p>"
+        },
+        "rules": [
+          {
+            "key": "Resistance",
+            "type": "fire",
+            "value": 10
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "ash-gown-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1300
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornclothing"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "1l7pNbAgHEDOUPsr",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.1l7pNbAgHEDOUPsr"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/gorget-of-the-primal-roar.webp",
+      "name": "Gorget of the Primal Roar",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This engraved duskwood gorget seems to vibrate with ferocity, granting you a +2 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Primal Roar</strong> <span class=\"action-glyph\">A</span> (auditory, concentrate, emotion, fear, mental)</p>\n<p><strong>Frequency</strong> once during the duration of each polymorph effect</p>\n<p><strong>Requirements</strong> You're in a non-humanoid form via a polymorph effect</p>\n<hr />\n<p><strong>Effect</strong> You unleash a bestial roar, attempting a single @Check[intimidation] check compared to the Will DCs of all enemies within 30 feet to impose the effects below.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is unaffected.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "gorget-of-the-primal-roar",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncollar"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "RwNIjmj0uvr2HZgt",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.RwNIjmj0uvr2HZgt"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +2 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "helm-of-zeal",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "XdvqcSHQfBwTIMkz",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.XdvqcSHQfBwTIMkz"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "name": "Rhyton of the Radiant Ifrit",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This exquisite, shimmering rhyton is made from volcanic glass and encrusted with rubies, garnets, and other red gemstones, with a blown glass sculpture of a snakelike fire elemental at its base. It was sculpted as part of a 10-piece set of drinking horns, created to match a powerful ifrit shuyookh's entertaining dinnerware, but it became separated from the rest of the collection. Whether for good or ill, the beautiful glass rhyton still carries tidings from its previous shuyookh owner, and you become their esteemed guest from afar whenever you hold it.</p>\n<p>The drinking horn functions as a @UUID[Compendium.pf2e.equipment-srd.Item.BJxnnY9ap2wMDnRN]{Bottomless Stein}, refilling with a common ale each time it's emptied. However, anyone holding the rhyton who whispers the name of its former shuyookh owner has the horn filled with their favorite wine, spirit, juice, or other beverage from anywhere across the many planes, as if their wish were granted by a magnanimous genie.</p>\n<hr />\n<p><strong>Activate—Toast!</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> You raise a toast to a creature or creatures you're about to socialize with. You gain a +2 item bonus to Deception, Diplomacy, or Intimidation checks against those creatures for 1 hour.</p>\n<hr />\n<p><strong>Activate—Ifrit's Command</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> An ifrit's hospitality always comes with an implied threat. You cause the shuyookh to briefly appear and take its vengeance on those who would hurt you, the genie's \"guest.\" The shuyookh issues a 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command} that targets all creatures hostile to you in range instead of the usual number of targets. The shuyookh issues the same command to all of them. Each target that fails its save also feels all nourishment leached from it, becoming @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} as long as it's affected by the command.</p>"
+        },
+        "rules": [],
+        "slug": "rhyton-of-the-radiant-ifrit",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 14
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4200
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "bcsrmJxgV9rfFYZz",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.bcsrmJxgV9rfFYZz"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/dread-blindfold.webp",
+      "name": "Dread Blindfold",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When tied over your eyes, this ragged strip of black linen gives you a +3 item bonus to Intimidation checks and darkvision. You can see through the blindfold, but only using darkvision.</p>\n<p>The first time a particular creature sees you in a day, it must succeed at a @Check[will|dc:37] save or be @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}. This is an emotion, fear, and mental effect, and your allies become immune to it after about a week.</p>\n<hr />\n<p><strong>Activate—Visions of Terror</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You damage a creature with a Strike</p>\n<hr />\n<p><strong>Effect</strong> Your target is gripped by intense fear. This has the effect of a DC 37 <em>vision of death</em> spell. The creature is then temporarily immune for 24 hours.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 3
+          },
+          {
+            "key": "Sense",
+            "selector": "darkvision"
+          }
+        ],
+        "slug": "dread-blindfold",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "emotion",
+            "fear",
+            "invested",
+            "magical",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 15000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worneyepiece"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "bJPMEnW7SSWMP8o1",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.bJPMEnW7SSWMP8o1"
+    },
+    {
+      "img": "icons/equipment/neck/choker-rounded-gold-green.webp",
+      "name": "Entertainer's Cincture (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The designs adorning these lush sashes often imitate the decor of famous opera houses, theaters, and museums. When you invest this item, choose Deception, Diplomacy, Intimidation, or Performance; you gain a +3 item bonus to that skill.</p>\n<hr />\n<p><strong>Activate—Encore!</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Gain 1 Focus Point, which you can spend only to cast a bard composition spell. If you don't spend this point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Activate—Transcribe</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You tuck a small roll of paper into the cincture. For the next hour or until you Dismiss the activation, any performance you make is recorded on the paper, and the paper expands as necessary to accommodate it. Depending on the type of performance, this might take the form of sheet music, a transcript, or a diagram of dance moves.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a bard.</p>"
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "key": "RollOption",
+            "option": "entertainers-cincture-skill",
+            "suboptions": [
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              }
+            ],
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.entertainersCinctureSkill}",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "entertainers-cincture-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "occult"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 13000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornbelt"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "T0iycbnra7QYvHF9",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.T0iycbnra7QYvHF9"
+    },
+    {
+      "img": "icons/equipment/finger/ring-crown-gold-pink.webp",
+      "name": "Crown of Witchcraft (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An elegant accoutrement for a witch who has come into the higher echelons of power, a <em>crown of witchcraft</em> typically looks like a garland of flowering twigs, a jeweled circlet, or a tall hat of fine fabric. You gain a +2 item bonus to Intimidation checks, and if you're a witch, you gain a +3 item bonus to your patron skill.</p>\n<p>If you have a familiar, you can attach a small portion of the crown's material to your familiar, such as a strip of fabric from a hat tied around its tail or a sprig of natural material linked to its collar; the familiar doesn't need to invest the item itself. If you do this, your familiar gains the tough pet ability as long as the crown is invested by you.</p>\n<p><strong>Activate—Defiant Hex</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Gain 1 Focus Point, which you can spend only to cast a witch hex spell. If you don't spend this point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a witch.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "crown-of-witchcraft-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 21000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "6mJHQxX2Pw7Bbeod",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.6mJHQxX2Pw7Bbeod"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +3 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "helm-of-zeal-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 21000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "p7IbVz0o7Qjd1F2P",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.p7IbVz0o7Qjd1F2P"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/apex-items/mask-of-allure.webp",
+      "name": "Mask of Allure",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This mask appears to be a pool of mirrored, shifting silver adhered to a thin metal plate. When you place it against your face, it melds to the shape of your head. The material is breathable and light, and does not obscure vision. You gain a +2 item bonus to Deception, Diplomacy, Intimidation, and Performance checks while wearing the mask.</p>\n<p>When you invest the mask, you either increase your Charisma score by 2 or increase it to 18, whichever would give you a higher score.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.zZsdex5orF5Odpus]{Effect: Mask of Allure}</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (visual)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a Deception, Diplomacy, Intimidation, or Performance check</p>\n<hr />\n<p><strong>Effect</strong> You gain a +4 status bonus to the triggering check. This ability has no effect if you're under the effects of a disguise that hides the mask of allure. Depending on the skill used, the mirrored silver transforms into one of the following appearances.</p>\n<ul>\n<li><strong>Deception</strong> A swirl of silver, which entirely obscures and conceals your normal features.</li>\n<li><strong>Diplomacy</strong> A kind, gentle and inviting expression.</li>\n<li><strong>Intimidation</strong> A monstrous visage that shocks viewers into paying attention.</li>\n<li><strong>Performance</strong> A jovial humanoid face, the mouth cracked wide with a comedic smile or a tragic frown, depending on the nature of the performance.</li>\n</ul>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "deception",
+              "diplomacy",
+              "intimidation",
+              "performance"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "mask-of-allure",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "apex",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 24000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornmask"
+        },
+        "subitems": [],
+        "apex": {
+          "attribute": "cha"
+        }
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ZDcT0lTwsejcoHxi",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.ZDcT0lTwsejcoHxi"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/mask-of-the-banshee.webp",
+      "name": "Guise of the Smirking Devil (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ice-blue half-mask is adorned with a wicked silver grin that covers the wearer's mouth, leaving the rest of the face uncovered. You gain a +3 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Hideous Wail</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The mask casts a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.FEsuyf203wTNE2et]{Wails of the Damned}</p>\n<p>Each living creature in a @Template[emanation|distance:40] takes @Damage[8d10[void]|options:area-damage] damage and must attempt a @Check[fortitude|dc:41|options:area-effect,damaging-effect] save.</p>\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes full damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} [[/r 1d4]].</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4}.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "guise-of-the-smirking-devil-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "invested",
+            "magical",
+            "void"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 19
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 35000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornmask"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "wQ23eYdWgHtVkFGm",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.wQ23eYdWgHtVkFGm"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tapas/dragons-blood-pudding.webp",
+      "name": "Dragon's Blood Pudding",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with a [[/r {1d20+6}#Counteract Check]]{+6} counteract modifier to remove the @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} condition from a single source, using the source of that condition to determine the counteract rank and DC.</p>"
+        },
+        "rules": [],
+        "slug": "dragons-blood-pudding",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "IsNrucaWTBpO47SN",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.IsNrucaWTBpO47SN"
+    },
+    {
+      "img": "icons/commodities/materials/feather-red-.webp",
+      "name": "Feather of Unfounded Bravado",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This large feather is garishly colored in reds, oranges, and yellows, but on closer inspection, it's simply a particularly large chicken feather that's been dyed. Carrying the feather provides a boost to your self-confidence, but it might lead you into dangerous situations.</p><hr /><p><strong>Activate—Overconfident Facade</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> For 1 hour, the feather grants you a +1 item bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} and Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}, but a –1 item penalty on Acrobatics and Athletics checks, as your inflated confidence leads you to attempt things you simply cannot do.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.I0dtunqG9psJpc64]{Effect: Overconfident Facade}</p>"
+        },
+        "rules": [],
+        "slug": "feather-of-unfounded-bravado",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "CH2Nb7WKBG6bfohx",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.CH2Nb7WKBG6bfohx"
+    },
+    {
+      "img": "icons/equipment/chest/breastplate-layered-leather-brown-silver.webp",
+      "name": "Parade Armor",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Parade armor is an armor adjustment that creates a set of pseudo-decorative armor to wear during noncombat functions. Any medium or heavy armor can be fashioned into parade armor, which features custom designs based on the wearer's affiliation, military branch, or rank. A particular faction typically has one uniform appearance for its set of parade armor. While wearing this armor, you gain a +1 item bonus to Diplomacy and Intimidation checks against creatures of the same affiliation as your parade armor, though the bonus to Intimidation doesn't apply when interacting with creatures of higher rank than you. The armor is slightly bulkier, increasing the Bulk by 1.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Against a Creature of the Same Affiliation",
+            "predicate": [
+              "same-affiliation"
+            ],
+            "selector": [
+              "diplomacy",
+              "intimidation"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "parade-armor",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "adjustment"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Knights of Lastwall",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 10
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "affixed-to-medium-heavy-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "u3hh28KdizTEXlSU",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.u3hh28KdizTEXlSU"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tapas/dragons-blood-pudding.webp",
+      "name": "Dragon's Blood Pudding (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with a [[/r {1d20+9}#Counteract Check]]{+9} counteract modifier to remove the @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} condition from a single source, using the source of that condition to determine the counteract rank and DC. You also become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 round. While taking the additional action from being quickened, you scream, as a result of both the flavor and the mandrake paste's properties. You can use the additional action to Step, Stride, Strike, or @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}. If you choose to Demoralize, you gain a +2 item bonus to the Intimidation check.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.nbMEBxeqZIdOgysR]{Effect: Dragon's Blood Pudding}</p>"
+        },
+        "rules": [],
+        "slug": "dragons-blood-pudding-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 25
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "YqcDqZ8B4vyLD6vK",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.YqcDqZ8B4vyLD6vK"
+    },
+    {
+      "img": "icons/commodities/treasure/brooch-shield-grey.webp",
+      "name": "Trudd's Strength",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This filigree depiction of a warhammer in front of a kite-shaped shield grants you a +1 item bonus to Athletics checks and to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce}. Additionally, once per day, the filigree symbol can be activated to protect your allies.</p>\n<p><strong>Activate—Protect the Clan!</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Protective energy releases in a @Template[type:emanation|distance:10], granting a +1 status bonus to Armor Class to all allies within the area. The bonus lasts for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.cB5nrsadZxDaxFjz]{Effect: Trudd's Strength}</p>"
+        },
+        "rules": [],
+        "slug": "trudds-strength",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Shining Kingdoms",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 0,
+            "gp": 160,
+            "pp": 0,
+            "sp": 0
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-clan-dagger"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ps6ON9ndKWpAOEWZ",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.ps6ON9ndKWpAOEWZ"
+    },
+    {
+      "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
+      "name": "Stormshard",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These shards of coalesced necromantic essence are sometimes found in the wake of an ancestor storm. Howling spirits are faintly visible, trapped inside the jagged, dark-green glass.</p>\n<p>You can use the shard to cow the undead or briefly release the tormented souls from inside the glass. While you hold the stormshard, you gain a +1 item bonus to Intimidation checks to influence the undead. In addition, you can @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} undead creatures, even if those creatures are mindless or otherwise immune to emotion, fear, or mental effects.</p>\n<p><strong>Activate—Free the Spirits</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You briefly release the spirits from the <em>stormshard</em> before drawing them back into the glass. Each creature in a @Template[type:emanation|distance:10] takes @Damage[4d8[void]] damage (@Check[fortitude|dc:20|basic] save). You treat the result of your saving throw as one degree of success better than its outcome.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "target:trait:undead"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "stormshard",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #208: Hoof, Cinder, and Storm",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 230
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "dDKvVljv4K0zYn61",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.dDKvVljv4K0zYn61"
+    },
+    {
+      "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+      "name": "Security Badge",
+      "system": {
+        "description": {
+          "gm": "<p>A creature wearing an invested security badge within En-Gokal gains additional benefits, as noted in the adventure text.</p>",
+          "value": "<p>When displayed prominently, this iron badge grants you authority and gravitas. You gain a +1 item bonus to Intimidation checks.</p>\n<p><strong>Activate—Authoritative Command</strong> <span class=\"action-glyph\">1</span> (auditory, concentrate, incapacitation, linguistic, mental)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You shout at a foe within 60 feet, compelling them to stand in place and drop everything they're holding. The target attempts a @Check[will|dc:23] save with the following results.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} as it does one of the following at the beginning of its next turn: stand in place or release what it's holding.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} as it stands in place and releases what it's holding at the beginning of its next turn.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 3} as it spends its next turn to stand in place, release what it's holding, and place its hands in the air.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "security-badge",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #215: To Blot Out the Sun",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 360
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "XVSUR9S7aCU6Ml2N",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.XVSUR9S7aCU6Ml2N"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/stole-of-civility.webp",
+      "name": "Stole of Civility",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Woven from swaths of rich brocade silk and embroidered with ancient Azlanti script in golden thread, this stole imparts a noble appearance to even the homeliest of individuals when draped over the shoulders.</p>\n<p>While wearing a stole of civility, you receive a +2 item bonus to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} with humans or @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Make a Request} of humans, and a +2 item bonus to Intimidation checks against humans.</p>\n<p>The stole also grants you full understanding of the Azlanti language.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> you are a human</p>\n<hr />\n<p><strong>Effect</strong> You gain 10 temporary Hit Points, which last for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.i0tm2ZHekp7rGGR3]{Effect: Stole of Civility}</p>"
+        },
+        "rules": [
+          {
+            "domain": "skill-check",
+            "key": "RollOption",
+            "label": "Target is human (Stole of Civility)",
+            "option": "target:trait:human",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Stole of Civility (humans)",
+            "predicate": [
+              "target:trait:human"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Stole of Civility (Impress or Request humans)",
+            "predicate": [
+              "target:trait:human",
+              {
+                "or": [
+                  "action:request",
+                  "action:make-an-impression"
+                ]
+              }
+            ],
+            "selector": "diplomacy",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "stole-of-civility",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #152: Legacy of the Lost God",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 700
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "snXJ700qy14rl6NV",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.snXJ700qy14rl6NV"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/shield.svg",
+      "name": "Hippopotamus Klar",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This <em>+1 striking klar</em> is fashioned from the skull of a hippopotamus, with one of its canines acting as the blade. While wielding a <em>hippopotamus klar</em>, you gain a +1 item bonus to Intimidation checks.</p><hr /><p><strong>Activate—Engulfing Jaws</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The hippo jaws of the shield open impossibly wide. Make a melee Strike with the klar blade targeting two creatures adjacent to each other. Roll the attack and damage once and apply it to each creature separately. This counts as two attacks for your multiple attack penalty.</p><hr /><p><strong>Craft Requirements</strong> The initial raw materials must include the entire skull of a hippopotamus.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "hippopotamus-klar",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "integrated-1d6-s-versatile-p",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon",
+          "integrated": {
+            "runes": {
+              "potency": 1,
+              "property": [],
+              "striking": 1
+            }
+          }
+        },
+        "publication": {
+          "title": "Pathfinder Howl of the Wild",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": "klar",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 10,
+          "max": 10
+        },
+        "hardness": 3,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "acBonus": 1,
+        "grade": null,
+        "runes": {
+          "reinforcing": 0
+        },
+        "specific": {
+          "integrated": {
+            "runes": {
+              "potency": 1,
+              "property": [],
+              "striking": 1
+            }
+          },
+          "material": {
+            "grade": null,
+            "type": null
+          },
+          "runes": {
+            "reinforcing": 0
+          }
+        },
+        "speedPenalty": 0,
+        "subitems": []
+      },
+      "type": "shield",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "vc3e3B7KRyRFdvbO",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.vc3e3B7KRyRFdvbO"
+    },
+    {
+      "img": "icons/commodities/treasure/brooch-shield-grey.webp",
+      "name": "Trudd's Strength (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This filigree depiction of a warhammer in front of a kite-shaped shield grants you a +2 item bonus to Athletics checks and to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce}. Additionally, once per day, the filigree symbol can be activated to protect your allies.</p>\n<p><strong>Activate—Protect the Clan!</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Protective energy releases in a @Template[type:emanation|distance:10], granting a +2 status bonus to Armor Class to all allies within the area. The bonus lasts for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.cB5nrsadZxDaxFjz]{Effect: Trudd's Strength}</p>"
+        },
+        "rules": [],
+        "slug": "trudds-strength-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Shining Kingdoms",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1400
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-clan-dagger"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "SZ0s438L7HuO6e47",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.SZ0s438L7HuO6e47"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/art-objects/greater-art-object/platinum-framed-monocle.webp",
+      "name": "Splendid Floodlight",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This drum-shaped metal floodlight has a metal handle on each side and a housing at its base to be slotted into a stand or pedestal. A splendid floodlight has a primary function as well as several secondary functions available by rotating through a series of translucent sheets called gels. A splendid floodlight comes with the four gels described below, but other gels exist with different abilities.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> The splendid floodlight's light is off</p>\n<hr />\n<p><strong>Effect</strong> You flip a switch and the splendid floodlight emits bright magical light in a @Template[cone|distance:120] that hangs in the air and remains in place even if you move the floodlight. If the cone passes through an area of magical darkness or targets a creature affected by magical darkness, the splendid floodlight attempts to counteract the darkness. Creatures in the cone who are @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} reduce the value of their frightened condition by 1 at the beginning of each turn they start in the area of the cone. The light remains in place until you Interact to flip the switch again to extinguish the floodlight. If you haven't done so after an hour, the switch flips on its own and the floodlight turns off.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Interact</p>\n<p><strong>Requirements</strong> The splendid floodlight's light is on</p>\n<hr />\n<p><strong>Effect</strong> You rotate one of the following gels into position in the floodlight or rotate a gel out. You can do this even if the splendid floodlight has been moved from its position when the light was created. You can have up to two gels in place at once; if you rotate in a third, another of your choice rotates out.</p>\n<p><strong>Red Gel</strong> The light lends an air of gravitas to all creatures illuminated by it. Creatures in the light gain a +2 item bonus to Charisma-based skill checks.</p>\n<p><strong>Yellow Gel</strong> Invisible creatures and objects are visible while in the light, and creatures with the spirit trait appear substantial rather than ghostly.</p>\n<p><strong>Green Gel</strong> All creatures illuminated by the light appear to be wearing exceptionally stylish clothing with elegantly coiffed hair styles. Blue Gel Undead creatures in the light appear as they did when alive, and living creatures in the light appear decayed, like an undead creature.</p>"
+        },
+        "rules": [],
+        "slug": "splendid-floodlight",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "illusion",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #185: A Taste of Ashes",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 3
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1600
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "G643LF9dKcSdTm93",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.G643LF9dKcSdTm93"
+    },
+    {
+      "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
+      "name": "Stormshard (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These shards of coalesced necromantic essence are sometimes found in the wake of an ancestor storm. Howling spirits are faintly visible, trapped inside the jagged, dark-green glass.</p>\n<p>You can use the shard to cow the undead or briefly release the tormented souls from inside the glass. While you hold the stormshard, you gain a +2 item bonus to Intimidation checks to influence the undead. In addition, you can @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} undead creatures, even if those creatures are mindless or otherwise immune to emotion, fear, or mental effects.</p>\n<p><strong>Activate—Free the Spirits</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You briefly release the spirits from the <em>stormshard</em> before drawing them back into the glass. Each creature in a @Template[type:emanation|distance:10] takes @Damage[8d8[void]] damage (@Check[fortitude|dc:29|basic] save). You treat the result of your saving throw as one degree of success better than its outcome. You can choose to increase the radius of the emanation by up to 10 feet.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "target:trait:undead"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "stormshard-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #208: Hoof, Cinder, and Storm",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1800
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Uuvwy2h38U25lko1",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.Uuvwy2h38U25lko1"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tapas/dragons-blood-pudding.webp",
+      "name": "Dragon's Blood Pudding (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with a [[/r {1d20+20}#Counteract Check]]{+20} counteract modifier to remove the @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} condition from a single source, using the source of that condition to determine the counteract rank and DC. You also become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 round. While taking the additional action from being quickened, you scream, as a result of both the flavor and the mandrake paste's properties. You can use the additional action to Step, Stride, Strike, or @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}. If you choose to Demoralize, you gain a +3 item bonus to the Intimidation check.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.nbMEBxeqZIdOgysR]{Effect: Dragon's Blood Pudding}</p>"
+        },
+        "rules": [],
+        "slug": "dragons-blood-pudding-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 425
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "WS6pJ2DJ7SWSioTL",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.WS6pJ2DJ7SWSioTL"
+    },
+    {
+      "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
+      "name": "Stormshard (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These shards of coalesced necromantic essence are sometimes found in the wake of an ancestor storm. Howling spirits are faintly visible, trapped inside the jagged, dark-green glass.</p>\n<p>You can use the shard to cow the undead or briefly release the tormented souls from inside the glass. While you hold the stormshard, you gain a +3 item bonus to Intimidation checks to influence the undead. In addition, you can @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} undead creatures, even if those creatures are mindless or otherwise immune to emotion, fear, or mental effects.</p>\n<p><strong>Activate—Free the Spirits</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You briefly release the spirits from the <em>stormshard</em> before drawing them back into the glass. Each creature in a @Template[type:emanation|distance:10] takes @Damage[13d8[void]] damage (@Check[fortitude|dc:38|basic] save). You treat the result of your saving throw as one degree of success better than its outcome. You can choose to increase the radius of the emanation by up to 20 feet.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "target:trait:undead"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "stormshard-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #208: Hoof, Cinder, and Storm",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 19000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "AnubfIV7yX1jBQOs",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.AnubfIV7yX1jBQOs"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tapas/dragons-blood-pudding.webp",
+      "name": "Dragon's Blood Pudding (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with a [[/r {1d20+31}#Counteract Check]]{+31} counteract modifier to remove the @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} condition from a single source, using the source of that condition to determine the counteract rank and DC. You also become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 2 rounds. While taking the additional action from being quickened, you scream, as a result of both the flavor and the mandrake paste's properties. You can use the additional action to Step, Stride, Strike, or @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}. If you choose to Demoralize, you gain a +4 item bonus to the Intimidation check.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.0YbNzbW0HSKtgStQ]{Effect: Dragon's Blood Pudding (Major)}</p>"
+        },
+        "rules": [],
+        "slug": "dragons-blood-pudding-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 19
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 5500
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "8uEhS8TuHp1oj5WG",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.8uEhS8TuHp1oj5WG"
+    },
+    {
+      "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+      "name": "Spider Lily Tattoo",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The spider lily tattoo marks you as a trusted member of Granny Hu's network. This crimson tattoo fades and becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} within a day of being applied, reappearing only when you Activate it, when you gain the @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} condition, or when you die. The higher the doomed value, the more vivid the color.</p>\n<p>If your tattoo is plainly visible, you gain a +1 item bonus to Intimidation checks against all creatures that can see the tattoo, but you take a –1 item penalty to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on those who understand the actual meaning of the spider lily tattoo (including all of Willowshore's citizens).</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (concentrate)</p>\n<p><strong>Requirements</strong> Your tattoo isn't currently visible</p>\n<p><strong>Effect</strong> You make the tattoo visible. You can use this activation again to make the tattoo not visible, unless you have the doomed condition.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An undead creature detects you for the first time, and you're aware of the undead creature</p>\n<p><strong>Effect</strong> The spider lily tattoo manipulates your life force to make you appear to be undead for a short time. Attempt a @Check[deception|defense:perception] check against the triggering undead creature's Perception DC. On a success, the triggering undead believes you're undead as well—a mindless undead is likely to ignore you, while a sapient undead might react with curiosity or confusion. You can continue attempting Deception checks each round as a single action to Sustain the effect for up to 1 minute.</p>"
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "spider-lily-tattoo",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "spider-lily-tattoo"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "spider-lily-tattoo",
+              "action:make-an-impression"
+            ],
+            "selector": "diplomacy",
+            "type": "item",
+            "value": -1
+          }
+        ],
+        "slug": "spider-lily-tattoo",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "tattoo"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder Season of Ghosts Hardcover Compilation",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 60
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "tattooed-on-the-body"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "0h9tpwH4u4h9A4bZ",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.0h9tpwH4u4h9A4bZ"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/backfire-mantle.webp",
+      "name": "Cape of Justice",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>While Yaezhing is feared and seldom worshipped in the open, some regions of Tian Xia see him as a god of necessary evil and their only hope for justice. This garment is often worn by bounty hunters or priests of Yaezhing, yet non-worshippers of the god of harsh justice sometimes wear this item without fear of religious persecution. The red cape appears almost black while in the shadows, with a lighter red mandala pattern on it that resembles a shuriken.</p>\n<p>When you invest a cape of justice, you must designate a single creature as your offender. You must have met the creature before, or the creature should have a persona well known to the public (for instance, a bandit's name or epithet, if not their face as shown on a wanted poster).</p>\n<p>You gain a +1 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} this creature. If you don't designate a creature as your offender when you invest the cape of justice, or if 24 hours pass without you either slaying or capturing your offender, your thoughts become worried and distracted, and you take a –1 item penalty to Perception checks for the next 24 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.wdN3sa1Qs2rEdiDC]{Effect: Cape of Justice (Distracted)}</p><hr /><p><strong>Activate—Force Shuriken</strong> <span class=\"action-glyph\">1</span> (force, manipulate)</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> By using a free hand to grab the edge of your cape and give it a quick flourish, you cause a red, shurikenshaped bolt of force to fire at a target within 60 feet that you can see. The shuriken hits automatically and deals @Damage[(1d4+1)[force]] damage, or @Damage[(2d4+2)[force]] damage if the target is your designated offender. If the target is within 30 feet, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} the target as a free action after the shuriken strikes them.</p><hr /><p><strong>Activate—Enact Justice</strong> <span class=\"action-glyph\">2</span> (concentrate, incapacitation, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You produce manacles from the cape and then fling them at a Medium or Small bipedal target within 30 feet. The target must attempt a @Check[reflex|dc:18|traits:incapacitation] save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected, and the manacles vanish.</p>\n<p><strong>Success</strong> The manacles strike the target's legs but fail to latch properly. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn, at which point the manacles vanish.</p>\n<p><strong>Failure</strong> The manacles lock on the target's legs. The target takes a –15-foot circumstance penalty to its Speeds for 1 minute, or until it Escapes or is freed by someone using Pick a Lock (DC 18), after which the manacles vanish.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for as long as the manacles remain in place.</p>"
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.CapeOfJustice.Toggle",
+            "option": "named-offender",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:demoralize",
+              "named-offender"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "cape-of-justice",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder Season of Ghosts Hardcover Compilation",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "KQVSCjtdh8AcC0Cw",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.KQVSCjtdh8AcC0Cw"
+    },
+    {
+      "img": "icons/equipment/neck/amulet-round-engraved-gold.webp",
+      "name": "Essence Charm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Anyone can use an <em>essence forge</em> to craft an <em>essence charm</em> without needing to know the formula for an <em>essence charm</em>. No larger than a coin, an <em>essence charm</em> is normally worn around the neck or hung from a belt—its exact appearance is up to the crafter. When an <em>essence charm</em> is created, its crafter selects a skill in which they are at least trained. The <em>essence charm</em> grants a +1 item bonus to that skill when worn.</p><hr /><p><strong>Activate—Lucky Charm</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail or critically fail a check using the <em>essence charm</em>'s chosen skill</p>\n<p><strong>Effect</strong> A failed check becomes a success, and a critical failure becomes a failure.</p>"
+        },
+        "rules": [
+          {
+            "choices": {
+              "config": "skills"
+            },
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "essence-charm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "pE2XIaqTvTtIulSb",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.pE2XIaqTvTtIulSb"
+    },
+    {
+      "img": "icons/weapons/staves/staff-obsidian.webp",
+      "name": "Draconic Verge",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This scepter is made from dragon bone, with minute runes carved along its length, a dragonskin leather grip, and caps of gold on each end. The scepter grants you a +1 item bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}. Such items are considered particularly gruesome and vile by dragons, and they're invariably hostile to any creature they discover carrying a draconic verge, going so far as to single out that individual for destruction.</p><hr /><p><strong>Activate—Dragon's Eminence</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You hold the verge aloft, tapping into the majesty of the dragon from whom the verge was made. All enemies in a @Template[type:emanation|distance:60] must succeed a @Check[will|dc:23|options:damaging-effect,inflicts:frightened ] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} on a critical failure).</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:demoralize"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "draconic-verge",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 370
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "OfOjrlbRhFiSF8NQ",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.OfOjrlbRhFiSF8NQ"
+    },
+    {
+      "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+      "name": "Bangles of Crowns",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This pair of silver bangles is engraved with images of crowns. While wearing the bangles, you are filled with an overwhelming sense of assertiveness and a more commanding presence. You gain a +3 item bonus to Intimidation checks. When you invest the bangles, you either increase your Charisma score by 2 or increase it to 18, whichever is higher.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You cast a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear} spell (@Check[will|dc:38|traits:emotion,fear,mental,spell]).</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An enemy within 60 feet becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}</p>\n<p><strong>Effect</strong> You become emboldened by your enemy's fear. You gain a +1 circumstance bonus to checks against the triggering creature for 1 round. You also gain 15 temporary Hit Points. You lose any remaining temporary Hit Points after 1 minute.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "bangles-of-crowns",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "apex",
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #192: Worst of All Possible Worlds",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 15000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": [],
+        "apex": {
+          "attribute": "cha"
+        }
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "9rjQ5kbJJWKZH8yf",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.9rjQ5kbJJWKZH8yf"
+    },
+    {
+      "img": "icons/equipment/head/crown-gold-red.webp",
+      "name": "Crown of the Kobold King",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Originally, this magical crown was to be known as the Crown of Toil-a magic item crafted by the dwarven priest named Gristogar. He intended for the crown to bolster his ability to rule and herald in a new era of a dwarven kingdom that followed the teachings of Droskar. Yet Gristogar wasn't equal to his own ambitions, and before he could complete the Crown of Toil, his cult died out and he ended his own life. For centuries, the incomplete crown lay dormant, but over that time, fragments of Gristogar's soul infused it-not enough to transform it into a truly intelligent item, but enough to give it a rudimentary need and desire to be completed.</p>\n<p>When the Kobold King Merlokrep discovered the discarded crown and placed it upon his head, the crown at last had agency- if not in a hale and hearty dwarf, at least in the frame of a powerful and ambitious kobold. Just as the crown began influencing Merlokrep, so too did the Kobold King's personality influence the crown. Today, the device is known as the <em>Crown of the Kobold King</em>, and while it still urges the one who wears it to build a kingdom of endlessly toiling workers, it no longer does so in honor of Droskar. Instead, it seeks the rise of a brutal kobold kingdom.</p>\n<p>The crown appears as a golden band surrounded by iron spikes that glisten with fresh blood-the addition of a kobold skull to the top is largely decorative, but one the crown has grown to \"enjoy.\" Even in its incomplete state, a few rituals away from its true potential, the Crown of the Kobold King is a potent item. Wearing the crown grants you a +2 item bonus to Intimidation checks and a +1 item bonus to saving throws against fear effects.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (command, envision)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The crown infuses you with the glorious conviction that you're meant to rule, granting you a +1 status bonus to attack rolls, saving throws, and Charisma-based skill checks for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.hD0dUWYKM8FrVDZY]{Effect: Crown of the Kobold King}</p>\n<hr />\n<p><strong>Activate</strong> 10 minutes (envision, Interact)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast a @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{Nightmare} spell.</p>"
+        },
+        "rules": [
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "selector": "intimidation",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "predicate": [
+              "fear"
+            ],
+            "selector": "saving-throw",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "crown-of-the-kobold-king",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder Adventure: Crown of the Kobold King",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 700
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "eQ1Yzd192ePmSfdc",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.eQ1Yzd192ePmSfdc"
+    },
+    {
+      "img": "icons/equipment/head/crown-thorns-gold.webp",
+      "name": "Jaws of the Grogrisant",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The teeth that fell off the Mantle of the Grogrisant were given to the scholars of Houses Fahlspar, Lotheed, Nicodemius, and Zespire, who—after much heated discussion—created this regal circlet. You gain a +3 item bonus to Diplomacy and Intimidation skill checks and @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} checks against creatures that have the primal trait. When you invest in the headband, you either increase your Wisdom modifier by 1 or increase it to +4, whichever would give you a higher value.</p>\n<p><strong>Activate—Primal Empathy</strong> <span class=\"action-glyph\">2</span> (concentrate, mental)</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You gain the ability to communicate with nature as if you were a part of it. You cast @UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy} at 6th rank, which can only be used to communicate with creatures that have the primal trait.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "target:trait:primal",
+              {
+                "or": [
+                  "action:sense-motive",
+                  "check:statistic:diplomacy",
+                  "check:statistic:intimidation"
+                ]
+              }
+            ],
+            "selector": [
+              "skill-check",
+              "perception-check"
+            ],
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "jaws-of-the-grogrisant",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "apex",
+            "invested",
+            "primal"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Shining Kingdoms",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 15000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncirclet"
+        },
+        "subitems": [],
+        "apex": {
+          "attribute": "wis"
+        }
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "KpQ47HxgMGq526MX",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.KpQ47HxgMGq526MX"
+    },
+    {
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "name": "The Rakshasa",
+      "system": {
+        "description": {
+          "gm": "<p><strong>Epitome</strong> A simulacrum of a tiger-headed rakshasa moves into a decadent chamber in Harrowheart's basement. While sinister and prone to cruel comments, this rakshasa does not plot against the PCs and is content to idle away their time in their underground pleasure chambers. Once per day, a visitor to the rakshasa can pose them a question that they can use their Occultism [[/r 1d20+18 #Occultism]]{+18} skill to attempt to Recall Knowledge about. The rakshasa also knows several uncommon spells and rituals that they can teach spellcasters—these spells and rituals all involve the intrusive manipulation of sapient minds. Among the spells it can teach are @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate}, @UUID[Compendium.pf2e.spells-srd.Item.9BnhadUO8FMLmeZ3]{Mind Probe}, @UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]{Mind Reading}, and @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{Rewrite Memory}; rituals it can teach include @UUID[Compendium.pf2e.spells-srd.Item.Q690d3mw3TUrKX7E]{Geas} and @UUID[Compendium.pf2e.spells-srd.Item.5pwK2FZX6QwgtfqX]{Inveigle}. Feel free to add similar spells to this list as you see fit.</p>",
+          "value": "<p><strong>Suit</strong> Book (Int)</p>\n<p><strong>Alignment</strong> lawful evil</p>\n<hr />\n<p><em>The Rakshasa</em> represents domination of others to support your own schemes. When you invest <em>The Rakshasa</em>, identify a single willing creature within 30 feet as your pledged follower. If you're at least 15th level, you can have up to two pledged followers at once. At 18th level, you can have up to three pledged followers. If you have the maximum pledged followers active and select a new one, a previous pledged follower of your choice is no longer your pledged follower. You gain an item bonus equal to your current number of pledged followers to all @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce} attempts.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> You regain Hit Points equal to twice your level, and a pledged follower of your choice loses Hit Points equal to your level (no effects apply that would decrease this Hit Point loss). If this loss kills your pledged follower, you also gain temporary Hit Points equal to your level. The pledged follower is temporarily immune to this activation for 24 hours.</p>"
+        },
+        "rules": [],
+        "slug": "the-rakshasa",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "harrow-court",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #190: The Choosing",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Bnm1gMR1kp6tyRVr",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.Bnm1gMR1kp6tyRVr"
+    },
+    {
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "name": "The Tyrant",
+      "system": {
+        "description": {
+          "gm": "<p><strong>Epitome</strong> When <em>The Tyrant</em> is epitomized, an immense blue dragon manifests in the Harrow Court. The dragon has no name, but gracefully accepts any the PCs offer them. The blue dragon is not hostile to the PCs, but their personality is tinged with arrogance and condescension. As with the other partially real simulacra of the Harrow Court, the dragon has no agency of their own and cannot take part in encounter mode play, but they can be called upon to aid with their skills or to cast (or teach) spells. Treat the dragon as a typical spellcasting ancient blue dragon for the purposes of its skill modifiers and what spells they can cast or teach, but one that also knows the legend lore ritual. A PC who impresses the dragon with their own imperious attitude (with a successful @Check[intimidation|dc:35] check) can convince the dragon to carry them to any location in the Harrow Court, once per successful check. The dragon keeps a lair in a large cavern below Harrowheart, where they spend their time counting their (illusory) hoard, sleeping, or plotting nefarious schemes they will never actually enact.</p>",
+          "value": "<p><strong>Suit</strong> Crowns (Cha)</p>\n<p><strong>Alignment</strong> lawful evil</p>\n<hr />\n<p>As long as you have The Tyrant invested, you gain a +2 item bonus to Intimidation checks made to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}. This bonus increases to +3 if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You hold the card up to your lips and exhale onto it; you cast @UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{Dragon Form}. The rank of the spell is half your level, rounded down (minimum 6th level).</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:demoralize"
+            ],
+            "selector": "intimidation",
+            "type": "item",
+            "value": "ternary(gte(@actor.level,17),3,2)"
+          }
+        ],
+        "slug": "the-tyrant",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "harrow-court",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #191: The Destiny War",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "6heLzMz3esLUZlVR",
+      "_key": "!actors.items!Num8tHLQeipOAWHB.6heLzMz3esLUZlVR"
+    }
+  ],
+  "folder": "MSWx8zu0hnkMWkWU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.1",
+    "createdTime": 1772505753185,
+    "modifiedTime": 1772508544288,
+    "lastModifiedBy": "GV5Yy0w5XjJdvzJa"
+  },
+  "_id": "Num8tHLQeipOAWHB",
+  "sort": 700000,
+  "_key": "!actors!Num8tHLQeipOAWHB"
+}

@@ -1,0 +1,3596 @@
+{
+  "name": "Lore Items",
+  "type": "loot",
+  "ownership": {
+    "default": 1,
+    "GV5Yy0w5XjJdvzJa": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Lore Items",
+    "displayName": 20,
+    "texture": {
+      "src": "icons/sundries/scrolls/scroll-plain-tan-red.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "details": {
+      "description": "<p>Not all items are bonuses to ALL checks related to the skill. Read the item descriptions to see what actions the items actually increase.</p>",
+      "level": {
+        "value": 0
+      }
+    },
+    "lootSheetType": "Merchant",
+    "hiddenWhenEmpty": false
+  },
+  "img": "icons/sundries/scrolls/scroll-plain-tan-red.webp",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/harrow-mat.webp",
+      "name": "Harrow Mat",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This leather mat bears intricate designs and symbols embossed into them to enhance the mystique of a harrow reading. The mat provides a +1 item bonus to Deception, Diplomacy, and relevant Lore checks (such as Fortune-Telling Lore or Harrow Lore) to convince a creature that a harrow reading was accurate.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "accurate-reading"
+            ],
+            "selector": [
+              "deception",
+              "diplomacy",
+              "fortune-telling-lore",
+              "harrow-lore"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "harrow-mat",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder #160: Assault on Hunting Lodge Seven",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 8
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "d1pSsfifyivFi52f",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.d1pSsfifyivFi52f"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/playing-cards.webp",
+      "name": "Marked Playing Cards",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A deck of marked playing cards appears to be an ordinary deck upon initial inspection but bears specific folds, colors, scratches, or other markings on each card that allow an informed user to know what's on the other side of a card. A deck of marked cards grants you a +1 item bonus to Games Lore checks or other relevant checks to gamble with the cards. You can determine that an unattended deck of cards is marked with a successful @Check[perception|dc:20|traits:action:seek] check. Determining that a deck is marked during play is more difficult and is typically determined by a Perception check against the dealer's Games Lore or Thievery DC.</p>"
+        },
+        "rules": [],
+        "slug": "marked-playing-cards",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Pathfinder Society Guide",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "yEZ5kM1qlwgdeNzc",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.yEZ5kM1qlwgdeNzc"
+    },
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.jaBMZKdoywOTrQvP]{Effect: Cognitive Mutagen (Lesser)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "EAOXrDlmMhJt28Gl",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.EAOXrDlmMhJt28Gl"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/games.webp",
+      "name": "Games (Loaded Dice)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A nigh-infinite assortment of games exist in Golarion. Simple games, including dice, a deck of cards, or dominoes, cost 5 sp. Board games vary in cost from 1 gp for dexterity games like Bungle, 3 gp for colorful children's games like Cauldron Quest, and 5 gp for complex strategy games like Kingmaker and Abendego Raiders. Lavish game sets can cost much more than these prices, as they are made of expensive components and are intricately crafted works of art unto themselves.</p>\n<hr />\n<p>These dice are weighted on one side to ensure they always land with the desired number facing up. Loaded dice grant you a +1 item bonus to Games Lore checks to gamble with the dice. You can determine a die is loaded while handling it with a successful secret @Check[perception|dc:20|name:Loaded Dice] check. Determining dice are loaded without handling the dice is more difficult, especially since smart cheaters switch loaded dice in and out so they don't suspiciously roll the same number over and over. In this case, an observer must succeed at a secret Perception check against the roller's Games Lore or Thievery DC to notice the switches or the patterns.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:gambling"
+            ],
+            "selector": [
+              "games",
+              "games-lore"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "games-loaded-dice",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "8JqGd8kzr9D5SCPz",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.8JqGd8kzr9D5SCPz"
+    },
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ztxW3lBPRcesF7wK]{Effect: Cognitive Mutagen (Moderate)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "CAtkphxAnmzrVcII",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.CAtkphxAnmzrVcII"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/shield.svg",
+      "name": "Helmsman's Recourse",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This standard-grade duskwood meteor shield (Hardness 7, HP 28, BT 14) is a wheel from a ship. While wielding the shield, you gain a +1 item bonus to Sailing Lore and to Athletics checks to Swim.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're in a body of water</p><hr /><p><strong>Effect</strong> For 10 minutes, you don't sink if you haven't succeeded at a Swim action on a turn, and if you're submerged, you automatically ascend 10 feet at the end of your turn.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:swim"
+            ],
+            "selector": "athletics",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "sailing-lore",
+              "lore-sailing",
+              "sailing"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "helmsmans-recourse",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "shield-throw-30"
+          ],
+          "rarity": "common",
+          "integrated": null
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": "meteor-shield",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 28,
+          "max": 28
+        },
+        "hardness": 7,
+        "price": {
+          "value": {
+            "gp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": "duskwood",
+          "grade": "standard"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "acBonus": 2,
+        "grade": null,
+        "runes": {
+          "reinforcing": 0
+        },
+        "specific": {
+          "integrated": null,
+          "material": {
+            "grade": "standard",
+            "type": "duskwood"
+          },
+          "runes": {
+            "reinforcing": 0
+          }
+        },
+        "speedPenalty": 0,
+        "subitems": []
+      },
+      "type": "shield",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "QfXfgDT6ebPAmMZd",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.QfXfgDT6ebPAmMZd"
+    },
+    {
+      "img": "icons/equipment/shoulder/shoulderpad-cloth-green.webp",
+      "name": "Pristine Epaulets",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Gaudy and sparkling, these intricately decorated epaulets have clearly never seen a battlefield. Worn by officers with more schooling or connections than actual fighting experience, these epaulets grant you a +1 item bonus to Society and Warfare Lore checks.</p>\n<p><strong>Activate—I Meant to Say</strong> <span class=\"action-glyph\">r</span> (concentrate, fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You critically fail a Diplomacy check</p><hr /><p><strong>Effect</strong> The pristine epaulets are often worn to both tense military negotiations and social events and can help you recover from a misstep. You can reroll the check, but you must take the new result.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "society",
+              "warfare-lore"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "pristine-epaulets",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fortune",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 125
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ohtg6e1ZA9X8bBEF",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.ohtg6e1ZA9X8bBEF"
+    },
+    {
+      "img": "icons/equipment/head/helm-spangen.webp",
+      "name": "Tactician's Helm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Repurposing and enchanting a helmet worn by a battlefield commander can create a <em>tactician's helm</em>, imparting knowledge of battlefield tactics that feeds off your minor victories. The helm grants you a +1 item bonus to Warfare Lore checks. Also, a jewel adorns the brow of the helmet. This jewel becomes charged each time you hit a creature with a @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike}. A <em>tactician's helm</em> can hold up to 2 charges, and its charges reset to 0 when you invest it.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Requirements</strong> The helm's jewel is charged</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> One charge in the helm's jewel expires, and you choose one of the following effects.</p><ul><li><strong>Charge!</strong> Stride twice.</li><li><strong>Move It!</strong> You gain a +2 status bonus to Acrobatics and Athletics checks until the end of this turn. @UUID[Compendium.pf2e.equipment-effects.Item.vgsV7eEYQ7W1fHqR]{Effect: Tactician's Helm (Move It!)}</li><li><strong>Protect!</strong> If you're wielding a shield, Stride to a space adjacent to an ally, then Raise your Shield.</li><li><strong>Re-Arm!</strong> Interact up to three times. Each of these actions must be used to do something listed under @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}.</li></ul>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "warfare-lore",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "encounter",
+              {
+                "not": "self:participant:own-turn"
+              }
+            ],
+            "selector": "melee-strike-attack-roll",
+            "text": "PF2E.SpecificRule.Equipment.TacticiansHelm.ReactiveStrikeNote",
+            "title": "{item|name}"
+          }
+        ],
+        "slug": "tacticians-helm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 160
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Du44mhztj5kJZDax",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.Du44mhztj5kJZDax"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/shield.svg",
+      "name": "Helmsman's Recourse (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Shield throw 30 ft.</p>\n<p>This standard-grade duskwood meteor shield (Hardness 8, HP 60, BT 30) is a wheel from a ship. While wielding the shield, you gain a +1 item bonus to Sailing Lore and to Athletics checks to Swim.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're in a body of water</p><hr /><p><strong>Effect</strong> For 10 minutes, you don't sink if you haven't succeeded at a Swim action on a turn, and if you're submerged, you automatically ascend 10 feet at the end of your turn. When you Activate the shield, it casts @UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{Water Walk} on you.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:swim"
+            ],
+            "selector": "athletics",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "sailing-lore",
+              "lore-sailing",
+              "sailing"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "helmsmans-recourse-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "shield-throw-30"
+          ],
+          "rarity": "common",
+          "integrated": null
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 99,
+        "baseItem": "meteor-shield",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 60,
+          "max": 60
+        },
+        "hardness": 8,
+        "price": {
+          "value": {
+            "gp": 625
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": "duskwood",
+          "grade": "standard"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "acBonus": 2,
+        "grade": null,
+        "runes": {
+          "reinforcing": 0
+        },
+        "specific": {
+          "integrated": null,
+          "material": {
+            "grade": "standard",
+            "type": "duskwood"
+          },
+          "runes": {
+            "reinforcing": 0
+          }
+        },
+        "speedPenalty": 0,
+        "subitems": []
+      },
+      "type": "shield",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "vvNQX3Nxznw9pVtD",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.vvNQX3Nxznw9pVtD"
+    },
+    {
+      "img": "icons/equipment/head/hat-cocked-purple.webp",
+      "name": "Admiral's Bicorne",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ostentatious hat is trimmed with gold thread and tiny jewels, all proclaiming your position of authority on the high seas. While wearing the bicorne, you gain a +2 item bonus to Intimidation and Sailing Lore checks.</p><hr /><p><strong>Activate—Fight On</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You take damage from an enemy's Strike or spell attack roll</p><hr /><p><strong>Effect</strong> Despite your wounds, your troops are inspired to fight on. For 1 minute, all allies in a @Template[type:emanation|distance:30] gain a +2 status bonus to saving throws against fear effects.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.pXHLq8EZyxGBhHSL]{Effect: Fight On}</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "intimidation",
+              "sailing-lore"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "admirals-bicorne",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Rq0GYL96MWvkVBAJ",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.Rq0GYL96MWvkVBAJ"
+    },
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead. You become trained in one Intelligence-based skill [Arcana, Crafting, Lore, Occultism, Society], chosen at creation.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.qit1mLbJUyRTYcPU]{Effect: Cognitive Mutagen (Greater)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 300
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "j7kUreuZFIjPhhPg",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.j7kUreuZFIjPhhPg"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/shield.svg",
+      "name": "Helmsman's Recourse (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Shield throw 30 ft.</p>\n<p>This standard-grade duskwood meteor shield (Hardness 11, HP 80, BT 40) is a wheel from a ship. While wielding the shield, you gain a +2 item bonus to Sailing Lore and to Athletics checks to Swim.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're in a body of water</p><hr /><p><strong>Effect</strong> For 10 minutes, you don't sink if you haven't succeeded at a Swim action on a turn, and if you're submerged, you automatically ascend 10 feet at the end of your turn. When you Activate the shield, it casts @UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{Water Walk} on you. and you can breathe underwater for 10 minutes.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:swim"
+            ],
+            "selector": "athletics",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "sailing-lore",
+              "lore-sailing",
+              "sailing"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "helmsmans-recourse-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "shield-throw-30"
+          ],
+          "rarity": "common",
+          "integrated": null
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": "meteor-shield",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 80,
+          "max": 80
+        },
+        "hardness": 11,
+        "price": {
+          "value": {
+            "gp": 2650
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": "duskwood",
+          "grade": "standard"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "acBonus": 2,
+        "grade": null,
+        "runes": {
+          "reinforcing": 0
+        },
+        "specific": {
+          "integrated": null,
+          "material": {
+            "grade": "standard",
+            "type": "duskwood"
+          },
+          "runes": {
+            "reinforcing": 0
+          }
+        },
+        "speedPenalty": 0,
+        "subitems": []
+      },
+      "type": "shield",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "W4hlgbNOd1u8Nxyf",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.W4hlgbNOd1u8Nxyf"
+    },
+    {
+      "img": "icons/sundries/gaming/dice-runed-brown.webp",
+      "name": "Jabali's Dice",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Jabali's dice</em> are two six-sided dice carved from evenly weighted stone to the specifications of a specific jabali shuyookh. The sides showing a 6 also have the name and title of the shuyookh inscribed in Petran. If you whisper the name and title during a dice game using <em>jabali's dice</em>, they bless you with a bit of luck, granting a +2 item bonus to your Games Lore check. You can do so frequently enough to apply this bonus while Earning Income using Games Lore, but only one user at a time can do so.</p>\n<p><strong>Activate—Jabali's Gamble</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You call out the shuyookh's name and title, then roll the dice. The shuyookh appears briefly to provide for your defense. Roll [[/r 2d6]] to determine the effect. Represented by the GM, the shuyookh chooses any effect's specifications, benefiting you according to the shuyookh's whims.</p>\n<table>\n<tbody>\n<tr>\n<td><strong>2-5</strong></td>\n<td>The shuyookh casts @UUID[Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt]{Mountain Resilience} on you.</td>\n</tr>\n<tr>\n<td><strong>6-9</strong></td>\n<td>The shuyookh casts @UUID[Compendium.pf2e.spells-srd.Item.Wpgt5TYcTHLDei6J]{Grasping Earth} but you and your allies are immune to it.</td>\n</tr>\n<tr>\n<td><strong>10-11</strong></td>\n<td>The shuyookh casts @UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}. The edges can pass through creatures, which are shunted to the side of the wall opposite that edge.</td>\n</tr>\n<tr>\n<td><strong>12</strong></td>\n<td>The shuyookh casts a DC 31 @UUID[Compendium.pf2e.spells-srd.Item.znv4ECL7ZtuiagtA]{Petrify} spell on a creature hostile and in proximity to you. If no appealing target exists, you receive a 10-11 result instead.</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "games-lore",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "jabalis-dice",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1800
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "wOUafE6mO341TJXr",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.wOUafE6mO341TJXr"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "name": "Sun Herald's Stylus",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This writing instrument was made from the spur of one of the giant divine roosters that heralds the presence of Shizuru. While you hold it, you gain a +2 item bonus to Calligraphy Lore and Medicine checks.</p>\n<p><strong>Activate—Rejuvenating Ink</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Drawing a circle on the ground with your stylus, you cast @UUID[Compendium.pf2e.spells-srd.Item.x5rGOmhDRDVQPrnW]{Field of Life} centered on yourself.</p><hr /><p><strong>Craft Requirements</strong> The feathers must be plucked from a living divine rooster or given by the bird to a chosen mortal.</p>"
+        },
+        "rules": [],
+        "slug": "sun-heralds-stylus",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Tian Xia Character Guide",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 14
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "w4Qpb1J2djE6PYoD",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.w4Qpb1J2djE6PYoD"
+    },
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead. You become trained in one skill, chosen at creation.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.RT1BxXrbbGgk40Ti]{Effect: Cognitive Mutagen (Major)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "P7npZmMSqwWUHlmj",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.P7npZmMSqwWUHlmj"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/possibility-tome.webp",
+      "name": "Possibility Tome",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An array of semiprecious stones is set into the ornate silver and beaten copper cover of this thick and weighty tome. If you open the book before it's been activated, its vellum pages are blank and pristine, but once activated, words dance and swim onto the pages before your eyes.</p>\n<p><strong>Activate—Skim</strong> 10 minutes (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> As you flip through the book, you think about a broad topic you want to know more about.</p>\n<p>Choose one skill: Arcana, Crafting, Medicine, Nature, Occultism, Religion, Society, or a single subcategory of Lore. The book's pages fill with information about that skill, though only you can see the information.</p>\n<p>While the pages are full, you can spend an Interact action perusing the book just before attempting a check to Recall Knowledge with the chosen skill. This grants you a +3 item bonus to the check, and if you roll a critical failure, you get a failure instead.</p>\n<p>The information within the book disappears after 24 hours or when the tome is activated again.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Possibility Tome (Recall Knowledge)",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "skill-check",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "possibility-tome",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 22000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "LySNfOSrBP8ZJNox",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.LySNfOSrBP8ZJNox"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/tattoos/ancestral-geometry.webp",
+      "name": "Ancestral Geometry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Geometric precision and perfect angles signify that an artist with exemplary knowledge of dwarven tattooing traditions created this body art. Your family's ancestral stories, recited throughout the tattooing process, bind your blood even tighter to theirs. During your daily preparations, you manifest a visitation by an ancestor—possibly via a dream, a vision, or a magical trinket left by your bedroll. Roll [[/r 2d20]] and record the highest result. Then roll [[/r 1d6]] and note a type of saving throw: 1–2 Fortitude, 3–4 Reflex, and 5–6 Will.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.oI7DVO9uKNG4zGtZ]{Effect: Ancestral Geometry}</p>\n<p>In addition, until the next visitation, you gain a +1 item bonus to one Lore skill related to the ancestor, as determined by the GM. Usually, the ancestor provides a kind of knowledge they believe you'll need. For dwarven ancestors, the Lore skill is usually Architecture Lore, Engineering Lore, Genealogy Lore, Labor Lore, Mining Lore, Warfare Lore, or Lore about a dwarven deity.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (concentrate, fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You rolled a saving throw of the noted type</p><hr /><p><strong>Effect</strong> Replace the roll with the d20 roll from your ancestor's visitation.</p>"
+        },
+        "rules": [],
+        "slug": "ancestral-geometry",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "tattoo"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "tattooed-on-the-body"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "WxdIdYyvyhTx3v1b",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.WxdIdYyvyhTx3v1b"
+    },
+    {
+      "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+      "name": "Storied Skin",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your skin becomes a canvas that records history as you learn it. When you receive the tattoo, choose a Lore skill. You can add the visual trait to the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action in order to study your tattoos, granting you a +1 item bonus to your check using the chosen Lore skill. A storied skin tattoo starts with an icon that represents a central event in your subject of study and is usually placed on the forehead or over the heart. Each time you learn about a major event in the history of that subject, an image, design, or symbol appears on your skin to represent the event.</p>\n<p><strong>Activate—Living History</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> The tattoo's design animates for 1 round, crudely portraying some scene associated with the chosen Lore skill.</p>"
+        },
+        "rules": [],
+        "slug": "storied-skin",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "tattoo"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #207: The Resurrection Flood",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 45
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "tattooed-on-the-body"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "VwUobK3me4VEEp5s",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.VwUobK3me4VEEp5s"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/consumables/talismans/basilisk-eye.webp",
+      "name": "Wardrobe Stone (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the wardrobe stone to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of <em>illusory disguise</em>. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the wardrobe stone.</p>"
+        },
+        "rules": [],
+        "slug": "wardrobe-stone-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "illusion",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "eDpkbDwfeh7EpzCC",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.eDpkbDwfeh7EpzCC"
+    },
+    {
+      "img": "icons/commodities/treasure/medal-ribbon-gold-red.webp",
+      "name": "Brooch of Inspiration",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This finely cut garnet brooch fills your mind with vigor and occasional bursts of mental clarity. While wearing the brooch, you gain a +1 item bonus to checks to Recall Knowledge with Lore skills.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You think hard on a topic and receive a sudden inspiration. You attempt to Recall Knowledge using Lore. On this check, you roll twice and take the higher result.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "lore-skill-check",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "brooch-of-inspiration",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 425
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "6WP7phfPQAFNkhDm",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.6WP7phfPQAFNkhDm"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/thousand-blade-thesis.webp",
+      "name": "Thousand-Blade Thesis",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This collection of lacquered rice paper scrolls mounted on flexible bamboo contains a wealth of calligraphic essays and paintings on the art of war, specifically focused on the use of various weapons in warfare and how to tactically deploy warriors using those weapons to the best possible advantage. Consulting the thesis grants a +2 item bonus to Warfare Lore checks. Like most scholarly compendiums, this usage requires holding the thesis in one hand.</p>\n<p>The thesis also serves as an extradimensional armory for weapons and ammunition. The thesis has a capacity of 5 Bulk, and only weapons and ammunition can be stored within it. You and others can Interact with the thesis to store or retrieve a weapon or piece of ammunition in it, like a mundane container.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The thousand-blade thesis dramatically unfurls, and the weapons contained within it spring forth and array themselves impressively in the air, floating within easy reach. For 1 minute, you can use a free action to Interact to draw one of the floating weapons. Others can attempt to nab them out of the air, but to do so they must critically succeed at a Disarm check. You can't place weapons back into the thesis until the minute elapses.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "warfare-lore",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "thousand-blade-thesis",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "extradimensional",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1,
+          "heldOrStowed": 0.1,
+          "capacity": 5,
+          "ignored": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 600
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "collapsed": false,
+        "stowing": false,
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "type": "backpack",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "kt8LCwuLf2jQ5VIi",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.kt8LCwuLf2jQ5VIi"
+    },
+    {
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+      "name": "Open Mind",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Abraxas teaches knowledge is the only power that matters. This tattoo of a stylized eye provides a +1 item bonus to Lore checks.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Abraxas opens your inner eye; you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]{Hypercognition}.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "lore-skill-check",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "open-mind",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "tattoo"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Impossible Lands",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "tattooed-on-the-body"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "JsrIQQJvB7PmptYE",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.JsrIQQJvB7PmptYE"
+    },
+    {
+      "img": "icons/commodities/treasure/medal-ribbon-gold-red.webp",
+      "name": "Brooch of Inspiration (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This finely cut garnet brooch fills your mind with vigor and occasional bursts of mental clarity. While wearing the brooch, you gain a +2 item bonus to checks to Recall Knowledge with Lore skills.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You think hard on a topic and receive a sudden inspiration. You attempt to Recall Knowledge using Lore. On this check, you roll twice and take the higher result.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "lore-skill-check",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "brooch-of-inspiration-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1200
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "E5Asu5HOHHs7aJuY",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.E5Asu5HOHHs7aJuY"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/consumables/talismans/basilisk-eye.webp",
+      "name": "Wardrobe Stone (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments. You gain a +2 item bonus to a specific Lore skill associated with your outfit, such as Carpentry Lore when wearing a carpenter's outfit or Cooking Lore when wearing a chef's outfit.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the wardrobe stone to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of <em>illusory disguise</em>. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the wardrobe stone.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{Scouting Eye}.</p>"
+        },
+        "rules": [],
+        "slug": "wardrobe-stone-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "illusion",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "hXHCR9NSRJlSADTa",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.hXHCR9NSRJlSADTa"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/pactmasters-grace.webp",
+      "name": "Pactmaster's Grace",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Granted by Katapesh's Pactmasters to influential merchants, exceptional Zephyr Guards, and favorite retainers, a pactmaster's grace is a crystal-studded blue platinum ring that sharpens the wearer's urban instincts. While invested, the ring grants a +2 item bonus to saving throws while you are in an urban setting, and this increases to a +3 item bonus if you have legendary proficiency in Guild Lore, Katapesh Lore, Mercantile Lore, or Society. You also gain a +3 item bonus to Mercantile Lore checks while wearing the ring, and you can attempt checks that require a proficiency rank of master in Society.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "terrain:urban"
+            ],
+            "selector": "saving-throw",
+            "slug": "pactmasters-grace-saves",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "override",
+            "predicate": [
+              "skill:society:rank:4"
+            ],
+            "selector": "saving-throw",
+            "slug": "pactmasters-grace-saves",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "mercantile",
+              "mercantile-lore",
+              "lore-mercantile"
+            ],
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "pactmasters-grace",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 14
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "iVVcb71hf3qf0FJZ",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.iVVcb71hf3qf0FJZ"
+    },
+    {
+      "img": "icons/commodities/treasure/medal-ribbon-gold-red.webp",
+      "name": "Brooch of Inspiration (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This finely cut garnet brooch fills your mind with vigor and occasional bursts of mental clarity. While wearing the brooch, you gain a +3 item bonus to checks to Recall Knowledge with any skill.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision (fortune)</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> You think hard on a topic and receive a sudden inspiration. You attempt to Recall Knowledge with any skill. On this check, you roll twice and take the higher result.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "skill-check",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "brooch-of-inspiration-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "bvkGSiFnvAkVNF4j",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.bvkGSiFnvAkVNF4j"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/consumables/talismans/basilisk-eye.webp",
+      "name": "Wardrobe Stone (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments. You gain +3 item bonus to Perception checks involving sight and you gain a +3 item bonus to a specific Lore skill associated with your outfit, such as Carpentry Lore when wearing a carpenter's outfit or Cooking Lore when wearing a chef's outfit.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the wardrobe stone to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of <em>illusory disguise</em>. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the wardrobe stone.</p>\n<hr />\n<p><strong>Activate</strong> (1 minute) envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{Scouting Eye}.</p>\n<hr />\n<p><strong>Activate</strong> (10 minutes) envision, Interact</p>\n<hr />\n<p><strong>Effect</strong> The wardrobe stone splits open and permanently transforms into a specific type of magical robe of your choosing. It can transform into any 20th-level or lower magical robe to which you have access, except for items that can't normally be Crafted, such as artifacts. This process is irreversible.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Greater Wardrobe Stone (Visual Perception Only)",
+            "predicate": [
+              "visual"
+            ],
+            "selector": "perception",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "wardrobe-stone-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "illusion",
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 55000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "4T9DzQIlQgXtl5v1",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.4T9DzQIlQgXtl5v1"
+    },
+    {
+      "img": "icons/equipment/neck/amulet-round-engraved-gold.webp",
+      "name": "Essence Charm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Anyone can use an <em>essence forge</em> to craft an <em>essence charm</em> without needing to know the formula for an <em>essence charm</em>. No larger than a coin, an <em>essence charm</em> is normally worn around the neck or hung from a belt—its exact appearance is up to the crafter. When an <em>essence charm</em> is created, its crafter selects a skill in which they are at least trained. The <em>essence charm</em> grants a +1 item bonus to that skill when worn.</p><hr /><p><strong>Activate—Lucky Charm</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail or critically fail a check using the <em>essence charm</em>'s chosen skill</p>\n<p><strong>Effect</strong> A failed check becomes a success, and a critical failure becomes a failure.</p>"
+        },
+        "rules": [
+          {
+            "choices": {
+              "config": "skills"
+            },
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "essence-charm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "QhwfaUZSKHjlAgOH",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.QhwfaUZSKHjlAgOH"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/art-objects/greater-art-object/fine-gold-spyglass.webp",
+      "name": "Starless Scope",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Even during the time of Thassilon, when the Order of the Starless Night still existed, <em>starless scopes</em> were uncommon. Today, this final scope might well be the last one to survive the passage of time.</p>\n<p>A <em>starless scope</em> is a handheld telescope crafted of silver and fine wood. When one peers at the sky through a <em>starless scope</em>, one always views the sky as if during a clear night. A <em>starless scope</em> adds a +2 item bonus to Astronomy Lore and Perception checks made to observe the skies, as it causes all celestial objects to dim when not directly observed, allowing its user to more easily observe their intended subject. It also grants a +2 item bonus to all Occultism checks made to @UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{Identify Magic}.</p>\n<p>A <em>starless scope</em> also functions as a divine focus for worshipers of Desna. The magic of a <em>starless scope</em> requires a specially prepared lens to function, and it's possible to shatter the lens if you roll poorly when activating the <em>starless scope</em>.</p>\n<p>Without a functional lens, a <em>starless scope</em> doesn't function. You can replace a shattered lens with a functional lens by taking a two-action activity with the manipulate trait. If you know the formula for the <em>starless scope</em>, you can Craft a new lens with a @Check[crafting|dc:25|name:Craft New Lens] (master) check.</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.QRtsLdNvTs2C1oI2]{Starless Scope Lens}</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> you worship Desna</p>\n<p><strong>Trigger</strong> you use the <em>starless scope</em> as a divine focus</p>\n<hr />\n<p><strong>Effect</strong> You attempt to enhance the effects of a spell as you cast it by attempting a Religion check against the spell's DC (DC set by level and rarity).</p>\n<hr />\n<p><strong>Critical Success</strong> Any attack rolls you make with the spell gain a +2 status bonus, and any saving throw a foe makes against the spell takes a -2 status penalty. If you would normally cast the spell from a spell slot, and the spell is 5th rank or lower, you don't spend the spell slot and cast the spell from the <em>starless scope</em> instead.</p>\n<p><strong>Success</strong> Any attack rolls you make with the spell gain a +1 status bonus, and any saving throw a foe makes against the spell takes a -1 status penalty.</p>\n<p><strong>Failure</strong> The spell is cast normally. Attempt a @Check[flat|dc:11]. On a failure, the <em>starless scope's</em> lens shatters.</p>\n<p><strong>Critical Failure</strong> The spell is disrupted and the <em>starless scope's</em> lens shatters.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (abjuration, divine) Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You raise the scope to your eye and observe a creature within 30 feet. You can attempt to identify the creature by Recalling Knowledge. The <em>starless scope</em> adds a +2 item bonus to this check. If the creature is associated with the Dominion of the Black or the Elder Mythos, or is a creature whose actions have blasphemed against Desna, the creature must attempt a @Check[will|dc:27|name:Starless Scope Recall Knowledge|traits:abjuration] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected, and the <em>starless scope's</em> lens shatters.</p>\n<p><strong>Success</strong> The creature shines with starlight for 1 round. During this time, the creature can't be concealed if it is visible. If it's invisible, it's concealed rather than being undetected. The creature takes a -1 status penalty to saving throws against divine effects while it shimmers with starlight.</p>\n<p><strong>Failure</strong> As success, but the creature also suffers an additional effect. An incorporeal creature loses its incorporeal trait as long as it shines with starlight. Any other creature becomes slowed 1 as long as it shines with starlight.</p>\n<p><strong>Critical Failure</strong> As failure, but the duration of the starlight is 1 minute, and the status penalty to saving throws against divine effects increases to -2.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "astronomy-lore",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:identify-magic"
+            ],
+            "selector": "occultism",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "RollOption",
+            "label": "Is astronomically observing the sky",
+            "option": "observe-sky",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "observe-sky"
+            ],
+            "selector": "perception",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "starless-scope",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder Adventure: Malevolence",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 650
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "DyaBq0iXKIUFkr2v",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.DyaBq0iXKIUFkr2v"
+    },
+    {
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "name": "The Empty Throne",
+      "system": {
+        "description": {
+          "gm": "<p><strong>Epitome</strong> When you epitomize <em>The Empty Throne</em>, assign it to a point of interest in the Harrow Court's lake area. This marks the location of a small rocky island atop which sits a mysterious empty throne. A character who travels to this island can perform a ritual of sacrifice before the empty throne in hopes of earning good fortune. To do so, the PC must offer valuables upon the throne that are worth 100 gp × the character's level, spend 1 hour meditating before the throne on the nature of loss, and then attempt a @Check[diplomacy|dc:30] check. Regardless of the check's result, the offering vanishes forever, and that PC cannot attempt a new offering until they gain an experience level and are no longer affected by their current offering.</p>\n<hr />\n<p><strong>Critical Success</strong> Once during the next month, you can reroll a failed or critically failed saving throw. This is a fortune effect.</p>\n<p><strong>Success</strong> As critical success, but you can only reroll a failed saving throw. This is a fortune effect.</p>\n<p><strong>Failure</strong> You gain no benefit from the meditation.</p>\n<p><strong>Critical Failure</strong> The next time you critically succeed at a significant or important saving throw, as determined by the GM, you must reroll that saving throw. This is a misfortune effect.</p>",
+          "value": "<p><strong>Suit</strong> Crown (Cha)</p>\n<p><strong>Alignment</strong> lawful good</p>\n<hr />\n<p><em>The Empty Throne</em> represents great loss and wisdom from those who are now gone. As long as you have <em>The Empty Throne</em> invested, it grants you a +2 item bonus to Society and Lore checks made to Recall Knowledge regarding individuals who are no longer alive (such as checks to learn about Taldor's historical founder, but not to learn about its current empress). This increases to a +3 item bonus if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You overwhelm a target you can see within 60 feet with feelings of helplessness and loss. The creature must attempt a @Check[will|against:class-spell] save with a DC equal to your class DC or spell DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target can't benefit from circumstance or status bonuses for 1 round.</p>\n<p><strong>Failure</strong> The target can't benefit from circumstance or status bonuses for 1 day, and the target's allies are unable to benefit from circumstance or status bonuses while within 15 feet of the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the duration is 1 week.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SkillVariant.RecallKnowledgeDeadSubject",
+            "predicate": [
+              "action:recall-knowledge",
+              "target:dead"
+            ],
+            "selector": [
+              "lore",
+              "society"
+            ],
+            "type": "item",
+            "value": "ternary(gte(@actor.level,17),3,2)"
+          }
+        ],
+        "slug": "the-empty-throne",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "harrow-court",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #190: The Choosing",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "1ERgI8hKdrpguPbe",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.1ERgI8hKdrpguPbe"
+    },
+    {
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "name": "The Hidden Truth",
+      "system": {
+        "description": {
+          "gm": "<p><strong>Epitome</strong> A group of mysterious scholars establishes libraries and study halls in the village surrounding Harrowheart. A PC who spends Downtime training with these scholars can Retrain feats, skills, and class features, provided the new feat, skill, or class feature is magic-themed. Feats and skill increases retrained here take only 5 days, while class features retrained here take only 3 weeks.</p>",
+          "value": "<p><strong>Suit</strong> Books (Int)</p>\n<p><strong>Alignment</strong> lawful good</p>\n<hr />\n<p><em>The Hidden Truth</em> represents the act of observing something beyond the obvious to gain obscure lore. As long as this card is invested, you gain a +2 item bonus to Lore checks made to Recall Knowledge, and to all checks made to Research while using the Research subsystem from the Gamemastery Guide. This increases to a +3 bonus if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> envision, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{Truesight}. The rank of the spell is one-half your level, rounded down (minimum 6th level). If you're at least 17th-level, you can affect up to three adjacent willing targets with this spell at the same time as you cast it.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "lore-skill-check",
+            "type": "item",
+            "value": "ternary(gte(@actor.level,17),3,2)"
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:research"
+            ],
+            "selector": "skill-check",
+            "slug": "hidden-truth-research",
+            "type": "item",
+            "value": "ternary(gte(@actor.level,17),3,2)"
+          }
+        ],
+        "slug": "the-hidden-truth",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "harrow-court",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #191: The Destiny War",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ZTb0JSDiG2DCc8nf",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.ZTb0JSDiG2DCc8nf"
+    },
+    {
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
+      "name": "Void Mirror",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Usage</strong> Mounted in frame</p>\n<hr />\n<p>The <em>Void Mirror</em> was created on a distant planet by a now-extinct alien cult to aid in unlocking the secrets of the Dark Tapestry. It appears as a 5-foot-tall, 2-foot-wide mirror of dark glass. As long as it's unmounted in a frame, the <em>Void Mirror</em> functions only as a mirror, save that it always reflects the sky as if it were night, regardless of the time of day. When the <em>Void Mirror</em> is mounted in a frame, it instead serves as a window into space, displaying a star field in its glass rather than a reflection. This frame can be of any quality, but stouter frames help to prevent the frame's destruction and thus help to keep the <em>Void Mirror</em> functional.</p>\n<p>The view presented by the <em>Void Mirror</em> is any view of the night sky possible from its current physical location, regardless of time of day. Observations of the sky in this way add a +3 item bonus to Astronomy Lore or Perception checks made while using the mirror. The point of view can be shifted through hand gestures, causing the scene within the mirror to reorient in any direction desired.</p>\n<p>A character who peers into the starscape within the <em>Void Mirror</em> must attempt a @Check[will|dc:41] save. On a <strong>failure</strong>, the character feels something looking back at them from the dark places between the stars. On a <strong>critical failure</strong>, this sensation causes the character to become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}. The character is then temporarily immune to this effect for 24 hours.</p>\n<p>By placing the <em>Void Mirror</em> in a specially-constructed frame, it can halt the ongoing transformation of a creature that has performed the apotheosis activation. Building such a frame is beyond the skill of low-level characters, as it requires an artisan with legendary proficiency in Crafting.</p>\n<p>The <em>Void Mirror</em> can be utilized in other ways, but before a character can activate these effects the occult methods to access these ritual-like effects must be Researched separately. Since the specific methods for these activations vary slightly from person to person, these methods can't be taught; each person who seeks to activate the <em>Void Mirror</em> in one of the following ways must complete their own research to unlock the artifact's secrets. Each requires a separate number of Occultism checks to Research, as detailed below for each activation.</p>\n<hr />\n<p><strong>Activate</strong> 1 hour (Interact)</p>\n<p><strong>Research</strong> Accumulate 12 RP by making @Check[occultism|dc:20] (expert) checks when Researching (1 week per attempt)</p>\n<p><strong>Frequency</strong> once per month</p>\n<hr />\n<p><strong>Effect</strong> The first activation ritual is known as \"Speak to the Void\" and allows the user to contact an intelligence in a distant part of the universe, provided the mirror shows that location (regardless of distance). This alien intelligence infuses the user's mind with answers, allowing the user to Recall Knowledge using Nature or Occultism as if they were legendary proficiency with the skill (including the +8 proficiency bonus). If this check fails, the character takes @Damage[10d6[mental]] damage (100 mental damage on a critical failure) as the imparted knowledge does more harm than good.</p>\n<hr />\n<p><strong>Activate</strong> 1 hour (Interact)</p>\n<p><strong>Research</strong> Accumulate 12 RP by making @Check[occultism|dc:30] (master) checks when Researching (1 month per attempt)</p>\n<p><strong>Frequency</strong> once per year</p>\n<hr />\n<p><strong>Effect</strong> The second activation ritual is known as \"Call from the Void.\" The user performs a 1-hour-long rite before the <em>Void Mirror</em>, during which they indicate a type of aberration, beast, fungus, ooze, or plant creature that's an alien life form from the planet the user is currently located on. The target creature must be a level equal to or less than the user's level +4. As the rite ends, the user attempts an @Check[occultism|defense:will] check against the target creature's Will DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is drawn across the universe to appear in a space adjacent to the <em>Void Mirror</em>. The creature's initial attitude toward the user is helpful, but this attitude can shift quickly if the creature realizes its goals and personality differs dramatically from the user's, or if the user makes a request of the creature that's against its nature. As long both the creature and the user are within 30 feet of the <em>Void Mirror</em>, the user can return the creature to its original location by Dismissing this activation. The creature can attempt a Will save against the user's Occultism DC to resist being returned; if it succeeds, it's temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> As critical success, but the creature is indifferent upon arrival.</p>\n<p><strong>Failure</strong> As critical success, but the creature is hostile upon arrival.</p>\n<p><strong>Critical Failure</strong> As failure, but magical feedback from the failed activation causes the user to become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<hr />\n<p><strong>Activate</strong> 7 days (Interact)</p>\n<p><strong>Research</strong> Accumulate 12 RP by making @Check[occultism|dc:40] (legendary) checks when Researching (1 year per attempt)</p>\n<p><strong>Frequency</strong> once per century</p>\n<hr />\n<p><strong>Effect</strong> The third activation ritual is known as \"Become the Void\" and requires the user to continue performing the rite for 7 consecutive days (as if they were performing a multi-day ritual). If the user fails to perform this rite for one of these 7 consecutive days, they immediately suffer the critical failure effect below.</p>\n<hr />\n<p><strong>Critical Success</strong> The user's body, mind, and soul are infused with alien energies drawn from the Dark Tapestry, which transforms the user into an aberration of a level no higher than their current level +4. This new form could be an existing aberration or a unique one of the GM's creation. The user retains their memories and spellcasting ability (including any rituals they know) but becomes chaotic evil and loses all other abilities they possessed in their previous form.</p>\n<p><strong>Success</strong> As critical success, but the aberration the user transforms into can be of a level no higher than half the user's current level.</p>\n<p><strong>Failure</strong> The user's attempt to change is a painful mistake that deals @Damage[(10d6+40)[bludgeoning]] damage as their body twists, bends and breaks. Ultimately, they are not transformed.</p>\n<p><strong>Critical Failure</strong> The user is slain, but their body shifts and transforms into a brand new creature as the bodiless alien intelligence Tchekuth incubates within the user's flesh, mind and soul. This transformation takes another 7 days to complete but can be halted indefinitely if the <em>Void Mirror</em> is placed in a specially constructed frame aimed at the body's location (regardless of any solid object between the mirror and the body). Slowing or stopping this transformation via other means requires complex rituals or divine intervention, subject to the GM's whim. After 7 days, the body completes its transformation and Tchekuth rises once more as a physical threat.</p>\n<hr />\n<p><strong>Destruction</strong> A creature that completes the apotheosis of Becoming the Void can destroy the <em>Void Mirror</em> by smashing it, though doing so also destroys the creature performing this action in a violent burst of occult energy.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "astronomy-lore",
+            "type": "item",
+            "value": 3
+          },
+          {
+            "key": "RollOption",
+            "label": "Is astronomically observing the mirror",
+            "option": "observe-mirror",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "observe-mirror"
+            ],
+            "selector": "perception",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "void-mirror",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder Adventure: Malevolence",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 3
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "SgIk8Ia4rDOIwxfr",
+      "_key": "!actors.items!XzqMhFoS9eqrdx5w.SgIk8Ia4rDOIwxfr"
+    }
+  ],
+  "folder": "MSWx8zu0hnkMWkWU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.1",
+    "createdTime": 1772505755104,
+    "modifiedTime": 1772508548039,
+    "lastModifiedBy": "GV5Yy0w5XjJdvzJa"
+  },
+  "_id": "XzqMhFoS9eqrdx5w",
+  "sort": 800000,
+  "_key": "!actors!XzqMhFoS9eqrdx5w"
+}

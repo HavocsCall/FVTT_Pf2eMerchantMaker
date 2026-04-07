@@ -1,0 +1,2757 @@
+{
+  "name": "Arcana Items",
+  "type": "loot",
+  "ownership": {
+    "default": 1,
+    "GV5Yy0w5XjJdvzJa": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Arcana Items",
+    "displayName": 20,
+    "texture": {
+      "src": "icons/sundries/books/book-embossed-spiral-purple-white.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "details": {
+      "description": "<p>Not all items are bonuses to ALL checks related to the skill. Read the item descriptions to see what actions the items actually increase.</p>",
+      "level": {
+        "value": 0
+      }
+    },
+    "lootSheetType": "Merchant",
+    "hiddenWhenEmpty": false
+  },
+  "img": "icons/sundries/books/book-embossed-spiral-purple-white.webp",
+  "items": [
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.jaBMZKdoywOTrQvP]{Effect: Cognitive Mutagen (Lesser)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "kaMfsbXu51BUzWnX",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.kaMfsbXu51BUzWnX"
+    },
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ztxW3lBPRcesF7wK]{Effect: Cognitive Mutagen (Moderate)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "dstt7OPU6kDoM4Mk",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.dstt7OPU6kDoM4Mk"
+    },
+    {
+      "img": "icons/equipment/head/hat-belted-simple-grey.webp",
+      "name": "Mage's Hat",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and is adorned with symbols or runes. It grants you a +1 item bonus to Arcana checks and allows you to cast the @UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation} cantrip as an arcane innate cantrip.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "mages-hat",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "tbkj9A6hEt1dKiPw",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.tbkj9A6hEt1dKiPw"
+    },
+    {
+      "img": "icons/equipment/head/hat-belted-simple-grey.webp",
+      "name": "Mage's Hat (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and is adorned with symbols or runes. It grants you a +2 item bonus to Arcana checks and allows you to cast the @UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation} cantrip as an arcane innate cantrip.</p>\n<p>This larger, fancier hat can be activated. Each <em>greater mage's hat</em> has a specific 4th-rank summon spell from the arcane list woven into its fabric, typically @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Summon Animal} or @UUID[Compendium.pf2e.spells-srd.Item.lpT6LotUaQPfinjj]{Summon Elemental}. If you prepare arcane spells, you can change the spell to a different 4th-rank arcane summon spell you know when you invest it.</p>\n<hr />\n<p><strong>Activate—Hat Spell</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You doff the hat, causing magical energy to pour from it. You cast the spell stored in the hat.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "mages-hat-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 650
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "0FA99NFPqtSIAysi",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.0FA99NFPqtSIAysi"
+    },
+    {
+      "img": "icons/equipment/chest/robe-collared-blue.webp",
+      "name": "Accolade Robe",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Although not all wizards have gone through formal training, it's become tradition to enchant robes representing the arduous training required and festoon them with honors one has earned. Typically, an <em>accolade robe</em> is styled after a single wizard school, with appropriate colors and symbols. Wearing these robes grants a +2 item bonus to Arcana checks.</p>\n<p>The pockets of the robe tie to an extradimensional space that can hold 1 Bulk of items, none of which can have greater than light Bulk. The items must be related to spellcasting and academics—spellbooks, scrolls, wands, scholarly journals, and other academic supplies the GM allows. These items do not count against your Bulk limit. You can Interact to retrieve or stow items normally.</p>\n<hr />\n<p><strong>Activate—Review</strong> <span class=\"action-glyph\">1</span> (concentrate, manipulate)</p>\n<p><strong>Effect</strong> You retrieve an item of your choice from the robe's storage, then Recall Knowledge.</p>\n<hr />\n<p><strong>Activate—Extra Credit</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a school spell. If you don't spend this Focus Point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a wizard of the associated school.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "accolade-robe",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worngarment"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "v2sW2mqT0TQiBiCh",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.v2sW2mqT0TQiBiCh"
+    },
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead. You become trained in one Intelligence-based skill [Arcana, Crafting, Lore, Occultism, Society], chosen at creation.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.qit1mLbJUyRTYcPU]{Effect: Cognitive Mutagen (Greater)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 300
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "DuC8VPioHlw7anTC",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.DuC8VPioHlw7anTC"
+    },
+    {
+      "img": "icons/equipment/back/cloak-layered-pink.webp",
+      "name": "Eidolon Cape",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Though it appears to be one elegant piece, an <em>eidolon cape</em> consists of a mantle for your shoulders and a detachable cape. The cape is designed to resemble your eidolon, either with a direct likeness or with features reminiscent of your eidolon. For instance, if your eidolon is a dragon, the cape might depict a stylized dragon, or it might have a pattern of colorful scales with gold trim. An eidolon cape features the sigil you share with your eidolon prominently in its design. You gain a +2 item bonus to the skill that matches your eidolon's tradition: Arcana for arcane, Religion for divine, Occultism for occult, or Nature for primal.</p>\n<p>When you Manifest your Eidolon, the cape transforms into the eidolon, and when the eidolon unmanifests, it turns back into the cape. If the cape is attached to the mantle, it comes free immediately, and the eidolon appears adjacent to you as normal. If not, the eidolon appears in a space adjacent to the cape. With the cape detached, the mantle is still light Bulk, and the whole cloak remains invested. If the cape is out of range (beyond 100 feet, typically) or there's not enough open space for the eidolon to manifest, your attempt to Manifest your Eidolon fails.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a summoner link spell. If not used by the end of your turn, this Focus Point is lost.</p><hr /><p><strong>Craft Requirements</strong> You are a summoner.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.TraitArcane",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.TraitDivine",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.TraitOccult",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.TraitPrimal",
+                "value": "nature"
+              }
+            ],
+            "flag": "eidolonCapeSelection",
+            "key": "ChoiceSet",
+            "prompt": "Select your eidolon's tradition"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.eidolonCapeSelection}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "eidolon-cape",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1400
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "6lkxfydky7KSY2Ud",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.6lkxfydky7KSY2Ud"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +2 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "helm-of-zeal",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "UNQ31YABx6aILkaT",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.UNQ31YABx6aILkaT"
+    },
+    {
+      "img": "icons/equipment/finger/ring-faceted-engraved-gold-purple.webp",
+      "name": "Master Magus Ring",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Elegant jewelry such as the <em>master magus ring</em> adorns experienced magi. Each ring has a significant metal and symbol to represent a particular hybrid study, such as a heavy iron ring with an icon of a mountain for @UUID[Compendium.pf2e.classfeatures.Item.ZslXrvYRxHBXc1Ds]{Inexorable Iron}, or glittering silver with a shield-like emblem for @UUID[Compendium.pf2e.classfeatures.Item.maGzhKLmgubAdUlN]{Sparkling Targe}. You gain a +2 item bonus to Arcana checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a magus conflux spell. If not used by the end of your turn, this Focus Point is lost.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The ring transports you and any items you're wearing and holding from your current space to an unoccupied space you can see within a range equal to your Speed. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the activation fails and is used.</p><hr /><p><strong>Craft Requirements</strong> You are a magus.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "master-magus-ring",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "eQBGxtVeY9FLvzUH",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.eQBGxtVeY9FLvzUH"
+    },
+    {
+      "img": "icons/equipment/chest/robe-collared-blue.webp",
+      "name": "Accolade Robe (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Although not all wizards have gone through formal training, it's become tradition to enchant robes representing the arduous training required and festoon them with honors one has earned. Typically, an <em>accolade robe</em> is styled after a single wizard school, with appropriate colors and symbols. Wearing these robes grants a +3 item bonus to Arcana checks.</p>\n<p>The pockets of the robe tie to an extradimensional space that can hold 1 Bulk of items, none of which can have greater than light Bulk. The items must be related to spellcasting and academics—spellbooks, scrolls, wands, scholarly journals, and other academic supplies the GM allows. These items do not count against your Bulk limit. You can Interact to retrieve or stow items normally.</p>\n<hr />\n<p><strong>Activate—Review</strong> <span class=\"action-glyph\">1</span> (concentrate, manipulate)</p>\n<p><strong>Effect</strong> You retrieve an item of your choice from the robe's storage, then Recall Knowledge.</p>\n<p>You can activate the robe's Review once per minute as a free action.</p>\n<hr />\n<p><strong>Activate—Extra Credit</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a school spell. If you don't spend this Focus Point by the end of this turn, it is lost.</p>\n<hr />\n<p><strong>Craft Requirements</strong> You are a wizard of the associated school.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "accolade-robe-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 13500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worngarment"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "qmsZdiyzhx31Zrz9",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.qmsZdiyzhx31Zrz9"
+    },
+    {
+      "img": "icons/consumables/potions/potion-vial-corked-purple.webp",
+      "name": "Cognitive Mutagen (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Your mind becomes clear, but physical matters seem ephemeral.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Arcana, Crafting, Lore, Occultism, and Society checks and all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}. Your critical failures on Recall Knowledge checks become failures instead. You become trained in one skill, chosen at creation.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to weapon and unarmed attack rolls, Athletics checks, and acrobatics checks. You can carry 2 less Bulk than normal before becoming encumbered, and the maximum Bulk you can carry is reduced by 4.</p>\n<p><strong>Duration</strong> 1 hour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.RT1BxXrbbGgk40Ti]{Effect: Cognitive Mutagen (Major)}</p>"
+        },
+        "rules": [],
+        "slug": "cognitive-mutagen-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "pSUMNtvN7vIFuRwX",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.pSUMNtvN7vIFuRwX"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +3 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "helm-of-zeal-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 21000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "a5kVgjvuWpKVzoNt",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.a5kVgjvuWpKVzoNt"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/held-items/possibility-tome.webp",
+      "name": "Possibility Tome",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An array of semiprecious stones is set into the ornate silver and beaten copper cover of this thick and weighty tome. If you open the book before it's been activated, its vellum pages are blank and pristine, but once activated, words dance and swim onto the pages before your eyes.</p>\n<p><strong>Activate—Skim</strong> 10 minutes (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effect</strong> As you flip through the book, you think about a broad topic you want to know more about.</p>\n<p>Choose one skill: Arcana, Crafting, Medicine, Nature, Occultism, Religion, Society, or a single subcategory of Lore. The book's pages fill with information about that skill, though only you can see the information.</p>\n<p>While the pages are full, you can spend an Interact action perusing the book just before attempting a check to Recall Knowledge with the chosen skill. This grants you a +3 item bonus to the check, and if you roll a critical failure, you get a failure instead.</p>\n<p>The information within the book disappears after 24 hours or when the tome is activated again.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Possibility Tome (Recall Knowledge)",
+            "predicate": [
+              "action:recall-knowledge"
+            ],
+            "selector": "skill-check",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "possibility-tome",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 22000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "2kZWMBQWBRLswTbr",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.2kZWMBQWBRLswTbr"
+    },
+    {
+      "img": "icons/equipment/finger/ring-band-engraved-silver.webp",
+      "name": "Ring of Wizardry (Type I)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ring is made from the purest platinum and is covered in esoteric arcane symbols. It does nothing unless you have a spellcasting class feature with the arcane tradition. While wearing the ring of wizardry, you gain a +1 item bonus to Arcana checks and have two additional 1st-rank arcane spell slots each day. You prepare spells in these slots or cast from them spontaneously, just as you normally cast your spells.</p>\n<p>If you take off the ring for any reason, you lose the additional spell slots. You can't gain spell slots from more than one ring of wizardry per day, nor can a single ring of wizardry grant spell slots more than once per day.</p>\n<p>If you can cast arcane spells in a variety of different ways (such as if you are a draconic bloodline sorcerer with the wizard multiclass archetype), you can divide the spell slots as you wish among your various sources of arcane spells.</p>\n<p><strong>Craft Requirements</strong> You have a spellcasting class feature with the arcane tradition.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "ring-of-wizardry-type-i",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "invested"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 360
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Udis9rBmUHNqBsLf",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.Udis9rBmUHNqBsLf"
+    },
+    {
+      "img": "icons/equipment/finger/ring-band-engraved-silver.webp",
+      "name": "Ring of Wizardry (Type II)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ring is made from the purest platinum and is covered in esoteric arcane symbols. It does nothing unless you have a spellcasting class feature with the arcane tradition. While wearing the ring of wizardry, you gain a +2 item bonus to Arcana checks and have two additional 2nd-rank and one additional 1st-rank arcane spell slot each day. You prepare spells in these slots or cast from them spontaneously, just as you normally cast your spells.</p>\n<p>If you take off the ring for any reason, you lose the additional spell slots. You can't gain spell slots from more than one ring of wizardry per day, nor can a single ring of wizardry grant spell slots more than once per day.</p>\n<p>If you can cast arcane spells in a variety of different ways (such as if you are a draconic bloodline sorcerer with the wizard multiclass archetype), you can divide the spell slots as you wish among your various sources of arcane spells.</p>\n<p><strong>Craft Requirements</strong> You have a spellcasting class feature with the arcane tradition.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "ring-of-wizardry-type-ii",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "invested"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "U03w51xyURyTMw7s",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.U03w51xyURyTMw7s"
+    },
+    {
+      "img": "icons/equipment/finger/ring-band-engraved-silver.webp",
+      "name": "Ring of Wizardry (Type III)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ring is made from the purest platinum and is covered in esoteric arcane symbols. It does nothing unless you have a spellcasting class feature with the arcane tradition. While wearing the ring of wizardry, you gain a +2 item bonus to Arcana checks and have two additional 3rd-rank and one additional 2nd-rank arcane spell slot each day. You prepare spells in these slots or cast from them spontaneously, just as you normally cast your spells.</p>\n<p>If you take off the ring for any reason, you lose the additional spell slots. You can't gain spell slots from more than one ring of wizardry per day, nor can a single ring of wizardry grant spell slots more than once per day.</p>\n<p>If you can cast arcane spells in a variety of different ways (such as if you are a draconic bloodline sorcerer with the wizard multiclass archetype), you can divide the spell slots as you wish among your various sources of arcane spells.</p>\n<p><strong>Craft Requirements</strong> You have a spellcasting class feature with the arcane tradition.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "ring-of-wizardry-type-iii",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "invested"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Syxeo2wG7nWI4KGH",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.Syxeo2wG7nWI4KGH"
+    },
+    {
+      "img": "icons/equipment/finger/ring-band-engraved-silver.webp",
+      "name": "Ring of Wizardry (Type IV)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ring is made from the purest platinum and is covered in esoteric arcane symbols. It does nothing unless you have a spellcasting class feature with the arcane tradition. While wearing the ring of wizardry, you gain a +2 item bonus to Arcana checks and have two additional 4th-rank and one additional 3rd-rank arcane spell slot each day. You prepare spells in these slots or cast from them spontaneously, just as you normally cast your spells.</p>\n<p>If you take off the ring for any reason, you lose the additional spell slots. You can't gain spell slots from more than one ring of wizardry per day, nor can a single ring of wizardry grant spell slots more than once per day.</p>\n<p>If you can cast arcane spells in a variety of different ways (such as if you are a draconic bloodline sorcerer with the wizard multiclass archetype), you can divide the spell slots as you wish among your various sources of arcane spells.</p>\n<p><strong>Craft Requirements</strong> You have a spellcasting class feature with the arcane tradition.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "arcana",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "ring-of-wizardry-type-iv",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "invested"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 14
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "dziXbb3UtyS4X4YY",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.dziXbb3UtyS4X4YY"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-orange-prism.webp",
+      "name": "Aeon Stone (Amplifying)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Over millennia, these mysterious, intricately cut gemstones have been hoarded by mystics and fanatics hoping to discover their secrets. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to construct the universe in primeval times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful Disarm action against you. A stowed or removed stone remains invested, but its effects are suppressed until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into a special magical item called a <em>wayfinder</em>.</p>\n<hr />\n<p>An <em>Amplifying aeon stone</em> must be activated to provide a benefit. The resonant power grants you a +2 item bonus to Arcana, Nature, Occultism, or Religion checks-whichever corresponds to the tradition of the last spell you enhanced with this <em>aeon stone</em>.</p>\n<hr />\n<p><strong>Activate—Amplify</strong> <span class=\"action-glyph\">1</span> (concentrate, spellshape)</p>\n<p><strong>Effect</strong> If your next action is to Cast a Spell, that spell's rank is 1 higher (maximum 10th rank) for the purposes of counteracting and being counteracted.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.kdcVvwVVsttZgX1Y]{Effect: Aeon Stone Resonance (Amplifying)}</p>"
+        },
+        "rules": [],
+        "slug": "aeon-stone-amplifying",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 16
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 9750
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "z97ev0aYouoRQUAF",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.z97ev0aYouoRQUAF"
+    },
+    {
+      "img": "icons/equipment/neck/amulet-round-engraved-gold.webp",
+      "name": "Essence Charm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Anyone can use an <em>essence forge</em> to craft an <em>essence charm</em> without needing to know the formula for an <em>essence charm</em>. No larger than a coin, an <em>essence charm</em> is normally worn around the neck or hung from a belt—its exact appearance is up to the crafter. When an <em>essence charm</em> is created, its crafter selects a skill in which they are at least trained. The <em>essence charm</em> grants a +1 item bonus to that skill when worn.</p><hr /><p><strong>Activate—Lucky Charm</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail or critically fail a check using the <em>essence charm</em>'s chosen skill</p>\n<p><strong>Effect</strong> A failed check becomes a success, and a critical failure becomes a failure.</p>"
+        },
+        "rules": [
+          {
+            "choices": {
+              "config": "skills"
+            },
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "essence-charm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "R0NwoBYaxlWVznOa",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.R0NwoBYaxlWVznOa"
+    },
+    {
+      "img": "icons/tools/smithing/crucible.webp",
+      "name": "Essence Forge (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An <em>essence forge</em> consists of a large stone workbench with a receptacle for fuel built into the left side. Sparkling crystals are embedded across the forge's structure, with additional flourishes made from a different material, as appropriate to the type of forge.</p>\n<p><em>Life forges</em> are adorned with fossilized bones and petrified wood. They're used to craft items associated with the divine and primal magic traditions. One must attempt a Nature or Religion check to prime a <em>life forge</em>.</p>\n<p><em>Matter forges</em> are decorated with strips of precious metal. They can be used to craft items associated with the arcane and primal magic traditions. One must attempt an Arcana or Nature check to prime a <em>matter forge</em>.</p>\n<p><em>Mind forges</em> are accentuated with glittering gemstones. They can be used to craft items associated with the arcane and occult magic traditions. One must attempt an Arcana or Occultism check to prime a <em>mind forge</em>.</p>\n<p><em>Spirit forges</em> are emblazoned with strange runes and obscure symbols enhanced by different pigments. They can be used to craft items associated with the divine and occult magic traditions. One must attempt an Occultism or Religion check to prime a <em>spirit forge</em>.</p><hr /><p><strong>Activate—Prime the Forge</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> doesn't currently contain any stored essence</p>\n<p><strong>Effect</strong> You prepare the <em>essence forge</em> for use by placing raw materials in its receptacle then spend an hour concentrating on the forge, using your own magical potential to consume the materials. The combined gp value of the raw materials sets the maximum price of the item you can craft with the <em>essence forge</em>. An <em>essence forge</em>'s receptacle can hold no more than 3 Bulk of raw materials, so coins, gemstones, or small valuable objects or items make for the best sources of fuel. Attempt an @Check[arcana|dc:20], @Check[nature|dc:20], @Check[occultism|dc:20], or @Check[religion|dc:20] check as appropriate for the tradition of <em>essence forge</em> you're using to focus your magical potential on the receptacle.</p>\n<p><strong>Critical Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials. Additional essence overflows back into you, granting a +1 item bonus to the skill you used to Prime the Forge for the next 24 hours.</p>\n<p><strong>Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials.</p>\n<p><strong>Failure</strong> The raw materials are consumed, but the burn is inefficient, and the <em>essence forge</em> stores essence equal to half the value of the raw materials.</p>\n<p><strong>Critical Failure</strong> The raw materials are consumed and lost, but no essence is stored in the forge; the raw materials are wasted.</p><hr /><p><strong>Activate—Craft an Item</strong> 2 hours (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> has been primed with raw materials equaling or exceeding the value of the item you intend to craft, and you are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Effect</strong> You place your hands atop the forge's workspace and focus your concentration on the essence contained within the forge. Choose an item whose formula you have and whose level is equal to or less than the <em>essence forge</em>'s level, or choose an @UUID[Compendium.pf2e.equipment-srd.Item.6BGWlWFEX3gRRnWa]{Essence Charm}. The <em>essence forge</em> begins to construct that item as you concentrate, causing an increasingly realistic illusion of the item to come into focus atop the forge's workspace. Attempt a Crafting check with a DC determined by the forge's type (lesser, moderate, or greater); this check earns Forge Points (using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.EBWqgmHdFUYBTD0a]{Victory Point} system). You can sustain this activation for up to 8 hours; each time you sustain the activation, attempt another Crafting check to earn Forge Points. When you choose to end the activation, you become fatigued, and any remaining essence stored in the forge dissipates with no further effect. Consult the <em>Essence Forge</em> Crafting section below to determine if you were successful in crafting the item you chose.</p><hr /><p><strong>Activate—Absorb Essence</strong> <span class=\"action-glyph\">1</span> (concentrate, healing, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> contains essence</p>\n<p><strong>Effect</strong> You absorb the essence in the forge, emptying it and allowing it to be primed. If the essence value in the forge is equal to or greater than 50 gp, the forge heals you for @Damage[(3d8+10)[healing]] HP. Otherwise the absorbed essence has no effect.</p><h2><em>Essence Forge</em> Crafting</h2><p>When you finish crafting with an <em>essence forge</em>, consult the following to determine how successful you were.</p>\n<p><strong>0 or fewer Forge Points:</strong> The essence was tainted or your concentration was lacking. An illusory object manifests, but it's a non-magical, worthless level 0 replica of the item you intended to craft.</p>\n<p><strong>1–3 Forge Points:</strong> The item you craft is functional but temporary. It falls apart after it's activated or after 24 hours, whichever comes first.</p>\n<p><strong>4–5 Forge Points:</strong> You successfully craft the item.</p>\n<p><strong>6 or more Forge Points:</strong> You successfully craft the item, and it works better than expected. Choose one of the following enhancements to add to the item:</p><ul><li>If the item has an activation that has a frequency of once per day, that activation can be made an additional time each day.</li><li>If the item has an activation that has a save DC or Strike modifier, that DC or Strike gains a +1 bonus.</li><li>If the item is an invested item, it grants a +1 item bonus to initiative checks as long as you have it invested.</li><li>The item is well crafted and can be sold for 60%</li></ul>"
+        },
+        "rules": [],
+        "slug": "essence-forge-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 20
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "mJvuw22FrjqxAxRK",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.mJvuw22FrjqxAxRK"
+    },
+    {
+      "img": "icons/tools/smithing/crucible.webp",
+      "name": "Essence Forge (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An <em>essence forge</em> consists of a large stone workbench with a receptacle for fuel built into the left side. Sparkling crystals are embedded across the forge's structure, with additional flourishes made from a different material, as appropriate to the type of forge.</p>\n<p><em>Life forges</em> are adorned with fossilized bones and petrified wood. They're used to craft items associated with the divine and primal magic traditions. One must attempt a Nature or Religion check to prime a <em>life forge</em>.</p>\n<p><em>Matter forges</em> are decorated with strips of precious metal. They can be used to craft items associated with the arcane and primal magic traditions. One must attempt an Arcana or Nature check to prime a <em>matter forge</em>.</p>\n<p><em>Mind forges</em> are accentuated with glittering gemstones. They can be used to craft items associated with the arcane and occult magic traditions. One must attempt an Arcana or Occultism check to prime a <em>mind forge</em>.</p>\n<p><em>Spirit forges</em> are emblazoned with strange runes and obscure symbols enhanced by different pigments. They can be used to craft items associated with the divine and occult magic traditions. One must attempt an Occultism or Religion check to prime a <em>spirit forge</em>.</p><hr /><p><strong>Activate—Prime the Forge</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> doesn't currently contain any stored essence</p>\n<p><strong>Effect</strong> You prepare the <em>essence forge</em> for use by placing raw materials in its receptacle then spend an hour concentrating on the forge, using your own magical potential to consume the materials. The combined gp value of the raw materials sets the maximum price of the item you can craft with the <em>essence forge</em>. An <em>essence forge</em>'s receptacle can hold no more than 3 Bulk of raw materials, so coins, gemstones, or small valuable objects or items make for the best sources of fuel. Attempt an @Check[arcana|dc:30], @Check[nature|dc:30], @Check[occultism|dc:30], or @Check[religion|dc:30] check as appropriate for the tradition of <em>essence forge</em> you're using to focus your magical potential on the receptacle.</p>\n<p><strong>Critical Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials. Additional essence overflows back into you, granting a +2 item bonus to the skill you used to Prime the Forge for the next 24 hours.</p>\n<p><strong>Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials.</p>\n<p><strong>Failure</strong> The raw materials are consumed, but the burn is inefficient, and the <em>essence forge</em> stores essence equal to half the value of the raw materials.</p>\n<p><strong>Critical Failure</strong> The raw materials are consumed and lost, but no essence is stored in the forge; the raw materials are wasted.</p><hr /><p><strong>Activate—Craft an Item</strong> 2 hours (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> has been primed with raw materials equaling or exceeding the value of the item you intend to craft, and you are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Effect</strong> You place your hands atop the forge's workspace and focus your concentration on the essence contained within the forge. Choose an item whose formula you have and whose level is equal to or less than the <em>essence forge</em>'s level, or choose an @UUID[Compendium.pf2e.equipment-srd.Item.6BGWlWFEX3gRRnWa]{Essence Charm}. The <em>essence forge</em> begins to construct that item as you concentrate, causing an increasingly realistic illusion of the item to come into focus atop the forge's workspace. Attempt a Crafting check with a DC determined by the forge's type (lesser, moderate, or greater); this check earns Forge Points (using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.EBWqgmHdFUYBTD0a]{Victory Point} system). You can sustain this activation for up to 8 hours; each time you sustain the activation, attempt another Crafting check to earn Forge Points. When you choose to end the activation, you become fatigued, and any remaining essence stored in the forge dissipates with no further effect. Consult the <em>Essence Forge</em> Crafting section below to determine if you were successful in crafting the item you chose.</p><hr /><p><strong>Activate—Absorb Essence</strong> <span class=\"action-glyph\">1</span> (concentrate, healing, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> contains essence</p>\n<p><strong>Effect</strong> You absorb the essence in the forge, emptying it and allowing it to be primed. If the essence value in the forge is equal to or greater than 400 gp, the forge heals you for @Damage[(6d8+20)[healing]] HP. Otherwise the absorbed essence has no effect.</p><h2><em>Essence Forge</em> Crafting</h2><p>When you finish crafting with an <em>essence forge</em>, consult the following to determine how successful you were.</p>\n<p><strong>0 or fewer Forge Points:</strong> The essence was tainted or your concentration was lacking. An illusory object manifests, but it's a non-magical, worthless level 0 replica of the item you intended to craft.</p>\n<p><strong>1–3 Forge Points:</strong> The item you craft is functional but temporary. It falls apart after it's activated or after 24 hours, whichever comes first.</p>\n<p><strong>4–5 Forge Points:</strong> You successfully craft the item.</p>\n<p><strong>6 or more Forge Points:</strong> You successfully craft the item, and it works better than expected. Choose one of the following enhancements to add to the item:</p><ul><li>If the item has an activation that has a frequency of once per day, that activation can be made an additional time each day.</li><li>If the item has an activation that has a save DC or Strike modifier, that DC or Strike gains a +1 bonus.</li><li>If the item is an invested item, it grants a +1 item bonus to initiative checks as long as you have it invested.</li><li>The item is well crafted and can be sold for 60%</li></ul>"
+        },
+        "rules": [],
+        "slug": "essence-forge-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 20
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "A7U8Qkplh3WWND0d",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.A7U8Qkplh3WWND0d"
+    },
+    {
+      "img": "icons/tools/smithing/crucible.webp",
+      "name": "Essence Forge (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An <em>essence forge</em> consists of a large stone workbench with a receptacle for fuel built into the left side. Sparkling crystals are embedded across the forge's structure, with additional flourishes made from a different material, as appropriate to the type of forge.</p>\n<p><em>Life forges</em> are adorned with fossilized bones and petrified wood. They're used to craft items associated with the divine and primal magic traditions. One must attempt a Nature or Religion check to prime a <em>life forge</em>.</p>\n<p><em>Matter forges</em> are decorated with strips of precious metal. They can be used to craft items associated with the arcane and primal magic traditions. One must attempt an Arcana or Nature check to prime a <em>matter forge</em>.</p>\n<p><em>Mind forges</em> are accentuated with glittering gemstones. They can be used to craft items associated with the arcane and occult magic traditions. One must attempt an Arcana or Occultism check to prime a <em>mind forge</em>.</p>\n<p><em>Spirit forges</em> are emblazoned with strange runes and obscure symbols enhanced by different pigments. They can be used to craft items associated with the divine and occult magic traditions. One must attempt an Occultism or Religion check to prime a <em>spirit forge</em>.</p><hr /><p><strong>Activate—Prime the Forge</strong> 1 minute (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> doesn't currently contain any stored essence</p>\n<p><strong>Effect</strong> You prepare the <em>essence forge</em> for use by placing raw materials in its receptacle then spend an hour concentrating on the forge, using your own magical potential to consume the materials. The combined gp value of the raw materials sets the maximum price of the item you can craft with the <em>essence forge</em>. An <em>essence forge</em>'s receptacle can hold no more than 3 Bulk of raw materials, so coins, gemstones, or small valuable objects or items make for the best sources of fuel. Attempt an @Check[arcana|dc:40], @Check[nature|dc:40], @Check[occultism|dc:40], or @Check[religion|dc:40] check as appropriate for the tradition of <em>essence forge</em> you're using to focus your magical potential on the receptacle.</p>\n<p><strong>Critical Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials. Additional essence overflows back into you, granting a +3 item bonus to the skill you used to Prime the Forge for the next 24 hours.</p>\n<p><strong>Success</strong> The raw materials are consumed, and the <em>essence forge</em> stores essence equal to the value of the raw materials.</p>\n<p><strong>Failure</strong> The raw materials are consumed, but the burn is inefficient, and the <em>essence forge</em> stores essence equal to half the value of the raw materials.</p>\n<p><strong>Critical Failure</strong> The raw materials are consumed and lost, but no essence is stored in the forge; the raw materials are wasted.</p><hr /><p><strong>Activate—Craft an Item</strong> 2 hours (concentrate, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> has been primed with raw materials equaling or exceeding the value of the item you intend to craft, and you are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Effect</strong> You place your hands atop the forge's workspace and focus your concentration on the essence contained within the forge. Choose an item whose formula you have and whose level is equal to or less than the <em>essence forge</em>'s level, or choose an @UUID[Compendium.pf2e.equipment-srd.Item.6BGWlWFEX3gRRnWa]{Essence Charm}. The <em>essence forge</em> begins to construct that item as you concentrate, causing an increasingly realistic illusion of the item to come into focus atop the forge's workspace. Attempt a Crafting check with a DC determined by the forge's type (lesser, moderate, or greater); this check earns Forge Points (using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.EBWqgmHdFUYBTD0a]{Victory Point} system). You can sustain this activation for up to 8 hours; each time you sustain the activation, attempt another Crafting check to earn Forge Points. When you choose to end the activation, you become fatigued, and any remaining essence stored in the forge dissipates with no further effect. Consult the <em>Essence Forge</em> Crafting section below to determine if you were successful in crafting the item you chose.</p><hr /><p><strong>Activate—Absorb Essence</strong> <span class=\"action-glyph\">1</span> (concentrate, healing, manipulate)</p>\n<p><strong>Requirements</strong> The <em>essence forge</em> contains essence</p>\n<p><strong>Effect</strong> You absorb the essence in the forge, emptying it and allowing it to be primed. If the essence value in the forge is equal to or greater than 5,000 gp, the forge heals you for @Damage[(8d8+30)[healing]] HP. Otherwise the absorbed essence has no effect.</p><h2><em>Essence Forge</em> Crafting</h2><p>When you finish crafting with an <em>essence forge</em>, consult the following to determine how successful you were.</p>\n<p><strong>0 or fewer Forge Points:</strong> The essence was tainted or your concentration was lacking. An illusory object manifests, but it's a non-magical, worthless level 0 replica of the item you intended to craft.</p>\n<p><strong>1–3 Forge Points:</strong> The item you craft is functional but temporary. It falls apart after it's activated or after 24 hours, whichever comes first.</p>\n<p><strong>4–5 Forge Points:</strong> You successfully craft the item.</p>\n<p><strong>6 or more Forge Points:</strong> You successfully craft the item, and it works better than expected. Choose one of the following enhancements to add to the item:</p><ul><li>If the item has an activation that has a frequency of once per day, that activation can be made an additional time each day.</li><li>If the item has an activation that has a save DC or Strike modifier, that DC or Strike gains a +1 bonus.</li><li>If the item is an invested item, it grants a +1 item bonus to initiative checks as long as you have it invested.</li><li>The item is well crafted and can be sold for 60%</li></ul>"
+        },
+        "rules": [],
+        "slug": "essence-forge-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 20
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 24000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ydcJALqIl1yFufff",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.ydcJALqIl1yFufff"
+    },
+    {
+      "img": "icons/equipment/back/mantle-collared-black.webp",
+      "name": "Stage Magician's Cloak",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This black velvet cloak has a silvery blue iridescent lining. The cloak can be worn with either side facing out—switching from one side to the other requires two Interact actions. If these actions are both taken on the same turn, the act of removing and redonning the cloak doesn't cause it to lose its investiture. When worn with the black velvet lining facing out, the stage magician's cloak grants a +2 item bonus to Occultism checks. When worn with the silvery blue lining facing out, it grants a +2 item bonus to Arcana checks.</p><hr /><p><strong>Activate—Now You See Me...</strong> <span class=\"action-glyph\">2</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Distracting colorful smoke blasts outward from the cloak in a @Template[emanation|distance:10], causing all creatures in the area to become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn (@Check[will|dc:30] save). If you were previously @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, or undetected, you lose those conditions. You become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 round and may use the extra action to Interact, Strike, or Stride.</p><hr /><p><strong>Activate—...Now You Don't</strong> <span class=\"action-glyph\">2</span> (manipulate, teleportation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> Harmless silver smoke issues from the cloak in a @Template[emanation|distance:10]. You cast a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} on yourself and are transported, along with all items you're wearing and holding, from your current space to an unoccupied space within 30 feet that you can see. If this would bring another creature with you—even if you're carrying it in an extradimensional space—the transportation part of this effect fails.</p>"
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "key": "RollOption",
+            "option": "stage-magicians-cloak",
+            "suboptions": [
+              {
+                "label": "PF2E.Color.Black",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Color.Blue",
+                "value": "arcana"
+              }
+            ],
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.stageMagiciansCloak}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "stage-magicians-cloak",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #204: Stage Fright",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "VanshZSS3rdK9xRw",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.VanshZSS3rdK9xRw"
+    },
+    {
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "name": "The Silent Hag",
+      "system": {
+        "description": {
+          "gm": "<p><strong>Epitome</strong> An unsettling statue of a crouching, eyeless hag with an open mouth manifests in a small chamber in Harrowheart. This mouth can accommodate most crystal balls. A crystal ball placed within the mouth is enhanced— its save DC increases by 1, its <em>scrying</em> activation can be activated three times per day instead of twice per day, and its effects can extend beyond the planar borders of the Harrow Court to target creatures on Golarion.</p>",
+          "value": "<p><strong>Suit</strong> Star (Wis)</p>\n<p><strong>Alignment</strong> neutral evil</p>\n<hr />\n<p><em>The Silent Hag</em> represents insight, treacherous secrets, and strife. As long as you have <em>The Silent Hag</em> invested, it grants you a +2 item bonus to Arcana, Nature, Occultism, or Religion checks to Recall Knowledge—when you invest the card, choose which of these four skills gains the bonus. You can change the skill by investing the card again. This increases to a +3 item bonus if you are at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">3</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> You choose to lose one of your senses and gain another until you use this activation again. Choose from one of the following:</p>\n<ul>\n<li>Your eyes are replaced by dark pits that see only death. You become @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} and gain lifesense, an imprecise sense out to 60 feet. Lifesense allows you to see the vital essence of living and undead creatures, distinguishing between the vitality energy animating living creatures and void energy animating undead creatures, much as sight distinguishes colors.</li>\n<li>Your ears close up then become covered with hairs that are sensitive to movement. You become @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, but you can't be flanked.</li>\n<li>Your mouth seals over with flesh. You lose the ability to speak, but you do not need to breathe.</li>\n</ul>"
+        },
+        "rules": [],
+        "slug": "the-silent-hag",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "harrow-court",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #190: The Choosing",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "8TirQkTRlXAzbU7R",
+      "_key": "!actors.items!IykRGgm3u3cHYxqg.8TirQkTRlXAzbU7R"
+    }
+  ],
+  "folder": "MSWx8zu0hnkMWkWU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.1",
+    "createdTime": 1772333170726,
+    "modifiedTime": 1772508519927,
+    "lastModifiedBy": "GV5Yy0w5XjJdvzJa"
+  },
+  "_id": "IykRGgm3u3cHYxqg",
+  "sort": 300000,
+  "_key": "!actors!IykRGgm3u3cHYxqg"
+}

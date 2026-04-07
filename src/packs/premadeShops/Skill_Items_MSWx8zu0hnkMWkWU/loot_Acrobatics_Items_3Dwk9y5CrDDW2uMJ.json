@@ -1,0 +1,5431 @@
+{
+  "name": "Acrobatics Items",
+  "type": "loot",
+  "ownership": {
+    "default": 1,
+    "GV5Yy0w5XjJdvzJa": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Acrobatics Items",
+    "displayName": 20,
+    "texture": {
+      "src": "icons/skills/movement/figure-running-gray.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "details": {
+      "description": "<p>Not all items are bonuses to ALL checks related to the skill. Read the item descriptions to see what actions the items actually increase.</p>",
+      "level": {
+        "value": 0
+      }
+    },
+    "lootSheetType": "Merchant",
+    "hiddenWhenEmpty": false
+  },
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "items": [
+    {
+      "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+      "name": "Bendy-Arm Mutagen (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>For 1 minute your limbs become extremely limber, letting you stretch and twist to extreme degrees at the cost of fine motor skills.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze}, and @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, and you increase your reach by 5 feet.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.FDSl6DFblUjITOgP]{Effect: Choker-Arm Mutagen (Lesser)}</p>"
+        },
+        "rules": [],
+        "slug": "bendy-arm-mutagen-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "Ll3IUj958myDHyoI",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.Ll3IUj958myDHyoI"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/drugs/blood-sap.webp",
+      "name": "Blood Sap",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This potent drug is distilled from a certain tropical vine into a deep-red syrup that, over time, stains the user's lips and teeth a vivid shade of red.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p>\n<p><strong>Onset</strong> 10 minutes</p>\n<p><strong>Maximum Duration</strong> 3 hours</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}, +1 item bonus to weapon and unarmed attack rolls, Acrobatics checks, and Athletics checks (10 minutes)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (1 hour)</p>"
+        },
+        "rules": [],
+        "slug": "blood-sap",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "drug",
+            "ingested",
+            "poison"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Gamemastery Guide",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "drug",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "bTuRneHH1UVZLtPH",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.bTuRneHH1UVZLtPH"
+    },
+    {
+      "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+      "name": "Theatrical Mutagen (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 1 minute.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +5 feet status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}, Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.euBiKyqrcefeuv4H]{Effect: Theatrical Mutagen (Lesser)}</p>"
+        },
+        "rules": [],
+        "slug": "theatrical-mutagen-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "isZlijkqMJKefkrt",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.isZlijkqMJKefkrt"
+    },
+    {
+      "img": "icons/equipment/back/cloak-collared-blue.webp",
+      "name": "Aerial Cloak",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This blue cloak is surprisingly light for its length and seems to catch wind bursts in its tail, flying out behind the wearer while cushioning falls and easing jumps. The sides of the cloak are slightly weighted, making it easy to grab ahold of when it fills with air. This cloak grants you a +1 item bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} and a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} or @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{Maneuver in Flight}.</p>\n<hr />\n<p><strong>Activate—Fall Gently</strong> <span class=\"action-glyph\">R</span> (concentrate, air)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're falling</p>\n<hr />\n<p><strong>Effect</strong> The cloak catches the air and you grab onto its edges, utilizing the draft to guide you to safety. Treat your fall as 30 feet shorter and glide to a space of your choice at the bottom of your fall, which must be within 20 feet of where you would've landed</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:leap"
+            ],
+            "selector": "athletics",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:balance",
+                  "action:maneuver-in-flight"
+                ]
+              }
+            ],
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "aerial-cloak",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "air",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 60
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "AOFdwV2GgMpk2hzt",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.AOFdwV2GgMpk2hzt"
+    },
+    {
+      "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+      "name": "Bendy-Arm Mutagen (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>For 10 minutes your limbs become extremely limber, letting you stretch and twist to extreme degrees at the cost of fine motor skills.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze}, and @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, and you increase your reach by 5 feet.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.IBu1RWKW5JX70nse]{Effect: Bendy-Arm Mutagen (Moderate)}</p>"
+        },
+        "rules": [],
+        "slug": "bendy-arm-mutagen-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "sW4GNcYFCPgJlI6J",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.sW4GNcYFCPgJlI6J"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/bracelet-of-dashing.webp",
+      "name": "Bracelet of Dashing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This jangling, silvery bracelet makes you lighter on your feet, giving you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate—Jangling Dash</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain a +10-foot status bonus to Speed for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lLP56tbG689TNKW5]{Effect: Bracelet of Dashing}</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "bracelet-of-dashing",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 58
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "IsBmZtavmMWvTf5b",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.IsBmZtavmMWvTf5b"
+    },
+    {
+      "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+      "name": "Theatrical Mutagen (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 1 minute.</p>\n<p><strong>Benefit</strong> You gain a +2 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +5 feet status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}, Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.G1IwG9HRH9CRtHqj]{Effect: Theatrical Mutagen (Moderate)}</p>"
+        },
+        "rules": [],
+        "slug": "theatrical-mutagen-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "uXNHHyoghhVX7kQp",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.uXNHHyoghhVX7kQp"
+    },
+    {
+      "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+      "name": "Whip Tail",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You have a strong, prehensile tail. You gain a tail unarmed attack that deals 1d6 bludgeoning damage. This tail is in the brawling group. You gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} and to Athletics checks to Climb. You can also use your tail for the @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge} action, even if your hands are otherwise occupied.</p>"
+        },
+        "rules": [
+          {
+            "category": "unarmed",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d6"
+              }
+            },
+            "group": "brawling",
+            "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+            "key": "Strike",
+            "label": "PF2E.BattleForm.Attack.Tail",
+            "slug": "tail",
+            "traits": [
+              "unarmed"
+            ]
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:balance",
+                  "action:climb"
+                ]
+              }
+            ],
+            "selector": [
+              "athletics",
+              "acrobatics"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "whip-tail",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "graft",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Howl of the Wild",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 45
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "implanted"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "pxEpclxgzD5RTCgk",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.pxEpclxgzD5RTCgk"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/other/spellhearts/five-feather-wreath.webp",
+      "name": "Five-Feather Wreath",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Identical feathers radiate from the center of this spellheart, held in place by woven straw. The spell attack roll of any spell cast by Activating this item is +8, and the spell DC is 18.</p>\n<ul>\n<li><strong>Armor</strong> You gain a +1 item bonus to Acrobatics checks and resistance 2 to falling damage.</li>\n<li><strong>Weapon</strong> After you cast an air spell by Activating the <em>wreath</em>, you can Fly 5 feet as a single action, or you can Fly 10 feet as a free action if the spell you cast wasn't a cantrip. This must be your next action, and if you don't have a fly Speed, you must end the flight on solid ground or fall.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.nQ6vM1CRLyvQdGLG]{Effect: Five-Feather Wreath - Armor}</p>\n<hr />\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.dDiOnjcsBFbAvP6t]{Gale Blast}.</p>"
+        },
+        "rules": [],
+        "slug": "five-feather-wreath",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "air",
+            "magical",
+            "spellheart"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 90
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "affixed-to-metal-armor-or-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "h6UtY7jQZ3VVLGG7",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.h6UtY7jQZ3VVLGG7"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/consumable.svg",
+      "name": "Sure-Step Potion",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>The light-brown liquid of a sure-step potion helps you find your footing. After drinking it, you gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} for 1 hour. In addition, you can Step into difficult terrain, and you aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} on uneven ground.</p>"
+        },
+        "rules": [],
+        "slug": "sure-step-potion",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "magical",
+            "potion"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 17
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "z0Y0LaKI93FQGxiY",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.z0Y0LaKI93FQGxiY"
+    },
+    {
+      "img": "icons/commodities/leather/leather-studded-tan.webp",
+      "name": "Tasset of Flexibility",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You can attach these light-brown leather flaps adorned with gold stitching to a breastplate or even clothing to protect your upper legs in battle. They give you the freedom to move your body to its limit without worrying about exposing yourself to a hit. While wearing the tasset of flexibility, you gain a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate—Lunging Attack</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The tasset helps you stretch farther than you normally could. Make a Strike with a melee weapon, increasing your reach by 5 feet for that Strike.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "tasset-of-flexibility",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Battlecry!",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 0,
+            "gp": 100,
+            "pp": 0,
+            "sp": 0
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "K7Fu8oGyy6y29IU6",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.K7Fu8oGyy6y29IU6"
+    },
+    {
+      "img": "icons/equipment/feet/boots-collared-green.webp",
+      "name": "Arboreal Boots",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These soft leather boots are embossed with simple woodland scenes. The boots grant a +1 item bonus to Acrobatics and allow you to ignore difficult terrain from plants and fungi.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "arboreal-boots",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "primal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 160
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "PWi0vErugGF8LFQl",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.PWi0vErugGF8LFQl"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/egg-cream-fizz.webp",
+      "name": "Egg Cream Fizz",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Containing neither eggs nor cream, an egg cream fizz contains milk or nut milk, sparkling water, and flavored syrup, frothed and chilled. Upon drinking, you feel lighter and more buoyant, gaining a +5-foot item bonus to your Speed for 10 minutes. During this time, you also gain another effect determined by the drink's syrup, which is chosen when the drink is created.</p><ul><li><strong>Chocolate</strong> You gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}, Maneuver in Flight, and Squeeze.</li><li><strong>Strawberry</strong> You gain a +1 item bonus to Athletics checks to Climb, @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, and Swim.</li><li><strong>Vanilla</strong> You can Step into difficult terrain.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.C3VRrOCZndaBIE1q]{Effect: Egg Cream Fizz}</p>"
+        },
+        "rules": [],
+        "slug": "egg-cream-fizz",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [
+            "alchemical-food"
+          ],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 27
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "GJYBIBVT6N3PGdFV",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.GJYBIBVT6N3PGdFV"
+    },
+    {
+      "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
+      "name": "Ooze Skin",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This leather armor has been treated with extract from oozes, which can be reactivated in the presence of a strong acid. A receptacle in the armor can hold an @UUID[Compendium.pf2e.equipment-srd.Item.M1k5QQc1qQLxzyCK]{Acid Flask}, which takes 3 Interact actions to install.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> An acid flask is installed in the armor</p><hr /><p><strong>Effect</strong> The leather weeps slippery protoplasm, granting an item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} and @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze} checks equal to the acid flask's item bonus. The protoplasm also irritates the skin on prolonged contact, causing any creature that grapples or swallows you to take acid damage equal to the acid flask's splash damage. Ooze skin remains activated for a number of rounds equal to the level of the acid flask installed. The activation uses up the acid flask, and the armor can't be activated again until a new one is installed.</p>"
+        },
+        "rules": [],
+        "slug": "ooze-skin",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": "leather-armor",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "light",
+        "group": "leather",
+        "acBonus": 1,
+        "strength": 0,
+        "dexCap": 4,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": []
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "awSd1hzdSSy1EYxp",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.awSd1hzdSSy1EYxp"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Slick",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.</p>"
+        },
+        "rules": [],
+        "slug": "slick",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 45
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "bVPLndxRrtZ2lqqg",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.bVPLndxRrtZ2lqqg"
+    },
+    {
+      "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+      "name": "Constricting Whip Tail",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You have a strong, prehensile tail. You gain a tail unarmed attack that deals 1d6 bludgeoning damage. This tail is in the brawling group. You gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} and to Athletics checks to Climb. You can also use your tail for the @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge} action, even if your hands are otherwise occupied.</p>\n<p>You can use your tail unarmed attack to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} even if you don't have a free hand. You gain a +2 item bonus to Athletics checks to Grapple.</p>"
+        },
+        "rules": [
+          {
+            "category": "unarmed",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d6"
+              }
+            },
+            "group": "brawling",
+            "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+            "key": "Strike",
+            "label": "PF2E.BattleForm.Attack.Tail",
+            "slug": "tail",
+            "traits": [
+              "unarmed"
+            ]
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:balance",
+                  "action:climb"
+                ]
+              }
+            ],
+            "selector": [
+              "athletics",
+              "acrobatics"
+            ],
+            "slug": "whip-tail-balance-or-climb",
+            "type": "item",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:grapple"
+            ],
+            "selector": "athletics",
+            "slug": "whip-tail-grapple",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "constricting-whip-tail",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "graft",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Howl of the Wild",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 320
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "implanted"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "EWUD3zpTC1MGvawt",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.EWUD3zpTC1MGvawt"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/other/spellhearts/five-feather-wreath.webp",
+      "name": "Five-Feather Wreath (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Identical feathers radiate from the center of this spellheart, held in place by woven straw. The spell attack roll of any spell cast by Activating this item is +14, and the spell DC is 24.</p><ul><li><strong>Armor</strong> You gain a +1 item bonus to Acrobatics checks and resistance 5 to falling damage.</li><li><strong>Weapon</strong> After you cast an air spell by Activating the <em>wreath</em>, you can Fly 5 feet as a single action, or you can Fly 25 feet as a free action if the spell you cast wasn't a cantrip. This must be your next action, and if you don't have a fly Speed, you must end the flight on solid ground or fall.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.nQ6vM1CRLyvQdGLG]{Effect: Five-Feather Wreath - Armor}</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.dDiOnjcsBFbAvP6t]{Gale Blast}.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]{Wall of Wind}.</p>"
+        },
+        "rules": [],
+        "slug": "five-feather-wreath-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "air",
+            "magical",
+            "spellheart"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 425
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "affixed-to-armor-or-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "XDnT1AuEAIKcU7q6",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.XDnT1AuEAIKcU7q6"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Slick (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +2 item bonus to Acrobatics checks to Escape and Squeeze.</p>"
+        },
+        "rules": [],
+        "slug": "slick-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 450
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "DXgiPqr3Prhnerkl",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.DXgiPqr3Prhnerkl"
+    },
+    {
+      "img": "icons/equipment/feet/boots-collared-green.webp",
+      "name": "Arboreal Boots (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These soft leather boots are embossed with simple woodland scenes. The boots grant a +2 item bonus to Acrobatics and allow you to ignore difficult terrain from plants and fungi.</p>\n<p>You also gain a 10-foot climb Speed while climbing plants or fungi and don't need to use your hands to Climb them.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "arboreal-boots-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "primal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 700
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "JFozf0HjABROQ2p9",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.JFozf0HjABROQ2p9"
+    },
+    {
+      "img": "icons/equipment/feet/shoes-leather-simple-brown.webp",
+      "name": "Thunderblast Slippers",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Unassuming in appearance, these slippers indicate their nature only with a signature strip of yellow stitching. You gain a +2 item bonus to Acrobatics checks.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You move like the wind, with precision and speed. You Stride up to 60 feet; this movement doesn't trigger reactions. When you stop, if you've moved at least 30 feet from where you started, you release a thunderous @Template[emanation|distance:5] that deals @Damage[2d6[bludgeoning],2d6[sonic]|options:area-damage]{2d6 bludgeoning damage and 2d6 sonic damage} with a @Check[fortitude|dc:25|basic|options:area-effect,inflicts:prone]. A creature that critically fails its save is also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "thunderblast-slippers",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical",
+            "sonic"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 650
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "wOB9AqnZvmSTLh2r",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.wOB9AqnZvmSTLh2r"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/cloak-of-the-bat.webp",
+      "name": "Cloak of the Bat",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Sewn from several long strips of luxurious brown and black silk, this cloak grants you a +2 item bonus to Stealth checks as well as to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{Maneuver in Flight}. You can also use your feet to hang from any surface that can support your weight, without requiring any check, though you still must attempt Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} in order to move around while inverted.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You can either transform the cloak into bat-like wings that grant you a fly Speed of 30 feet for 10 minutes, or have the cloak turn you into a bat by casting a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form} spell on you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ioGzmVSmMGXWWBYb]{Effect: Cloak of the Bat}</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:maneuver-in-flight"
+            ],
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "stealth",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "cloak-of-the-bat",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 950
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "xpW55AYuv4RtHH0s",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.xpW55AYuv4RtHH0s"
+    },
+    {
+      "img": "icons/equipment/feet/boots-armored-red.webp",
+      "name": "Daredevil Boots",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These brightly colored, soft-soled boots motivate you to perform risky stunts and grant you the agility to succeed. The boots grant you a +2 item bonus to Acrobatics checks and a +1 circumstance bonus to checks to [[/act tumble-through]] an enemy's space.</p>\n<p>The boots can grip solid surfaces and help you avoid a fall, allowing you to use the [[/act grab-an-edge]] reaction even if your hands aren't free. You treat falls as 10 feet shorter or, if you have the @UUID[Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD]{Cat Fall} feat, treat your proficiency rank in Acrobatics as one degree better to determine the benefits of that feat. If you have Cat Fall and are already legendary in Acrobatics, you can choose the speed of your fall, from 60 feet per round up to normal falling speed.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.Equipment.DaredevilBoots.TumbleThroughLabel",
+            "predicate": [
+              "action:tumble-through"
+            ],
+            "selector": "skill-check",
+            "slug": "daredevil-boots-tumble-through",
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": "daredevil-boots",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "k6lpk8jRe5TfCd4N",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.k6lpk8jRe5TfCd4N"
+    },
+    {
+      "img": "icons/equipment/waist/sash-cloth-teal.webp",
+      "name": "Jaathoom's Scarf",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This scarf is made of fine silk that's the same shade of blue as a clear, cloudless sky. The short ends are edged with a fine gold fringe that seems to sway even in still weather as though touched by invisible winds. The long edges have exquisite embroidery in threads that vary from a blue identical to the silk to the deep gray of storm clouds during winter. Wearing this scarf grants a +2 item bonus to Performance checks to dance and to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}.</p>\n<hr />\n<p><strong>Activate—Vanish</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The scarf casts 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} on you.</p>\n<hr />\n<p><strong>Activate—Jaathoom's Rebuke</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> You let the winds around you catch the edges of the <em>jaathoom's scarf</em>, and a jaathoom shuyookh appears with a sudden updraft. The winds force your enemies back, granting you some breathing room in battle. Each enemy in a @Template[emanation|distance:10] must succeed at a @Check[fortitude|dc:27] save or be pushed 10 feet. A creature that critically fails is also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} after being moved. Creatures with the air trait are immune to all these effects.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:perform:dance"
+            ],
+            "selector": "performance",
+            "type": "item",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:escape"
+            ],
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "jaathooms-scarf",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "air",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 900
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornbelt"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ad88B9fxWZSorLWo",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.ad88B9fxWZSorLWo"
+    },
+    {
+      "img": "icons/equipment/waist/sash-cloth-green-white.webp",
+      "name": "Sash of Prowess",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This humble sash can be worn around the waist or across the chest. A sash of prowess often bears a coloration or a pattern that represents the monastery in which you trained but can also sport religious symbology, such as the open hand of Irori. You gain a +2 item bonus to Acrobatics and Athletics skill checks.</p><hr /><p><strong>Activate—Effortless Mastery</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You succeed at an Acrobatics or Athletics skill check</p><hr /><p><strong>Effect</strong> You critically succeed instead.</p><hr /><p><strong>Activate—Reserves of Inner Strength</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a qi spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Craft Requirements</strong> You're a monk who can cast qi spells.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "athletics",
+              "acrobatics"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "sash-of-prowess",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "byLHXks8pYOqmMhj",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.byLHXks8pYOqmMhj"
+    },
+    {
+      "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+      "name": "Bendy-Arm Mutagen (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>For 1 hour your limbs become extremely limber, letting you stretch and twist to extreme degrees at the cost of fine motor skills.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze}, and @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, and you increase your reach by 10 feet.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.HlUL7FmGLyS35Jpp]{Effect: Bendy-Arm Mutagen (Greater)}</p>"
+        },
+        "rules": [],
+        "slug": "bendy-arm-mutagen-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 300
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "miBM6udfwd0u1lke",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.miBM6udfwd0u1lke"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +2 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "helm-of-zeal",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "PmTlRKcccg5D4EYL",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.PmTlRKcccg5D4EYL"
+    },
+    {
+      "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+      "name": "Theatrical Mutagen (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 10 minutes.</p>\n<p><strong>Benefit</strong> You gain a +3 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +10 feet status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}, Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.o2yteYPGqEjpPAZ5]{Effect: Theatrical Mutagen (Greater)}</p>"
+        },
+        "rules": [],
+        "slug": "theatrical-mutagen-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 300
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "e2KdE9Jo0j6XML7x",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.e2KdE9Jo0j6XML7x"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/other/spellhearts/five-feather-wreath.webp",
+      "name": "Five-Feather Wreath (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Identical feathers radiate from the center of this spellheart, held in place by woven straw. The spell attack roll of any spell cast by Activating this item is +19, and the spell DC is 29.</p><ul><li><strong>Armor</strong> You gain a +2 item bonus to Acrobatics checks and resistance 10 to falling damage.</li><li><strong>Weapon</strong> After you cast an air spell by Activating the <em>wreath</em>, you can Fly 5 feet as a single action, or you can Fly 40 feet as a free action if the spell you cast wasn't a cantrip. This must be your next action, and if you don't have a fly Speed, you must end the flight on solid ground or fall.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.nQ6vM1CRLyvQdGLG]{Effect: Five-Feather Wreath - Armor}</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.dDiOnjcsBFbAvP6t]{Gale Blast}.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast 4th rank @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]{Wall of Wind}.</p><hr /><p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{Air Walk}.</p>"
+        },
+        "rules": [],
+        "slug": "five-feather-wreath-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "air",
+            "magical",
+            "spellheart"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1750
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "affixed-to-armor-or-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "HtbkBIMS3cdYkq8r",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.HtbkBIMS3cdYkq8r"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Slick (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +3 item bonus to Acrobatics checks to Escape and Squeeze.</p>"
+        },
+        "rules": [],
+        "slug": "slick-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 16
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 9000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "U7Nc6guqz1TztudW",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.U7Nc6guqz1TztudW"
+    },
+    {
+      "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+      "name": "Bendy-Arm Mutagen (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<p>For 1 hour your limbs become extremely limber, letting you stretch and twist to extreme degrees at the cost of fine motor skills.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze}, and @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, and you increase your reach by 15 feet.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Athletics checks, Stealth checks, Thievery checks, and attack rolls, and a –1 penalty per damage die to all weapon and unarmed attack damage.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.pZjJv8r28uASg6zp]{Effect: Bendy-Arm Mutagen (Major)}</p>"
+        },
+        "rules": [],
+        "slug": "bendy-arm-mutagen-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "mutagen",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "34iwBByTVgn659uV",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.34iwBByTVgn659uV"
+    },
+    {
+      "img": "icons/equipment/back/mantle-collared-blue.webp",
+      "name": "Cloak of Swiftness",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This thin cloak is surprisingly light, as if clouds or the very wind were woven together to make the garment. The cloak grants you a +3 item bonus to Acrobatics checks. When you invest the cloak, you either increase your Dexterity modifier by 1 or increase it to +4, whichever would give you a higher value.</p>\n<hr />\n<p><strong>Activate—Ride the Wind</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You tug on the cloak, wrapping yourself in the power of wind. You gain a fly Speed of 30 feet for 1 hour. While wrapped in the cloak, you become translucent, causing you to become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} for the duration.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Qf7ksK6sjC4x7SWw]{Effect: Cloak of Swiftness}</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "cloak-of-swiftness",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "apex",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 15000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": [],
+        "apex": {
+          "attribute": "dex"
+        }
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "7eu9gVWgv0Jo4bki",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.7eu9gVWgv0Jo4bki"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/cloak-of-the-bat.webp",
+      "name": "Cloak of the Bat (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Sewn from several long strips of luxurious brown and black silk, this cloak grants you a +3 item bonus to Stealth checks as well as to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{Maneuver in Flight}. You can also use your feet to hang from any surface that can support your weight, without requiring any check, though you still must attempt Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} in order to move around while inverted.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> any number of times per day</p>\n<hr />\n<p><strong>Effect</strong> You can either transform the cloak into bat-like wings that grant you a fly Speed of 30 feet for 10 minutes, or have the cloak turn you into a bat by casting a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form} spell on you.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ioGzmVSmMGXWWBYb]{Effect: Cloak of the Bat}</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:maneuver-in-flight"
+            ],
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "stealth",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "cloak-of-the-bat-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 13000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ifAp8wHKBZltgHG0",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "createdTime": 1772506311894,
+        "modifiedTime": 1772506311894,
+        "lastModifiedBy": "GV5Yy0w5XjJdvzJa"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "IQs4zMKAbD0qYg2N",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.IQs4zMKAbD0qYg2N"
+    },
+    {
+      "img": "icons/equipment/feet/boots-armored-red.webp",
+      "name": "Daredevil Boots (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These brightly colored, soft-soled boots motivate you to perform risky stunts and grant you the agility to succeed. The boots grant you a +3 item bonus to Acrobatics checks and a +2 circumstance bonus to checks to [[/act tumble-through]] an enemy's space.</p>\n<p>The boots can grip solid surfaces and help you avoid a fall, allowing you to use the [[/act grab-an-edge]] reaction even if your hands aren't free. You treat falls as 10 feet shorter or, if you have the @UUID[Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD]{Cat Fall} feat, treat your proficiency rank in Acrobatics as one degree better to determine the benefits of that feat. If you have Cat Fall and are already legendary in Acrobatics, you can choose the speed of your fall, from 60 feet per round up to normal falling speed.</p>\n<p><strong>Activate—Daredevil Impulse</strong> <span class=\"action-glyph\">2</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The boots cast @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]{Unfettered Movement} on you.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.Equipment.DaredevilBoots.TumbleThroughLabel",
+            "predicate": [
+              "action:tumble-through"
+            ],
+            "selector": "skill-check",
+            "slug": "daredevil-boots-tumble-through",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "daredevil-boots-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 14000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "W4N99v3Ng3KBb5Dx",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.W4N99v3Ng3KBb5Dx"
+    },
+    {
+      "img": "icons/equipment/waist/sash-cloth-green-white.webp",
+      "name": "Sash of Prowess (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This humble sash can be worn around the waist or across the chest. A sash of prowess often bears a coloration or a pattern that represents the monastery in which you trained but can also sport religious symbology, such as the open hand of Irori. You gain a +3 item bonus to Acrobatics and Athletics skill checks.</p><hr /><p><strong>Activate—Effortless Mastery</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You succeed at an Acrobatics or Athletics skill check</p><hr /><p><strong>Effect</strong> You critically succeed instead.</p>\n<p><strong>Activate—Reserves of Inner Strength</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a qi spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Craft Requirements</strong> You're a monk who can cast qi spells.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "athletics",
+              "acrobatics"
+            ],
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "sash-of-prowess-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "focused",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 13000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "vUJqab2YJO5NXM4M",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.vUJqab2YJO5NXM4M"
+    },
+    {
+      "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+      "name": "Theatrical Mutagen (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>Developed and widely used by students at the Kitharodian Academy in Oppara, the theatrical mutagen stimulates the creative centers of your brain. This causes your movements to become exaggerated and your voice to become clear. However, the erratic surges of inspiration overload your senses, making it difficult to focus on mundane tasks. This lasts for 1 hour.</p>\n<p><strong>Benefit</strong> You gain a +4 item bonus to Acrobatics checks, Crafting checks, and Performance checks. If you're untrained in any of these skills, your proficiency bonus is equal to your level instead of +0. You also gain a +10 feet status bonus to your Speed.</p>\n<p><strong>Drawback</strong> You take a –1 penalty to Perception checks and Will saves. After any round where you don't spend at least 1 action to Interact with an object, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}, Step, or Stride, you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.bZPjDwwyPT0iKBE9]{Effect: Theatrical Mutagen (Major)}</p>"
+        },
+        "rules": [],
+        "slug": "theatrical-mutagen-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mutagen",
+            "polymorph"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "sToBQV0cPxafEXQ3",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.sToBQV0cPxafEXQ3"
+    },
+    {
+      "img": "icons/equipment/head/helm-barbute-rounded-gold.webp",
+      "name": "Helm Of Zeal (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This elaborate helmet is emblazoned with the divine symbols of a deity chosen when the helmet was crafted. You gain a +3 item bonus to that deity's Divine Skill.</p>\n<p><strong>Activate—Rally to the Cause</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can spend only to cast a devotion spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p>\n<p><strong>Activate—Divine Fervor</strong> <span class=\"action-glyph\">f</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You've just used your champion's reaction</p><hr /><p><strong>Effect</strong> You gain an additional reaction you can use only for your champion's reaction. You lose this reaction if you don't use it by the start of your next turn.</p>\n<p><strong>Craft Requirements</strong> You're a champion of the deity represented by the helmet.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Acrobatics",
+                "value": "acrobatics"
+              },
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Stealth",
+                "value": "stealth"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "Select your deity's divine skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "helm-of-zeal-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "focused",
+            "invested"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 21000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornheadwear"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "XXqTXsoiOeHmOD3T",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.XXqTXsoiOeHmOD3T"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/mercurial-mantle.webp",
+      "name": "Mercurial Mantle",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This deep red cloak fits lightly about your shoulders, and the edges perpetually twitch slightly, as though caught in a breeze. The cloth feels smoother than silk, rippling and swaying like liquid when in motion. You feel a lively energy infusing your arms and legs. You gain a +3 item bonus to Acrobatics and Stealth, and a +2 circumstance bonus to AC against attacks from reactions triggered by your movement.</p>\n<p>When you invest the cloak, you either increase your Dexterity score by 2 or increase it to 18, whichever would give you a higher score.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">r</span> Interact</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An enemy misses you with a melee Strike</p><hr /><p><strong>Effect</strong> You slip around the attacking creature with ease. You Step, without moving away from the triggering enemy, and then make a melee Strike against the triggering enemy if it's within reach. If you do make a Strike, the target attempts a @Check[perception|dc:38|name:Detect Reaction|showDC:all] check before you roll.</p>\n<p><strong>Failure</strong> This creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the Strike.</p>\n<p><strong>Critical Failure</strong> This creature is off-guard against all your attacks until the end of their next turn.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, envision (conjuration, teleportation)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The cloak hums with power as your whirl it around yourself, disappearing amid a brief flash of light. Teleport up to double your Speed to a location you can see. At the end of the teleportation, you can make a melee Strike against a creature within reach, if there is one.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "acrobatics",
+              "stealth"
+            ],
+            "type": "item",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Attack from Enemy Reaction due to Movement",
+            "predicate": [
+              "reaction:movement"
+            ],
+            "selector": "ac",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "RollOption",
+            "label": "Attack from Enemy Reaction due to Movement",
+            "option": "reaction:movement",
+            "toggleable": true
+          }
+        ],
+        "slug": "mercurial-mantle",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "apex",
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 24000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Cloak",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worncloak"
+        },
+        "subitems": [],
+        "apex": {
+          "attribute": "dex"
+        }
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.1",
+        "lastModifiedBy": "GV5Yy0w5XjJdvzJa",
+        "modifiedTime": 1772506354387
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "9dXMGVgGeM7u71vi",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.9dXMGVgGeM7u71vi"
+    },
+    {
+      "img": "icons/consumables/plants/dried-herb-bundle-brown.webp",
+      "name": "Energizing Tea",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p>This sweet and refreshing tea is made with a mixture of honey, lemon slices, and sliced ginger. This is considered to be the bare minimum when serving <em>energizing tea</em>, and many go above and beyond by adding additional citrus fruits or berries to the mix or refusing to serve the tea at all without also serving a full platter of spiced pastries and sweets. This golden tea has energizing properties and, when consumed, grants you a +1 item bonus to Athletics and Acrobatics checks for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.AJLURqXGLalmV9wN]{Effect: Energizing Tea}</p><hr /><p><strong>Activate—Tea Ceremony</strong> 10 minutes (concentrate, manipulate) The duration increases to 1 hour.</p>"
+        },
+        "rules": [],
+        "slug": "energizing-tea",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "magical",
+            "potion",
+            "tea"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Season of Ghosts Hardcover Compilation",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 20
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "AaFNsnGJDi85ZReQ",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.AaFNsnGJDi85ZReQ"
+    },
+    {
+      "img": "icons/equipment/feet/boots-leather-brown.webp",
+      "name": "Boots of Free Running (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These comfortable and practical boots slip on easily and fill you with boundless energy. The treads of these boots provide exceptional traction, with improved grip on surfaces you would traditionally have difficulty traversing. While wearing the boots, you gain a +1 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} and to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} and @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The traction of your boots improves, allowing you to run along vertical surfaces for 1 minute. When you Stride, you can run up solid vertical surfaces, like walls, at your full Speed. You must start your movement on a horizontal surface. If you end a Stride off the ground, you must Stride along the surface again until you reach a horizontal surface or you begin to fall (though you can @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge}, if applicable). If you have means of walking on water, such as with water walk or similar abilities, you can also run along flimsy vertical surfaces, as well as vertical liquids such as a waterfall.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:long-jump",
+                  "action:high-jump",
+                  "action:balance"
+                ]
+              }
+            ],
+            "selector": [
+              "acrobatics",
+              "athletics"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "boots-of-free-running-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Firebrands",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 135
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3900000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "LeNTm3J1u3jY8K8V",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.LeNTm3J1u3jY8K8V"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/drugs/scour.webp",
+      "name": "Scour",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This gritty powder improves responsiveness but suppresses thoughts and leaves you weakened. The saving throw for addiction to scour is DC 30, and the addiction is virulent.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact (Ingested, Inhaled)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Maximum Duration</strong> 6 hours</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} and +2 item bonus to Reflex saves and Dexterity-based skill checks (1 hour)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} (1 hour)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and fatigued (1 hour)</p>"
+        },
+        "rules": [],
+        "slug": "scour",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "drug",
+            "ingested",
+            "inhaled",
+            "poison"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Gamemastery Guide",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 80
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "drug",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4000000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "qs1vvTYYWWoFabz0",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.qs1vvTYYWWoFabz0"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/consumable.svg",
+      "name": "Cloud Buns (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Access</strong> Tian Xia origin</p><hr /><p>White, pillowy dough surrounds an interior containing minced meats, spices, and herbs. The dough is steamed with elemental magic to make it light and airy while keeping the meaty center moist.</p>\n<p>When you consume a bun, a set of small clouds form around your feet that grant you a fly Speed of 30 feet or your speed, whichever is lower, for 1 minute.</p>\n<p>You also have a +2 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{Maneuver in Flight}.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.bDcRrcC6VlkenVK4]{Effect: Cloud Buns (Greater)}</p>"
+        },
+        "rules": [],
+        "slug": "cloud-buns-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Tian Xia Character Guide",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4100000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "M3CeHu6FlJmEDmUK",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.M3CeHu6FlJmEDmUK"
+    },
+    {
+      "img": "icons/equipment/feet/boots-leather-brown.webp",
+      "name": "Boots of Free Running (Moderate)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These comfortable and practical boots slip on easily and fill you with boundless energy. The treads of these boots provide exceptional traction, with improved grip on surfaces you would traditionally have difficulty traversing. While wearing the boots, you gain a +2 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} and to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} and @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> The traction of your boots improves, allowing you to run along vertical surfaces for 1 minute. When you Stride, you can run up solid vertical surfaces, like walls, at your full Speed. You must start your movement on a horizontal surface. If you end a Stride off the ground, you must Stride along the surface again until you reach a horizontal surface or you begin to fall (though you can @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge}, if applicable). If you have means of walking on water, such as with water walk or similar abilities, you can also run along flimsy vertical surfaces, as well as vertical liquids such as a waterfall.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:long-jump",
+                  "action:high-jump",
+                  "action:balance"
+                ]
+              }
+            ],
+            "selector": [
+              "acrobatics",
+              "athletics"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "boots-of-free-running-moderate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Firebrands",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1350
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4200000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "XCw684QawD0x1Enf",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.XCw684QawD0x1Enf"
+    },
+    {
+      "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+      "name": "Elysian Dew",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>When you drink sweet, sky-blue <em>Elysian dew</em>, for 1 minute, you gain a 10-foot aura that evokes the vitality of Elysium, causing nearby objects to seem more colorful and plants to stand taller. You and any ally that starts its turn in the emanation gain 5 temporary Hit Points, a +1 item bonus to saving throws, and a +1 item bonus to Acrobatics and Athletics checks until the start of your or the ally's next turn. If you're unholy and drink this potion, it fails to work, and you must succeed at a @Check[fortitude|dc:30] save or the potion renders you @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.KQnDfdYxyg5FhyCX]{Aura: Elysian Dew}</p>"
+        },
+        "rules": [],
+        "slug": "elysian-dew",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "magical",
+            "potion"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 375
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4300000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "ozDlOIAOQTKJDrjR",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.ozDlOIAOQTKJDrjR"
+    },
+    {
+      "img": "icons/equipment/feet/boots-leather-brown.webp",
+      "name": "Boots of Free Running (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These comfortable and practical boots slip on easily and fill you with boundless energy. The treads of these boots provide exceptional traction, with improved grip on surfaces you would traditionally have difficulty traversing. While wearing the boots, you gain a +3 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} and to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} and @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Effect</strong> The traction of your boots improves, allowing you to run along vertical surfaces for 1 minute. When you Stride, you can run up solid vertical surfaces, like walls, at your full Speed. You must start your movement on a horizontal surface. If you end a Stride off the ground, you must Stride along the surface again until you reach a horizontal surface or you begin to fall (though you can @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge}, if applicable). If you have means of walking on water, such as with water walk or similar abilities, you can also run along flimsy vertical surfaces, as well as vertical liquids such as a waterfall.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:long-jump",
+                  "action:high-jump",
+                  "action:balance"
+                ]
+              }
+            ],
+            "selector": [
+              "acrobatics",
+              "athletics"
+            ],
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "boots-of-free-running-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Firebrands",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 13500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "QUZDvwLCxXrnDAnX",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.QUZDvwLCxXrnDAnX"
+    },
+    {
+      "img": "icons/equipment/neck/amulet-round-engraved-gold.webp",
+      "name": "Essence Charm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Anyone can use an <em>essence forge</em> to craft an <em>essence charm</em> without needing to know the formula for an <em>essence charm</em>. No larger than a coin, an <em>essence charm</em> is normally worn around the neck or hung from a belt—its exact appearance is up to the crafter. When an <em>essence charm</em> is created, its crafter selects a skill in which they are at least trained. The <em>essence charm</em> grants a +1 item bonus to that skill when worn.</p><hr /><p><strong>Activate—Lucky Charm</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail or critically fail a check using the <em>essence charm</em>'s chosen skill</p>\n<p><strong>Effect</strong> A failed check becomes a success, and a critical failure becomes a failure.</p>"
+        },
+        "rules": [
+          {
+            "choices": {
+              "config": "skills"
+            },
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Skill"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.system.rulesSelections.skill}",
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "essence-charm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder #214: The Broken Palace",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4500000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "0VbEgWSki8pjCYqR",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.0VbEgWSki8pjCYqR"
+    },
+    {
+      "img": "icons/equipment/feet/shoes-pointed-blue.webp",
+      "name": "Talented Tap Shoes",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These stylish shoes were originally created by the Tappin' Toes Troupe, a group of tap-dancing Taldan bards who achieved massive popularity for their line dance routines. Notoriously lazy when it came to practicing choreography, the troupe enchanted their footwear to enhance their agility. Upon retirement, the troupe sold off their shoe designs, and talented tap shoes have become popular among professional dancers ever since. While wearing the shoes, you gain a +2 item bonus to Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} and @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through} an enemy's space and to Performance checks using dance.</p>\n<p><strong>Activate—Strut Your Stuff</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You click the toes of your talented tap shoes on the ground, and for the next minute, whenever you succeed or critically succeed at a Reflex save to avoid a damaging effect, you can Stride half your Speed as a reaction. However, during this time, you take a –2 item penalty to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.8n0wqGpz28lfnLsQ]{Effect: Talented Tap Shoes}</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  {
+                    "and": [
+                      "check:statistic:acrobatics",
+                      {
+                        "or": [
+                          "action:balance",
+                          "action:tumble-through"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "and": [
+                      "check:statistic:performance",
+                      "action:perform:dance"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selector": "skill-check",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "talented-tap-shoes",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Rival Academies",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornshoes"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4600000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "gNTq10IS3i71r3hQ",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.gNTq10IS3i71r3hQ"
+    },
+    {
+      "img": "icons/equipment/waist/sash-cloth-gem-purple-red.webp",
+      "name": "Tumbler's Belt",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This sparkling purple belt was made for the youngest member of a family of jugglers and tumblers who traveled with the Crascondo Company. The thought was this would allow the child to safely participate with their elder siblings and cousins, but the belt found itself being \"loaned\" more and more often to dare-taking elders in the troupe. The <em>tumbler's belt</em> grants a +2 item bonus to Acrobatics checks, and whenever you critically succeed at a check to @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, you gain a +10-foot item bonus to your Speed until the end of your turn. While wearing the <em>tumbler's belt</em>, you're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while you @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}.</p>\n<p><strong>Activate—Land With Grace</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're falling</p><hr /><p><strong>Effect</strong> Treat your fall as if it were 120 feet shorter. Regardless of whether you take damage or not from the fall, you land on your feet.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "acrobatics",
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "tumblers-belt",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #204: Stage Fright",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "wornbelt"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4700000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "3BKCqb1lSxrRRZe5",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.3BKCqb1lSxrRRZe5"
+    },
+    {
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "name": "The Crows",
+      "system": {
+        "description": {
+          "gm": "<p><strong>Epitome</strong> When you epitomize <em>The Crows</em>, a murder of crow simulacrums takes up residence among the highest towers and battlements of Harrowheart. These crows do not speak, but they are both incredibly intelligent and, unlike most who dwell in Harrow Court, can travel between worlds to visit Golarion. A character can visit the crows and ask them to fly into Golarion to steal consumable magic items from somewhere on the planet—where the crows find and snatch these items from is never apparent. The character can request any Common consumable item of a level equal to or less than their own level, whereupon the crows take wing and vanish from Harrow Court. The next time that PC wakes after sleeping in Harrow Court, the requested consumable is sitting nearby, along with a few stray crow feathers. If the requested item is more than 4 levels lower than the PCs' level, the crows deliver four of the items instead of one. A character can request items only once per level; further attempts to request items of the Crows fails as if the PC were speaking to a normal murder.</p>",
+          "value": "<p><strong>Suit</strong> Keys (Dex)</p>\n<p><strong>Alignment</strong> neutral evil</p>\n<hr />\n<p><em>The Crows</em> represent taking things through violence or force, particularly when done through agility and swiftness rather than brawn. As long as <em>The Crows</em> is invested, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} targets with Acrobatics checks, and if you're at least trained in Thievery, to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} with Thievery checks. When you do so, you gain a +2 item bonus on the attempt, or a +3 item bonus if you're at least 17th level.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision, Interact (teleportation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You hold the card in your hand, and with a flick of the wrist it vanishes, only to be replaced by an object of your choice within 30 feet. The object must be 2 Bulk or less. If that object is unattended, it teleports into your hand automatically. If the object is attended by a creature, you must make a @Check[thievery|defense:reflex] check against the creature's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> The object teleports into your hand.</p>\n<p><strong>Success</strong> The object vanishes from the target's possession and lands on the ground at a point at a midway point between you two.</p>\n<p><strong>Failure</strong> The object does not vanish, but the creature's grip on it falters and if it doesn't spend an Interact action on its next turn to grip the item, it drops to the ground.</p>\n<p><strong>Critical Failure</strong> You fail to manipulate the object entirely.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:disarm",
+                  "action:grapple"
+                ]
+              }
+            ],
+            "selector": [
+              "acrobatics",
+              "thievery"
+            ],
+            "type": "item",
+            "value": "ternary(gte(@actor.level,17),3,2)"
+          }
+        ],
+        "slug": "the-crows",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "artifact",
+            "harrow-court",
+            "invested",
+            "magical"
+          ],
+          "rarity": "unique"
+        },
+        "publication": {
+          "title": "Pathfinder #192: Worst of All Possible Worlds",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "GV5Yy0w5XjJdvzJa": 3
+      },
+      "flags": {},
+      "_id": "f4SwYEtGJKlqpv60",
+      "_key": "!actors.items!3Dwk9y5CrDDW2uMJ.f4SwYEtGJKlqpv60"
+    }
+  ],
+  "folder": "MSWx8zu0hnkMWkWU",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.1",
+    "createdTime": 1772333168739,
+    "modifiedTime": 1772508515760,
+    "lastModifiedBy": "GV5Yy0w5XjJdvzJa"
+  },
+  "_id": "3Dwk9y5CrDDW2uMJ",
+  "sort": 100000,
+  "_key": "!actors!3Dwk9y5CrDDW2uMJ"
+}

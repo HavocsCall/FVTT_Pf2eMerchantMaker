@@ -1,0 +1,23 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Skill Items",
+  "color": null,
+  "sorting": "a",
+  "_id": "MSWx8zu0hnkMWkWU",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.0",
+    "createdTime": 1772333164632,
+    "modifiedTime": 1772333164632,
+    "lastModifiedBy": "GV5Yy0w5XjJdvzJa"
+  },
+  "_key": "!folders!MSWx8zu0hnkMWkWU"
+}

@@ -1,7 +1,6 @@
 import { MODULE_ID, SETTINGS } from "./merchant-maker.constants.js";
 
 export function registerModuleSettings() {
-	// ---------- Module Settings ---------- //
 	game.settings.register(MODULE_ID, SETTINGS.ADD_CRITERIA_SUMMARY, {
 		name: game.i18n.localize("pf2eMerchantMaker.settings.addCriteriaSummary.name"),
 		hint: game.i18n.localize("pf2eMerchantMaker.settings.addCriteriaSummary.hint"),
@@ -20,7 +19,6 @@ export function registerModuleSettings() {
 		default: false,
 	});
 
-	// ---------- Item Piles PF2E ---------- //
 	if (game.modules.get("itempiles-pf2e")?.active) {
 		game.settings.register(MODULE_ID, SETTINGS.ITEM_PILES_SETUP, {
 			name: game.i18n.localize("pf2eMerchantMaker.settings.itemPilesSetup.name"),
@@ -32,7 +30,6 @@ export function registerModuleSettings() {
 		});
 	}
 
-	// ---------- PF2E Toolbelt Better Merchant PF2E ---------- //
 	if (game.modules.get("pf2e-toolbelt")?.active) {
 		game.settings.register(MODULE_ID, SETTINGS.TOOLBELT_BETTER_MERCHANT_SETUP, {
 			name: game.i18n.localize("pf2eMerchantMaker.settings.toolbeltBetterMerchantSetup.name"),

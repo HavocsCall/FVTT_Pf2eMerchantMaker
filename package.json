@@ -6,8 +6,9 @@
 		"node": ">=18"
 	},
 	"scripts": {
-		"extract": "node build/extract.mjs",
-		"compile": "node build/compile.mjs",
+		"Compendium-to-Json": "node build/Compendium-to-Json.mjs",
+		"Json-to-Compendium": "node build/Json-to-Compendium.mjs",
+		"sort:premade-shops": "node build/sort-premadeShops-jsons.mjs",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
 		"format": "prettier . --write",

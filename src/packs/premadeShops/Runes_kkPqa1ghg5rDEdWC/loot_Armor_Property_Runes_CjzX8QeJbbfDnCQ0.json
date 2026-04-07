@@ -127,6 +127,103 @@
   "img": "icons/commodities/treasure/token-engraved-purple-glowing.webp",
   "items": [
     {
+      "_id": "XYVNKdz8R4vppado",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 55,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.XYVNKdz8R4vppado"
+    },
+    {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
       "name": "Assisting",
       "system": {
@@ -216,7 +313,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 100000,
+      "sort": 200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -316,7 +413,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -415,7 +512,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 300000,
+      "sort": 400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -514,7 +611,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 400000,
+      "sort": 500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -613,7 +710,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 500000,
+      "sort": 600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3893,204 +3990,6 @@
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
-      "name": "Antimagic",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This intricate rune displaces spell energy, granting you a +1 status bonus to saving throws against magical effects.</p>\n<hr />\n<p><strong>Activate—Antimagic Armor</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A spell targets you or includes you in its area</p>\n<p><strong>Effect</strong> The armor attempts to counteract the triggering spell with the effect of a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} spell and a counteract modifier of [[/r 1d20+26 #Counteract]]{+26}.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of <em>dispel magic</em>.</p>"
-        },
-        "rules": [],
-        "slug": "antimagic",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder GM Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "level": {
-          "value": 15
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 6500
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "etched-onto-armor"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.o02lg3k1RBoFXVFV",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 4000000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "5ksqi77WzWO722DT",
-      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.5ksqi77WzWO722DT"
-    },
-    {
-      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
-      "name": "Ethereal",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>An <em>ethereal rune</em> replicates armor on the Ethereal Plane.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain the effects of an @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt} spell. This doesn't require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of 9th rank <em>ethereal jaunt</em>.</p>"
-        },
-        "rules": [],
-        "slug": "ethereal",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Core Rulebook",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 17
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 13500
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "etched-onto-armor"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.q70WXJO1rswduHuT",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 4100000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "PxQHyt1htG0tcEKu",
-      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.PxQHyt1htG0tcEKu"
-    },
-    {
-      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
       "name": "Dread (Lesser)",
       "system": {
         "description": {
@@ -4177,7 +4076,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3950000,
+      "sort": 4000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4277,7 +4176,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3975000,
+      "sort": 4100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4377,7 +4276,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3987500,
+      "sort": 4200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4477,7 +4376,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3993750,
+      "sort": 4300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4576,7 +4475,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3996875,
+      "sort": 4400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4675,7 +4574,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3998438,
+      "sort": 4500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4772,7 +4671,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3999219,
+      "sort": 4600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4871,7 +4770,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3999610,
+      "sort": 4700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4970,7 +4869,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 3999805,
+      "sort": 4800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4978,6 +4877,204 @@
       "flags": {},
       "_id": "G32zRvPho8LXmc72",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.G32zRvPho8LXmc72"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Antimagic",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This intricate rune displaces spell energy, granting you a +1 status bonus to saving throws against magical effects.</p>\n<hr />\n<p><strong>Activate—Antimagic Armor</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A spell targets you or includes you in its area</p>\n<p><strong>Effect</strong> The armor attempts to counteract the triggering spell with the effect of a 7th-rank @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} spell and a counteract modifier of [[/r 1d20+26 #Counteract]]{+26}.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply one casting of <em>dispel magic</em>.</p>"
+        },
+        "rules": [],
+        "slug": "antimagic",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 15
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 6500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.o02lg3k1RBoFXVFV",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4900000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "5ksqi77WzWO722DT",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.5ksqi77WzWO722DT"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Ethereal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An <em>ethereal rune</em> replicates armor on the Ethereal Plane.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain the effects of an @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt} spell. This doesn't require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.</p>\n<hr />\n<p><strong>Craft Requirements</strong> Supply a casting of 9th rank <em>ethereal jaunt</em>.</p>"
+        },
+        "rules": [],
+        "slug": "ethereal",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 13500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.q70WXJO1rswduHuT",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "PxQHyt1htG0tcEKu",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.PxQHyt1htG0tcEKu"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -5069,7 +5166,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 4200000,
+      "sort": 5100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5166,7 +5263,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 4300000,
+      "sort": 5200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5265,7 +5362,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 4400000,
+      "sort": 5300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5366,7 +5463,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 4500000,
+      "sort": 5400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5466,7 +5563,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 4600000,
+      "sort": 5500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5565,7 +5662,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 4700000,
+      "sort": 5600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5573,103 +5670,6 @@
       "flags": {},
       "_id": "Shgx2CDxqAreWzew",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.Shgx2CDxqAreWzew"
-    },
-    {
-      "_id": "XYVNKdz8R4vppado",
-      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
-      "name": "Gold Pieces",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": "gold-pieces",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common"
-        },
-        "publication": {
-          "title": "Pathfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "level": {
-          "value": 0
-        },
-        "quantity": 55,
-        "baseItem": null,
-        "bulk": {
-          "value": 1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 1
-          }
-        },
-        "equipped": {
-          "carryType": "worn"
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "stackGroup": "coins"
-      },
-      "type": "treasure",
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {
-        "item-piles": {
-          "item": {}
-        }
-      },
-      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.XYVNKdz8R4vppado"
     }
   ],
   "sort": 200000,

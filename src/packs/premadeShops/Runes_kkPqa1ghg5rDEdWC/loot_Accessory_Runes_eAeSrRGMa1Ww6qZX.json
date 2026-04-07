@@ -1843,600 +1843,6 @@
     },
     {
       "img": "icons/commodities/treasure/token-runed-os-grey.webp",
-      "name": "Dragon's Breath (4th Level Spell)",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 4th level or lower.</p>"
-        },
-        "rules": [],
-        "slug": "dragons-breath-4th-level-spell",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Lost Omens The Grand Bazaar",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 10
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 1000
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "applied-to-dueling-cape-or-shield"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 1900000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "je65XqTKejUUSLQW",
-      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.je65XqTKejUUSLQW"
-    },
-    {
-      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
-      "name": "Dragon's Breath (5th Level Spell)",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 5th level or lower.</p>"
-        },
-        "rules": [],
-        "slug": "dragons-breath-5th-level-spell",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Lost Omens The Grand Bazaar",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 12
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 2000
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "applied-to-dueling-cape-or-shield"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2000000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "5YuRHXkErWTCVFal",
-      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.5YuRHXkErWTCVFal"
-    },
-    {
-      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
-      "name": "Dragon's Breath (6th Level Spell)",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 6th level or lower.</p>"
-        },
-        "rules": [],
-        "slug": "dragons-breath-6th-level-spell",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Lost Omens The Grand Bazaar",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 14
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 4500
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "applied-to-dueling-cape-or-shield"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2100000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "H85SW77Hm0KtSt7a",
-      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.H85SW77Hm0KtSt7a"
-    },
-    {
-      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
-      "name": "Dragon's Breath (7th Level Spell)",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 7th level or lower.</p>"
-        },
-        "rules": [],
-        "slug": "dragons-breath-7th-level-spell",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Lost Omens The Grand Bazaar",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 16
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 10000
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "applied-to-dueling-cape-or-shield"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2200000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "axLnad2PwR4eAsre",
-      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.axLnad2PwR4eAsre"
-    },
-    {
-      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
-      "name": "Dragon's Breath (8th Level Spell)",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 8th level or lower.</p>"
-        },
-        "rules": [],
-        "slug": "dragons-breath-8th-level-spell",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Lost Omens The Grand Bazaar",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 18
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 24000
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "applied-to-dueling-cape-or-shield"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2300000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "lxoHAOJsGF0gGcbe",
-      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.lxoHAOJsGF0gGcbe"
-    },
-    {
-      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
-      "name": "Dragon's Breath (9th Level Spell)",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 9th rank or lower.</p>"
-        },
-        "rules": [],
-        "slug": "dragons-breath-9th-level-spell",
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.2"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "magical"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Lost Omens The Grand Bazaar",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 20
-        },
-        "quantity": 99,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 70000
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "applied-to-dueling-cape-or-shield"
-        },
-        "subitems": []
-      },
-      "type": "equipment",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.2",
-        "lastModifiedBy": null
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2400000,
-      "ownership": {
-        "default": 0,
-        "UPnjMbTUnpLyKVOr": 3
-      },
-      "flags": {},
-      "_id": "aYe99DO1HlXpvWlP",
-      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.aYe99DO1HlXpvWlP"
-    },
-    {
-      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
       "name": "Paired (Greater)",
       "system": {
         "description": {
@@ -2534,6 +1940,105 @@
       "flags": {},
       "_id": "dKNyARYiywgPERSn",
       "_key": "!actors.items!eAeSrRGMa1Ww6qZX.dKNyARYiywgPERSn"
+    },
+    {
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Dragon's Breath (4th Level Spell)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 4th level or lower.</p>"
+        },
+        "rules": [],
+        "slug": "dragons-breath-4th-level-spell",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "applied-to-dueling-cape-or-shield"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "je65XqTKejUUSLQW",
+      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.je65XqTKejUUSLQW"
     },
     {
       "img": "icons/commodities/treasure/token-runed-os-grey.webp",
@@ -2635,7 +2140,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 1950000,
+      "sort": 2000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2643,6 +2148,105 @@
       "flags": {},
       "_id": "IqXNRyaxLq3Td1yY",
       "_key": "!actors.items!eAeSrRGMa1Ww6qZX.IqXNRyaxLq3Td1yY"
+    },
+    {
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Dragon's Breath (5th Level Spell)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 5th level or lower.</p>"
+        },
+        "rules": [],
+        "slug": "dragons-breath-5th-level-spell",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "applied-to-dueling-cape-or-shield"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "5YuRHXkErWTCVFal",
+      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.5YuRHXkErWTCVFal"
     },
     {
       "img": "icons/commodities/treasure/token-runed-os-grey.webp",
@@ -2735,7 +2339,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 2050000,
+      "sort": 2200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2743,6 +2347,105 @@
       "flags": {},
       "_id": "COpJwd2Gw4mAmY2W",
       "_key": "!actors.items!eAeSrRGMa1Ww6qZX.COpJwd2Gw4mAmY2W"
+    },
+    {
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Dragon's Breath (6th Level Spell)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 6th level or lower.</p>"
+        },
+        "rules": [],
+        "slug": "dragons-breath-6th-level-spell",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 14
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4500
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "applied-to-dueling-cape-or-shield"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2300000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "H85SW77Hm0KtSt7a",
+      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.H85SW77Hm0KtSt7a"
     },
     {
       "img": "icons/commodities/treasure/token-runed-os-grey.webp",
@@ -2834,7 +2537,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 2150000,
+      "sort": 2400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2842,6 +2545,303 @@
       "flags": {},
       "_id": "OaPdzi2PYxB4P196",
       "_key": "!actors.items!eAeSrRGMa1Ww6qZX.OaPdzi2PYxB4P196"
+    },
+    {
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Dragon's Breath (7th Level Spell)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 7th level or lower.</p>"
+        },
+        "rules": [],
+        "slug": "dragons-breath-7th-level-spell",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 16
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 10000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "applied-to-dueling-cape-or-shield"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "axLnad2PwR4eAsre",
+      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.axLnad2PwR4eAsre"
+    },
+    {
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Dragon's Breath (8th Level Spell)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 8th level or lower.</p>"
+        },
+        "rules": [],
+        "slug": "dragons-breath-8th-level-spell",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 24000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "applied-to-dueling-cape-or-shield"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2600000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "lxoHAOJsGF0gGcbe",
+      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.lxoHAOJsGF0gGcbe"
+    },
+    {
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Dragon's Breath (9th Level Spell)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune depicts a specific type of dragon, resizing after application to fit the surface of the item.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">f</span> envision (spellshape)</p>\n<p><strong>Requirements</strong> You're receiving a bonus to AC from your <em>dragon's breath</em> cape or shield</p>\n<hr />\n<p><strong>Effect</strong> If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the @UUID[Compendium.pf2e.feats-srd.Item.FoWO4RnHRwfEIC7Q]{Widen Spell} feat. The rune can only affect spells of 9th rank or lower.</p>"
+        },
+        "rules": [],
+        "slug": "dragons-breath-9th-level-spell",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.348",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 20
+        },
+        "quantity": 99,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 70000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "applied-to-dueling-cape-or-shield"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2700000,
+      "ownership": {
+        "default": 0,
+        "UPnjMbTUnpLyKVOr": 3
+      },
+      "flags": {},
+      "_id": "aYe99DO1HlXpvWlP",
+      "_key": "!actors.items!eAeSrRGMa1Ww6qZX.aYe99DO1HlXpvWlP"
     }
   ],
   "sort": 0,

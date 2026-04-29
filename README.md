@@ -1,4 +1,4 @@
-![GitHub Downloads](https://img.shields.io/github/downloads/HavocsCall/FVTT-PF2E-Merchant-Maker/latest/total)
+![GitHub Downloads](https://img.shields.io/github/downloads/HavocsCall/FVTT_Pf2eMerchantMaker/latest/total)
 
 # PF2E Merchant Maker
 
@@ -29,7 +29,7 @@ There are some premade shops in a compendium. Currently, there are:
 For now, use this link in the install module field in FoundryVTT.
 
 ```
-https://github.com/HavocsCall/FVTT-PF2E-Merchant-Maker/releases/latest/download/module.json
+https://github.com/HavocsCall/FVTT_Pf2eMerchantMaker/releases/latest/download/module.json
 ```
 
 I will submit this to be added to Foundry's Module list if there is interest.
@@ -63,7 +63,7 @@ The items are sorted by Rarity > Level > Name.
 
 ## Found a Bug or Have a Suggestion?
 
-Feel free to create an issue on [GitHub](https://github.com/HavocsCall/FVTT-PF2E-Merchant-Maker/issues). Thanks for helping make this better.
+Feel free to create an issue on [GitHub](https://github.com/HavocsCall/FVTT_Pf2eMerchantMaker/issues). Thanks for helping make this better.
 
 ## Future Plans
 

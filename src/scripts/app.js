@@ -1,11 +1,11 @@
-import { MODULE_ID, MODULE_STATE, SETTINGS } from "./merchant-maker.constants.js";
-import { generateMerchantFromFormData } from "./merchant-maker.generator.js";
+import { MODULE_ID, MODULE_STATE, SETTINGS } from "./constants.js";
+import { generateMerchantFromFormData } from "./generator.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
 export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(ApplicationV2) {
 	get title() {
-		return game.i18n.localize("pf2eMerchantMaker.name");
+		return game.i18n.localize("FVTT_PF2EMERCHANTMAKER.NAME");
 	}
 
 	static DEFAULT_OPTIONS = {
@@ -31,8 +31,8 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 	static TABS = {
 		primary: {
 			tabs: [
-				{ id: "merchantMaker", label: "pf2eMerchantMaker.name" },
-				{ id: "advancedOptions", label: "pf2eMerchantMaker.window.advancedOptions" },
+				{ id: "merchantMaker", label: "FVTT_PF2EMERCHANTMAKER.NAME" },
+				{ id: "advancedOptions", label: "FVTT_PF2EMERCHANTMAKER.WINDOW.ADVANCEDOPTIONS" },
 			],
 			initial: "merchantMaker",
 		},
@@ -55,12 +55,12 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 			buttons: [
 				{
 					type: "submit",
-					label: "pf2eMerchantMaker.window.submit",
+					label: "FVTT_PF2EMERCHANTMAKER.WINDOW.SUBMIT",
 					icon: "fa-solid fa-hand-holding-dollar",
 				},
 				{
 					type: "reset",
-					label: "pf2eMerchantMaker.window.reset",
+					label: "FVTT_PF2EMERCHANTMAKER.WINDOW.RESET",
 					icon: "fa-solid fa-arrow-rotate-left",
 				},
 			],
@@ -84,7 +84,7 @@ export function registerActorDirectoryButton() {
 			`
         <button id="${MODULE_ID}">
             <i class="fa-solid fa-hand-holding-dollar"></i>
-            <span style="font-weight: 400; font-family: var(--font-sans);">${game.i18n.localize("pf2eMerchantMaker.name")}</span>
+            <span style="font-weight: 400; font-family: var(--font-sans);">${game.i18n.localize("FVTT_PF2EMERCHANTMAKER.NAME")}</span>
         </button>
         `
 		);
@@ -96,7 +96,7 @@ export function registerActorDirectoryButton() {
 				!MODULE_STATE.criteria ||
 				Object.keys(MODULE_STATE.criteria).length === 0
 			) {
-				ui.notifications?.error(game.i18n.localize("pf2eMerchantMaker.error.notReady"));
+				ui.notifications?.error(game.i18n.localize("FVTT_PF2EMERCHANTMAKER.ERROR.NOTREADY"));
 				return;
 			}
 

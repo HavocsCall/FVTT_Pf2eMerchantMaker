@@ -1,5 +1,5 @@
 {
-	"id": "FVTT-PF2E-Merchant-Maker",
+	"id": "FVTT_Pf2eMerchantMaker",
 	"title": "PF2E Merchant Maker",
 	"description": "This FoundryVTT module allows for the quick creation of merchants for the Pathfinder 2nd Edition system.",
 	"changelog": "CHANGELOG.md",
@@ -61,6 +61,6 @@
 			}
 		]
 	},
-	"esmodules": ["src/scripts/merchant-maker.main.js"],
+	"esmodules": ["src/scripts/main.js"],
 	"styles": ["src/styles/pf2eMerchantMaker.css"]
 }

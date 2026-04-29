@@ -1,36 +1,53 @@
 # Changelog
 
-## 2.0.0
+<details>
+    <summary>Changelog Entry Format</summary>
 
+    ## [Version Number] - YYYY-MM-DD
+    ### Added
+    - New features
+
+    ### Changed
+    - Changes to existing functionality
+
+    ### Deprecated
+    - Features that will be removed in a future version
+
+    ### Removed
+    - Features removed in this version
+
+    ### Fixed
+    - Bug fixes
+
+    ### Security
+    - Security-related fixes
+</details>
+
+## 2.0.0
 ### Added
 
 - Exemplar items were added to the exclude list
 - ESLint and Prettier to maintain code consistency
 
 ### Changed
-
 - A lot of code changes to clean up to seem even more professional
 
 ## 1.4.0
-
 ### Changed
 
 - Moved Quantity and Amount options to a new tab
 
 ## 1.3.2
-
 ### Changed
 
 - Turned off debug because I forgot
 
 ## 1.3.1
-
 ### Changed
 
 - The compendium folder color to a darker shade
 
 ## 1.3.0
-
 ### Added
 
 - Quantity options to set the quantity for each item in the merchant
@@ -42,19 +59,16 @@
 - Changed the folder structure to try to seem more professional
 
 ## 1.2.0
-
 ### Added
 
 - Setup to Exclude non-obtainable items (Ancestry/Class items)
 
 ## 1.1.0
-
 ### Added
 
 - PF2E Toolbelt - Better Merchant setup
 
 ## 1.0.0
-
 ### Added
 
 - PF2E Merchant Maker

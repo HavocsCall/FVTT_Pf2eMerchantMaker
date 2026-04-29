@@ -1,67 +1,67 @@
 {
-	"pf2eMerchantMaker": {
-		"name": "PF2E Merchant Maker",
-		"logging": {
-			"ready": "PF2E Merchant Maker | Module is ready"
+	"FVTT_PF2EMERCHANTMAKER": {
+		"NAME": "PF2E Merchant Maker",
+		"LOGGING": {
+			"READY": "PF2E Merchant Maker | Module is ready"
 		},
-		"error": {
-			"noPack": "PF2E Merchant Maker | Equipment Compendium not found",
-			"notReady": "PF2E Merchant Maker | Data is still loading. Please try again in a moment."
+		"ERROR": {
+			"NOPACK": "PF2E Merchant Maker | Equipment Compendium not found",
+			"NOTREADY": "PF2E Merchant Maker | Data is still loading. Please try again in a moment."
 		},
-		"labels": {
-			"defaultMerchantName": "New Merchant",
-			"rarity": "Rarity",
-			"bulk": "Bulk",
-			"level": "Level"
+		"LABELS": {
+			"DEFAULTMERCHANTNAME": "New Merchant",
+			"RARITY": "Rarity",
+			"BULK": "Bulk",
+			"LEVEL": "Level"
 		},
-		"settings": {
-			"addCriteriaSummary": {
-				"name": "Add Criteria Summary",
-				"hint": "If enabled, the merchant will include a summary of the criteria used to generate the merchant's inventory."
+		"SETTINGS": {
+			"ADDCRITERIASUMMARY": {
+				"NAME": "Add Criteria Summary",
+				"HINT": "If enabled, the merchant will include a summary of the criteria used to generate the merchant's inventory."
 			},
-			"closeOnSubmit": {
-				"name": "Close on Submit",
-				"hint": "If enabled, the merchant window will close after submitting the form. You will need to reload the form for the changes to take effect."
+			"CLOSEONSUBMIT": {
+				"NAME": "Close on Submit",
+				"HINT": "If enabled, the merchant window will close after submitting the form. You will need to reload the form for the changes to take effect."
 			},
-			"itemPilesSetup": {
-				"name": "[Module] Item Piles Setup",
-				"hint": "If enabled, the created merchant will have my preferred base setup for the Item Piles module. This includes marking them as a Merchant, setting the quantity to infinite, setting the range to infinite, and setting the level column."
+			"ITEMPILESSETUP": {
+				"NAME": "[Module] Item Piles Setup",
+				"HINT": "If enabled, the created merchant will have my preferred base setup for the Item Piles module. This includes marking them as a Merchant, setting the quantity to infinite, setting the range to infinite, and setting the level column."
 			},
-			"toolbeltBetterMerchantSetup": {
-				"name": "[Module] PF2E Toolbelt - Better Merchant Setup",
-				"hint": "If enabled, the created merchant will have my preferred base setup for the PF2E Toolbelt - Better Merchant module. This includes making the infinite stock."
+			"TOOLBELTBETTERMERCHANTSETUP": {
+				"NAME": "[Module] PF2E Toolbelt - Better Merchant Setup",
+				"HINT": "If enabled, the created merchant will have my preferred base setup for the PF2E Toolbelt - Better Merchant module. This includes making the infinite stock."
 			}
 		},
-		"window": {
-			"advancedOptions": "Advanced Options",
-			"allAmount": "All items that match",
-			"amountTip": "Control how many unique items are returned.",
-			"criteriaTip": "Tip: Hold <strong>Ctrl</strong> (or <strong>Cmd</strong> on Mac) to select multiple options. Hold <strong>Shift</strong> to select a range.",
-			"excludeCategory": "Exclude Category",
-			"excludeGroup": "Exclude Group",
-			"excludeLevel": "Exclude Level",
-			"excludeRange": "Exclude Range",
-			"excludeRarity": "Exclude Rarity",
-			"excludeTraits": "Exclude Traits",
-			"excludeType": "Exclude Type",
-			"includeCategory": "Include Category",
-			"includeGroup": "Include Group",
-			"includeLevel": "Include Level",
-			"includeRange": "Include Range",
-			"includeRarity": "Include Rarity",
-			"includeTraits": "Include Traits",
-			"includeType": "Include Type",
-			"itemAmounts": "Item Amounts",
-			"merchantName": "Merchant Name",
-			"merchantPlaceholder": "Enter Merchant Name",
-			"quantityOptions": "Quantity per Item",
-			"quantityTip": "Choose how many of each matching item.",
-			"randomAmount": "Random Amount of Random Items",
-			"randomQuantity": "Random Quantity (1-99) per item",
-			"reset": "Reset Form",
-			"setAmount": "Set Amount of Random Items",
-			"setQuantity": "Set Quantity (1-99) per item",
-			"submit": "Make Me a Merchant!"
+		"WINDOW": {
+			"ADVANCEDOPTIONS": "Advanced Options",
+			"ALLAMOUNT": "All items that match",
+			"AMOUNTTIP": "Control how many unique items are returned.",
+			"CRITERIATIP": "Tip: Hold <strong>Ctrl</strong> (or <strong>Cmd</strong> on Mac) to select multiple options. Hold <strong>Shift</strong> to select a range.",
+			"EXCLUDECATEGORY": "Exclude Category",
+			"EXCLUDEGROUP": "Exclude Group",
+			"EXCLUDELEVEL": "Exclude Level",
+			"EXCLUDERANGE": "Exclude Range",
+			"EXCLUDERARITY": "Exclude Rarity",
+			"EXCLUDETRAITS": "Exclude Traits",
+			"EXCLUDETYPE": "Exclude Type",
+			"INCLUDECATEGORY": "Include Category",
+			"INCLUDEGROUP": "Include Group",
+			"INCLUDELEVEL": "Include Level",
+			"INCLUDERANGE": "Include Range",
+			"INCLUDERARITY": "Include Rarity",
+			"INCLUDETRAITS": "Include Traits",
+			"INCLUDETYPE": "Include Type",
+			"ITEMAMOUNTS": "Item Amounts",
+			"MERCHANTNAME": "Merchant Name",
+			"MERCHANTPLACEHOLDER": "Enter Merchant Name",
+			"QUANTITYOPTIONS": "Quantity per Item",
+			"QUANTITYTIP": "Choose how many of each matching item.",
+			"RANDOMAMOUNT": "Random Amount of Random Items",
+			"RANDOMQUANTITY": "Random Quantity (1-99) per item",
+			"RESET": "Reset Form",
+			"SETAMOUNT": "Set Amount of Random Items",
+			"SETQUANTITY": "Set Quantity (1-99) per item",
+			"SUBMIT": "Make Me a Merchant!"
 		}
 	}
 }

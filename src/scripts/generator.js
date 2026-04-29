@@ -9,13 +9,13 @@ import {
 	QUANTITY_MIN,
 	SETTINGS,
 	SORT_FUNCTIONS,
-} from "./merchant-maker.constants.js";
+} from "./constants.js";
 import {
 	buildCriteriaSummary,
 	clampInteger,
 	formatCriteriaSummary,
 	rollIntegerBetween,
-} from "./merchant-maker.utils.js";
+} from "./utils.js";
 
 export async function generateMerchantFromFormData(data) {
 	if (DEBUG) {
@@ -79,7 +79,7 @@ export async function generateMerchantFromFormData(data) {
 
 	const merchantName = data.merchantName?.trim()
 		? data.merchantName
-		: game.i18n.localize("pf2eMerchantMaker.labels.defaultMerchantName");
+		: game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LABELS.DEFAULTMERCHANTNAME");
 
 	const included = {};
 	const excluded = {};
@@ -248,7 +248,7 @@ export async function generateMerchantFromFormData(data) {
 				type: "merchant",
 				merchantColumns: [
 					{
-						label: game.i18n.localize("pf2eMerchantMaker.labels.rarity"),
+						label: game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LABELS.RARITY"),
 						path: "system.traits.rarity",
 						formatting: "{#}",
 						buying: true,
@@ -261,7 +261,7 @@ export async function generateMerchantFromFormData(data) {
 						},
 					},
 					{
-						label: game.i18n.localize("pf2eMerchantMaker.labels.bulk"),
+						label: game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LABELS.BULK"),
 						path: "system.bulk.value",
 						formatting: "{#}",
 						buying: true,
@@ -271,7 +271,7 @@ export async function generateMerchantFromFormData(data) {
 						},
 					},
 					{
-						label: game.i18n.localize("pf2eMerchantMaker.labels.level"),
+						label: game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LABELS.LEVEL"),
 						path: "system.level.value",
 						formatting: "{#}",
 						mapping: {},

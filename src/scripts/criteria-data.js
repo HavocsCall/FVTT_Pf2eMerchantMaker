@@ -1,10 +1,10 @@
-import { CRITERIA_PATHS, DEBUG, MODULE_STATE, SORT_FUNCTIONS } from "./merchant-maker.constants.js";
+import { CRITERIA_PATHS, DEBUG, MODULE_STATE, SORT_FUNCTIONS } from "./constants.js";
 
 export async function initializeMerchantData() {
 	const pack = game.packs.get("pf2e.equipment-srd");
 
 	if (!pack) {
-		const message = game.i18n.localize("pf2eMerchantMaker.error.noPack");
+		const message = game.i18n.localize("FVTT_PF2EMERCHANTMAKER.ERROR.NOPACK");
 		console.error(message);
 		ui.notifications?.error(message);
 		return;
@@ -57,5 +57,5 @@ export async function initializeMerchantData() {
 	MODULE_STATE.items = items;
 	MODULE_STATE.criteria = criteria;
 
-	console.log(game.i18n.localize("pf2eMerchantMaker.logging.ready"));
+	console.log(game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LOGGING.READY"));
 }

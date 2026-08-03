@@ -19,71 +19,92 @@
 		<!-- Include Rarity -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDERARITY"}}</h5>
-			<select name="include-rarity" id="include-rarity" multiple class="highlight-select">
+			<div id="include-rarity" class="criteria-options">
 				{{#each criteria.rarity}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="include-rarity" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Include Type -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDETYPE"}}</h5>
-			<select name="include-type" id="include-type" multiple class="highlight-select">
+			<div id="include-type" class="criteria-options">
 				{{#each criteria.type}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="include-type" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Include Category -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDECATEGORY"}}</h5>
-			<select name="include-category" id="include-category" multiple class="highlight-select">
+			<div id="include-category" class="criteria-options">
 				{{#each criteria.category}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="include-category" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Include Group -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDEGROUP"}}</h5>
-			<select name="include-group" id="include-group" multiple class="highlight-select">
+			<div id="include-group" class="criteria-options">
 				{{#each criteria.group}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="include-group" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Include Level -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDELEVEL"}}</h5>
-			<select name="include-level" id="include-level" multiple class="highlight-select">
+			<div id="include-level" class="criteria-options">
 				{{#each criteria.level}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="include-level" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Include Range -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDERANGE"}}</h5>
-			<select name="include-range" id="include-range" multiple class="highlight-select">
+			<div id="include-range" class="criteria-options">
 				{{#each criteria.range}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="include-range" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Include Traits -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDETRAITS"}}</h5>
-			<select name="include-traits" id="include-traits" multiple class="highlight-select">
+			<div id="include-traits" class="criteria-options">
 				{{#each criteria.traits}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="include-traits" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 	</div>
 
@@ -94,71 +115,92 @@
 		<!-- Exclude Rarity -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDERARITY"}}</h5>
-			<select name="exclude-rarity" id="exclude-rarity" multiple class="highlight-select">
+			<div id="exclude-rarity" class="criteria-options">
 				{{#each criteria.rarity}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="exclude-rarity" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Exclude Type -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDETYPE"}}</h5>
-			<select name="exclude-type" id="exclude-type" multiple class="highlight-select">
+			<div id="exclude-type" class="criteria-options">
 				{{#each criteria.type}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="exclude-type" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Exclude Category -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDECATEGORY"}}</h5>
-			<select name="exclude-category" id="exclude-category" multiple class="highlight-select">
+			<div id="exclude-category" class="criteria-options">
 				{{#each criteria.category}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="exclude-category" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Exclude Group -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDEGROUP"}}</h5>
-			<select name="exclude-group" id="exclude-group" multiple class="highlight-select">
+			<div id="exclude-group" class="criteria-options">
 				{{#each criteria.group}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="exclude-group" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Exclude Level -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDELEVEL"}}</h5>
-			<select name="exclude-level" id="exclude-level" multiple class="highlight-select">
+			<div id="exclude-level" class="criteria-options">
 				{{#each criteria.level}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="exclude-level" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Exclude Range -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDERANGE"}}</h5>
-			<select name="exclude-range" id="exclude-range" multiple class="highlight-select">
+			<div id="exclude-range" class="criteria-options">
 				{{#each criteria.range}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="exclude-range" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 
 		<!-- Exclude Traits -->
 		<div class="criteria-block">
 			<h5>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDETRAITS"}}</h5>
-			<select name="exclude-traits" id="exclude-traits" multiple class="highlight-select">
+			<div id="exclude-traits" class="criteria-options">
 				{{#each criteria.traits}}
-					<option value="{{this}}">{{this}}</option>
+					<label class="criteria-option">
+						<input type="checkbox" name="exclude-traits" value="{{this}}" />
+						<span>{{this}}</span>
+					</label>
 				{{/each}}
-			</select>
+			</div>
 		</div>
 	</div>
 

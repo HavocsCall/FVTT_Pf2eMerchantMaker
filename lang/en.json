@@ -36,7 +36,7 @@
 			"ADVANCEDOPTIONS": "Advanced Options",
 			"ALLAMOUNT": "All items that match",
 			"AMOUNTTIP": "Control how many unique items are returned.",
-			"CRITERIATIP": "Tip: Hold <strong>Ctrl</strong> (or <strong>Cmd</strong> on Mac) to select multiple options. Hold <strong>Shift</strong> to select a range.",
+			"CRITERIATIP": "Tip: Click any checkbox to include or remove that criterion.",
 			"EXCLUDECATEGORY": "Exclude Category",
 			"EXCLUDEGROUP": "Exclude Group",
 			"EXCLUDELEVEL": "Exclude Level",

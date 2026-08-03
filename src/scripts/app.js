@@ -3,6 +3,22 @@ import { generateMerchantFromFormData } from "./generator.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
+function collectCheckedCriteria(form) {
+	const checkedCriteria = form.querySelectorAll(
+		'input[type="checkbox"][name^="include-"]:checked, input[type="checkbox"][name^="exclude-"]:checked'
+	);
+	const criteriaData = {};
+
+	for (const input of checkedCriteria) {
+		if (!input.name) continue;
+
+		criteriaData[input.name] ??= [];
+		criteriaData[input.name].push(input.value);
+	}
+
+	return criteriaData;
+}
+
 export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(ApplicationV2) {
 	get title() {
 		return game.i18n.localize("FVTT_PF2EMERCHANTMAKER.NAME");
@@ -68,8 +84,13 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 		};
 	}
 
-	static async handleFormSubmit(_event, _form, formData) {
-		await generateMerchantFromFormData(formData.object);
+	static async handleFormSubmit(_event, form, formData) {
+		const submittedData = {
+			...formData.object,
+			...collectCheckedCriteria(form),
+		};
+
+		await generateMerchantFromFormData(submittedData);
 	}
 }
 

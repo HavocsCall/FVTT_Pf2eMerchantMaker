@@ -10,14 +10,34 @@
 	min-width: 140px;
 }
 
-.criteria-block select {
+.criteria-options {
 	height: 200px;
+	overflow-y: auto;
+	padding: 0.5rem;
+	border: 1px solid var(--color-border-light-primary);
+	border-radius: 4px;
+	background: var(--color-bg);
 }
 
-.highlight-select option:checked {
-	background-color: lightblue;
-	color: navy;
-	font-weight: bold;
+.criteria-option {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.15rem 0;
+	cursor: pointer;
+}
+
+.criteria-option input {
+	margin: 0;
+}
+
+.criteria-option span {
+	overflow-wrap: anywhere;
+}
+
+.criteria-option:has(input:checked) {
+	color: var(--color-text-emphatic);
+	font-weight: 600;
 }
 
 .options-row {

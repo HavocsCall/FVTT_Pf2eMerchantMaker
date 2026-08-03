@@ -1,4 +1,5 @@
-import { MODULE_ID, MODULE_STATE, SETTINGS } from "./constants.js";
+import { CRITERIA_FIELDS, MODULE_ID, MODULE_STATE, SETTINGS } from "./constants.js";
+import { ensureMerchantDataInitialized } from "./criteria-data.js";
 import { generateMerchantFromFormData } from "./generator.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
@@ -7,13 +8,22 @@ function collectCheckedCriteria(form) {
 	const checkedCriteria = form.querySelectorAll(
 		'input[type="checkbox"][name^="include-"]:checked, input[type="checkbox"][name^="exclude-"]:checked'
 	);
-	const criteriaData = {};
+	const criteriaData = {
+		included: {},
+		excluded: {},
+	};
 
 	for (const input of checkedCriteria) {
 		if (!input.name) continue;
 
-		criteriaData[input.name] ??= [];
-		criteriaData[input.name].push(input.value);
+		const [scope, ...labelParts] = input.name.split("-");
+		if (!["include", "exclude"].includes(scope) || labelParts.length === 0) continue;
+
+		const bucket = scope === "include" ? criteriaData.included : criteriaData.excluded;
+		const label = labelParts.join("-");
+
+		bucket[label] ??= [];
+		bucket[label].push(input.value);
 	}
 
 	return criteriaData;
@@ -81,6 +91,7 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 				},
 			],
 			criteria: MODULE_STATE.criteria,
+			criteriaFields: CRITERIA_FIELDS,
 		};
 	}
 
@@ -110,7 +121,9 @@ export function registerActorDirectoryButton() {
         `
 		);
 
-		footer.querySelector(`#${MODULE_ID}`).onclick = () => {
+		footer.querySelector(`#${MODULE_ID}`).onclick = async () => {
+			await ensureMerchantDataInitialized();
+
 			if (
 				!Array.isArray(MODULE_STATE.items) ||
 				MODULE_STATE.items.length === 0 ||

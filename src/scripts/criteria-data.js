@@ -1,5 +1,7 @@
 import { CRITERIA_PATHS, DEBUG, MODULE_STATE, SORT_FUNCTIONS } from "./constants.js";
 
+let merchantDataInitializationPromise;
+
 export async function initializeMerchantData() {
 	const pack = game.packs.get("pf2e.equipment-srd");
 
@@ -58,4 +60,25 @@ export async function initializeMerchantData() {
 	MODULE_STATE.criteria = criteria;
 
 	console.log(game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LOGGING.READY"));
+}
+
+export async function ensureMerchantDataInitialized() {
+	if (Array.isArray(MODULE_STATE.items) && MODULE_STATE.items.length > 0) {
+		return true;
+	}
+
+	merchantDataInitializationPromise ??= initializeMerchantData()
+		.then(() => Array.isArray(MODULE_STATE.items) && MODULE_STATE.items.length > 0)
+		.catch((error) => {
+			merchantDataInitializationPromise = undefined;
+			throw error;
+		});
+
+	const initialized = await merchantDataInitializationPromise;
+
+	if (!initialized) {
+		merchantDataInitializationPromise = undefined;
+	}
+
+	return initialized;
 }

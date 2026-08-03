@@ -15,7 +15,8 @@ export const buildCriteriaSummary = (
 	excludedCriteria,
 	quantityConfig,
 	amountConfig,
-	totalMatches
+	totalMatches,
+	selectedCount
 ) => {
 	const quantitySummary =
 		quantityConfig.type === "random"
@@ -25,7 +26,13 @@ export const buildCriteriaSummary = (
 	const itemsReturnedSummary = (() => {
 		if (amountConfig.type === "all") return "All";
 		if (amountConfig.type === "set") return `Set (${Math.min(amountConfig.count, totalMatches)})`;
-		return `Random (${amountConfig.min}-${amountConfig.max})`;
+
+		const requestedRange = `Random (${amountConfig.min}-${amountConfig.max})`;
+		if (totalMatches < amountConfig.min) {
+			return `${requestedRange}, only ${totalMatches} matched`;
+		}
+
+		return `${requestedRange}, selected ${selectedCount}`;
 	})();
 
 	return {

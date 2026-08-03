@@ -24,6 +24,44 @@ export const CRITERIA_PATHS = {
 	type: (item) => item.type,
 };
 
+export const CRITERIA_FIELDS = [
+	{
+		key: "rarity",
+		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDERARITY",
+		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDERARITY",
+	},
+	{
+		key: "type",
+		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDETYPE",
+		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDETYPE",
+	},
+	{
+		key: "category",
+		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDECATEGORY",
+		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDECATEGORY",
+	},
+	{
+		key: "group",
+		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDEGROUP",
+		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDEGROUP",
+	},
+	{
+		key: "level",
+		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDELEVEL",
+		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDELEVEL",
+	},
+	{
+		key: "range",
+		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDERANGE",
+		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDERANGE",
+	},
+	{
+		key: "traits",
+		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDETRAITS",
+		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDETRAITS",
+	},
+];
+
 export const RARITY_ORDER = {
 	common: 0,
 	uncommon: 1,

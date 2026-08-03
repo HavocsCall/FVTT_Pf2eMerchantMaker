@@ -81,35 +81,12 @@ export async function generateMerchantFromFormData(data) {
 		? data.merchantName
 		: game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LABELS.DEFAULTMERCHANTNAME");
 
-	const included = {};
-	const excluded = {};
-	const normalizeCriteriaValues = (value) => {
-		if (Array.isArray(value)) {
-			return value.filter(
-				(entry) => entry !== undefined && entry !== null && String(entry).trim() !== ""
-			);
-		}
-		if (value === undefined || value === null || value === "") return [];
-		return [value];
-	};
-
-	for (const [key, value] of Object.entries(data)) {
-		if (key.startsWith("include-")) {
-			const values = normalizeCriteriaValues(value);
-			if (values.length === 0) continue;
-
-			const label = key.replace("include-", "");
-			included[label] = values;
-		}
-
-		if (key.startsWith("exclude-")) {
-			const values = normalizeCriteriaValues(value);
-			if (values.length === 0) continue;
-
-			const label = key.replace("exclude-", "");
-			excluded[label] = values;
-		}
-	}
+	const included = Object.fromEntries(
+		Object.entries(data.included ?? {}).filter(([, value]) => Array.isArray(value) && value.length > 0)
+	);
+	const excluded = Object.fromEntries(
+		Object.entries(data.excluded ?? {}).filter(([, value]) => Array.isArray(value) && value.length > 0)
+	);
 
 	const numberKeys = ["level", "range"];
 
@@ -233,7 +210,8 @@ export async function generateMerchantFromFormData(data) {
 		excluded,
 		quantityConfig,
 		amountConfig,
-		sortedMatches.length
+		sortedMatches.length,
+		selectedMatches.length
 	);
 
 	const actorSystemData = {

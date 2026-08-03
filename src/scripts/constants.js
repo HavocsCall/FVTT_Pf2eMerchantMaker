@@ -1,4 +1,4 @@
-export const MODULE_ID = "FVTT-PF2E-Merchant-Maker";
+export const MODULE_ID = "FVTT_Pf2eMerchantMaker";
 
 export const DEBUG = false;
 

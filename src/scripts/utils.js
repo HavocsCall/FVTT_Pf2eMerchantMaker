@@ -10,6 +10,21 @@ export const clampInteger = (value, min, max, fallback) => {
 
 export const rollIntegerBetween = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
+const formatRangeCriteria = (value) => {
+	if (!value || typeof value !== "object") return "";
+
+	const segments = [];
+	if (value.melee) segments.push(game.i18n.localize("FVTT_PF2EMERCHANTMAKER.WINDOW.MELEE"));
+	if (value.ranged) {
+		const rangedLabel = game.i18n.localize("FVTT_PF2EMERCHANTMAKER.WINDOW.RANGED");
+		segments.push(
+			value.values?.length > 0 ? `${rangedLabel} (${value.values.join(", ")})` : rangedLabel
+		);
+	}
+
+	return segments.join(", ");
+};
+
 export const buildCriteriaSummary = (
 	includedCriteria,
 	excludedCriteria,
@@ -51,10 +66,15 @@ export const formatCriteriaSummary = (summary) => {
 			const rows = Object.entries(values ?? {})
 				.filter(([, value]) => {
 					if (Array.isArray(value)) return value.length > 0;
+					if (typeof value === "object") return Boolean(formatRangeCriteria(value));
 					return value !== undefined && value !== null && value !== "";
 				})
 				.map(([label, value]) => {
-					const displayValue = Array.isArray(value) ? value.join(", ") : value;
+					const displayValue = Array.isArray(value)
+						? value.join(", ")
+						: typeof value === "object"
+							? formatRangeCriteria(value)
+							: value;
 					const formattedLabel = label.replace(/\b\w/g, (char) => char.toUpperCase());
 					return `${formattedLabel}: ${displayValue}`;
 				});

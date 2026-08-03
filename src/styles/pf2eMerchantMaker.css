@@ -40,6 +40,45 @@
 	font-weight: 600;
 }
 
+.range-group {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+.range-ranged-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.range-disclosure::before {
+	content: ">";
+	display: inline-block;
+	font-size: 0.85em;
+	color: var(--color-text-muted, #777);
+	transform: rotate(0deg);
+	transition: transform 120ms ease;
+}
+
+.range-disclosure {
+	margin-left: auto;
+}
+
+.range-ranged-group:has(> .criteria-option input:checked) .range-disclosure::before {
+	transform: rotate(90deg);
+}
+
+.range-suboptions {
+	display: none;
+	margin-left: 1.25rem;
+	padding-left: 0.4rem;
+	border-left: 1px solid var(--color-border-light-primary);
+}
+
+.range-ranged-group:has(> .criteria-option input:checked) .range-suboptions {
+	display: block;
+}
+
 .options-row {
 	display: grid;
 	grid-template-columns: 1fr 1fr; /* two equal columns */

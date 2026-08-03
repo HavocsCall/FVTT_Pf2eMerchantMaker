@@ -54,6 +54,7 @@ export const CRITERIA_FIELDS = [
 		key: "range",
 		includeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.INCLUDERANGE",
 		excludeLabel: "FVTT_PF2EMERCHANTMAKER.WINDOW.EXCLUDERANGE",
+		isRange: true,
 	},
 	{
 		key: "traits",

@@ -81,14 +81,69 @@ export async function generateMerchantFromFormData(data) {
 		? data.merchantName
 		: game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LABELS.DEFAULTMERCHANTNAME");
 
-	const included = Object.fromEntries(
-		Object.entries(data.included ?? {}).filter(([, value]) => Array.isArray(value) && value.length > 0)
-	);
-	const excluded = Object.fromEntries(
-		Object.entries(data.excluded ?? {}).filter(([, value]) => Array.isArray(value) && value.length > 0)
-	);
+	const normalizeCriteriaBucket = (bucket) => {
+		const normalized = {};
 
-	const numberKeys = ["level", "range"];
+		for (const [key, value] of Object.entries(bucket ?? {})) {
+			if (key === "range") {
+				const melee = Boolean(value?.melee);
+				const ranged = Boolean(value?.ranged);
+				const values = Array.isArray(value?.values)
+					? value.values.map(Number).filter((entry) => Number.isFinite(entry))
+					: [];
+
+				if (melee || ranged) {
+					normalized.range = {
+						melee,
+						ranged,
+						values: ranged ? values : [],
+					};
+				}
+
+				continue;
+			}
+
+			if (Array.isArray(value) && value.length > 0) {
+				normalized[key] = value;
+			}
+		}
+
+		return normalized;
+	};
+
+	const matchesIncludedRange = (rangeFilter, itemRange) => {
+		const isRanged = itemRange !== undefined && itemRange !== null;
+		const isMelee = !isRanged;
+
+		const meleeMatches = rangeFilter.melee && isMelee;
+		const rangedMatches =
+			rangeFilter.ranged &&
+			isRanged &&
+			(rangeFilter.values.length === 0 || rangeFilter.values.includes(itemRange));
+
+		return meleeMatches || rangedMatches;
+	};
+
+	const matchesExcludedRange = (rangeFilter, itemRange) => {
+		const isRanged = itemRange !== undefined && itemRange !== null;
+		const isMelee = !isRanged;
+
+		if (rangeFilter.melee && isMelee) return true;
+		if (
+			rangeFilter.ranged &&
+			isRanged &&
+			(rangeFilter.values.length === 0 || rangeFilter.values.includes(itemRange))
+		) {
+			return true;
+		}
+
+		return false;
+	};
+
+	const included = normalizeCriteriaBucket(data.included);
+	const excluded = normalizeCriteriaBucket(data.excluded);
+
+	const numberKeys = ["level"];
 
 	for (const key of numberKeys) {
 		if (included[key]) included[key] = included[key].map(Number);
@@ -110,6 +165,11 @@ export async function generateMerchantFromFormData(data) {
 			const value = CRITERIA_PATHS[key]?.(item);
 			if (value === undefined) return false;
 
+			if (key === "range") {
+				if (!matchesIncludedRange(allowedValues, value)) return false;
+				continue;
+			}
+
 			if (Array.isArray(value)) {
 				if (!allowedValues.some((v) => value.includes(v))) return false;
 			} else if (!allowedValues.includes(value)) {
@@ -120,6 +180,11 @@ export async function generateMerchantFromFormData(data) {
 		for (const [key, excludedValues] of Object.entries(excluded)) {
 			const value = CRITERIA_PATHS[key]?.(item);
 			if (value === undefined) continue;
+
+			if (key === "range") {
+				if (matchesExcludedRange(excludedValues, value)) return false;
+				continue;
+			}
 
 			if (Array.isArray(value)) {
 				if (excludedValues.some((v) => value.includes(v))) return false;

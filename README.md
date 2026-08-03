@@ -23,6 +23,7 @@ An advanced options menu for random and set amounts.
 There are some premade shops in a compendium. Currently, there are:
 
 - Runes
+- Skill item bonus items
 
 ## Installation
 
@@ -67,7 +68,6 @@ Feel free to create an issue on [GitHub](https://github.com/HavocsCall/FVTT_Pf2e
 
 ## Future Plans
 
-- Add a specific "Melee" and "Ranged" option for weapons.
 - Make the window prettier.
 - Add an option for value ranges, like levels 0-5 instead of "0, 1, 2, 3, 4, 5." I'm not positive about this since there is the possibility that someone may want non-consecutive levels. That would require both the range and the selectable options. That might get confusing.
 

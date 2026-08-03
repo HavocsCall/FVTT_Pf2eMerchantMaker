@@ -20,10 +20,34 @@ function collectCheckedCriteria(form) {
 		if (!["include", "exclude"].includes(scope) || labelParts.length === 0) continue;
 
 		const bucket = scope === "include" ? criteriaData.included : criteriaData.excluded;
-		const label = labelParts.join("-");
+		const [label, subType] = labelParts;
+
+		if (label === "range") {
+			bucket.range ??= { melee: false, ranged: false, values: [] };
+
+			if (subType === "kind") {
+				bucket.range[input.value] = true;
+			} else if (subType === "value") {
+				bucket.range.values.push(input.value);
+			}
+
+			continue;
+		}
 
 		bucket[label] ??= [];
 		bucket[label].push(input.value);
+	}
+
+	for (const bucket of [criteriaData.included, criteriaData.excluded]) {
+		if (!bucket.range) continue;
+
+		if (!bucket.range.ranged) {
+			bucket.range.values = [];
+		}
+
+		if (!bucket.range.melee && !bucket.range.ranged) {
+			delete bucket.range;
+		}
 	}
 
 	return criteriaData;

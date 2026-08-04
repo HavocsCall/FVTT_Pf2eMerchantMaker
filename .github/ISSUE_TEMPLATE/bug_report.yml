@@ -1,0 +1,122 @@
+name: Bug Report (YAML)
+description: Report a reproducible problem in this Foundry VTT module
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out as much of this form as you can. Clear reproduction steps and environment details make triage much faster.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the bug.
+      placeholder: The merchant form opens, but clicking submit creates an empty actor.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the exact steps needed to reproduce the issue.
+      placeholder: |
+        1. Open the Actor Directory
+        2. Click PF2E Merchant Maker
+        3. Select Ranged and 30 ft
+        4. Click Make Me a Merchant
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      placeholder: A merchant actor should be created with matching ranged items.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      placeholder: The actor is created, but no items are added.
+    validations:
+      required: true
+
+  - type: input
+    id: foundry_version
+    attributes:
+      label: Foundry VTT Version
+      placeholder: "14.331"
+    validations:
+      required: true
+
+  - type: input
+    id: system_name_version
+    attributes:
+      label: Game System and Version
+      placeholder: "PF2E 7.8.0"
+    validations:
+      required: true
+
+  - type: input
+    id: module_version
+    attributes:
+      label: Module Version
+      placeholder: "1.2.3"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Where are you running Foundry?
+      options:
+        - Browser client on local host
+        - Browser client on remote host
+        - Electron desktop app
+        - Self-hosted dedicated server
+        - Unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: browser_os
+    attributes:
+      label: Browser / OS
+      description: Include browser and operating system if relevant.
+      placeholder: "Firefox 141 on Windows 11"
+
+  - type: textarea
+    id: active_modules
+    attributes:
+      label: Other Active Modules
+      description: List any modules that may be related, especially known integrations or UI modifiers.
+      placeholder: |
+        - Item Piles: PF2e
+        - PF2e Toolbelt
+        - Dice So Nice
+
+  - type: textarea
+    id: screenshots_logs
+    attributes:
+      label: Screenshots / Console Errors / Logs
+      description: Paste any relevant errors or attach screenshots.
+      render: shell
+
+  - type: textarea
+    id: module_specific
+    attributes:
+      label: Module-Specific Notes
+      description: Add any module-specific setup details that matter for this issue.
+      placeholder: |
+        - Settings enabled:
+        - Compendiums involved:
+        - Merchant criteria used:
+        - Integration features enabled:
+

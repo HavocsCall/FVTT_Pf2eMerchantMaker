@@ -1,3 +1,4 @@
+/** Clamps user-provided numeric input into a safe integer range with a fallback value. */
 export const clampInteger = (value, min, max, fallback) => {
 	const parsed = Number(value);
 	if (!Number.isFinite(parsed)) return fallback;
@@ -8,8 +9,11 @@ export const clampInteger = (value, min, max, fallback) => {
 	return Math.min(max, Math.max(min, floored));
 };
 
+/** Inclusive integer roll helper shared by quantity and random item selection logic. */
 export const rollIntegerBetween = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
+// Range is summarized separately because the UI exposes derived "Melee/Ranged" buckets instead of
+// only the raw numeric range values from the PF2e compendium.
 const formatRangeCriteria = (value) => {
 	if (!value || typeof value !== "object") return "";
 
@@ -42,6 +46,8 @@ export const buildCriteriaSummary = (
 		if (amountConfig.type === "all") return "All";
 		if (amountConfig.type === "set") return `Set (${Math.min(amountConfig.count, totalMatches)})`;
 
+		// Keep the requested random range visible, but also report when the actual matched pool forced
+		// a smaller outcome.
 		const requestedRange = `Random (${amountConfig.min}-${amountConfig.max})`;
 		if (totalMatches < amountConfig.min) {
 			return `${requestedRange}, only ${totalMatches} matched`;
@@ -60,6 +66,7 @@ export const buildCriteriaSummary = (
 	};
 };
 
+/** Converts the structured criteria summary into the GM-only HTML snippet stored on the actor. */
 export const formatCriteriaSummary = (summary) => {
 	return Object.entries(summary)
 		.map(([section, values]) => {

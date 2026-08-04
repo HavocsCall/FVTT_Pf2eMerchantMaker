@@ -1,7 +1,9 @@
 import { CRITERIA_PATHS, DEBUG, MODULE_STATE, SORT_FUNCTIONS } from "./constants.js";
 
+/** Cached promise so repeated first-use clicks share the same compendium initialization work. */
 let merchantDataInitializationPromise;
 
+/** Loads the PF2e equipment compendium and derives the criteria lists shown in the UI. */
 export async function initializeMerchantData() {
 	const pack = game.packs.get("pf2e.equipment-srd");
 
@@ -62,6 +64,8 @@ export async function initializeMerchantData() {
 	console.log(game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LOGGING.READY"));
 }
 
+// Ensures the equipment compendium is loaded only once per client, even if the button is clicked
+// repeatedly before the first load finishes.
 export async function ensureMerchantDataInitialized() {
 	if (Array.isArray(MODULE_STATE.items) && MODULE_STATE.items.length > 0) {
 		return true;

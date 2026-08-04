@@ -1,12 +1,16 @@
+/** Stable Foundry module id used for settings, flags, and DOM hooks. */
 export const MODULE_ID = "FVTT_Pf2eMerchantMaker";
 
+/** Enables verbose console logging for development and troubleshooting. */
 export const DEBUG = false;
 
+/** Shared in-memory cache for compendium items and their derived criteria lists. */
 export const MODULE_STATE = {
 	items: [],
 	criteria: {},
 };
 
+/** Setting keys registered under this module. */
 export const SETTINGS = {
 	ADD_CRITERIA_SUMMARY: "addCriteriaSummary",
 	CLOSE_ON_SUBMIT: "closeOnSubmit",
@@ -14,6 +18,7 @@ export const SETTINGS = {
 	TOOLBELT_BETTER_MERCHANT_SETUP: "toolbeltBetterMerchantSetup",
 };
 
+/** Maps each supported criterion to the PF2e item data path used during filtering. */
 export const CRITERIA_PATHS = {
 	category: (item) => item.system?.category,
 	group: (item) => item.system?.group,
@@ -24,6 +29,7 @@ export const CRITERIA_PATHS = {
 	type: (item) => item.type,
 };
 
+/** UI metadata for rendering each criteria pane in the merchant form. */
 export const CRITERIA_FIELDS = [
 	{
 		key: "rarity",
@@ -63,6 +69,7 @@ export const CRITERIA_FIELDS = [
 	},
 ];
 
+/** Sorting precedence used for rarity-first item ordering in generated merchants. */
 export const RARITY_ORDER = {
 	common: 0,
 	uncommon: 1,
@@ -70,6 +77,7 @@ export const RARITY_ORDER = {
 	unique: 3,
 };
 
+/** Reusable comparators for criteria normalization and final item display ordering. */
 export const SORT_FUNCTIONS = {
 	rarity: (a, b) => (RARITY_ORDER[a] ?? 5) - (RARITY_ORDER[b] ?? 5),
 	level: (a, b) => a - b,
@@ -77,10 +85,12 @@ export const SORT_FUNCTIONS = {
 	default: (a, b) => String(a).localeCompare(String(b)),
 };
 
+/** Additional item paths used for exclusion rules outside the user-facing criteria panes. */
 export const EXCLUDE_CRITERIA_PATHS = {
 	slug: (item) => item.system?.slug,
 };
 
+/** Known problematic or non-merchant-friendly item slugs that are always filtered out. */
 export const EXCLUDE_SLUGS = [
 	"amulet-implement",
 	"bands-of-imprisonment",
@@ -110,5 +120,6 @@ export const EXCLUDE_SLUGS = [
 	"wand-implement",
 ];
 
+/** Quantity bounds enforced for merchant stock generation. */
 export const QUANTITY_MIN = 1;
 export const QUANTITY_MAX = 99;

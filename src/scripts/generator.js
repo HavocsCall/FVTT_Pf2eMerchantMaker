@@ -17,11 +17,13 @@ import {
 	rollIntegerBetween,
 } from "./utils.js";
 
+/** Creates a merchant actor from the normalized form payload produced by the UI layer. */
 export async function generateMerchantFromFormData(data) {
 	if (DEBUG) {
 		console.log("Form Data:", data);
 	}
 
+	// Quantity controls how many copies of each selected item are added to the merchant.
 	const quantityMode = data["quantity-mode"] ?? "set";
 	const randomQuantityMin = clampInteger(
 		data["random-quantity-min"],
@@ -55,6 +57,7 @@ export async function generateMerchantFromFormData(data) {
 		return quantityConfig.amount;
 	};
 
+	// Amount controls how many unique matching items are sampled from the filtered pool.
 	const amountMode = data["amount-mode"] ?? "all";
 	const randomAmountMin = clampInteger(data["random-amount-min"], 1, Number.MAX_SAFE_INTEGER, 1);
 	const randomAmountMax = clampInteger(
@@ -81,6 +84,8 @@ export async function generateMerchantFromFormData(data) {
 		? data.merchantName
 		: game.i18n.localize("FVTT_PF2EMERCHANTMAKER.LABELS.DEFAULTMERCHANTNAME");
 
+	// The UI submits a normalized criteria object, but Range still needs special handling because it
+	// combines mode flags (melee/ranged) with optional numeric sub-selections.
 	const normalizeCriteriaBucket = (bucket) => {
 		const normalized = {};
 
@@ -143,6 +148,7 @@ export async function generateMerchantFromFormData(data) {
 	const included = normalizeCriteriaBucket(data.included);
 	const excluded = normalizeCriteriaBucket(data.excluded);
 
+	// Numeric criteria arrive from checkbox values as strings and need coercion before matching.
 	const numberKeys = ["level"];
 
 	for (const key of numberKeys) {
@@ -157,6 +163,7 @@ export async function generateMerchantFromFormData(data) {
 
 	const items = MODULE_STATE.items;
 
+	// Apply include rules first, then remove anything disallowed by explicit excludes or hardcoded slug bans.
 	const unsortedMatches = items.filter((item) => {
 		const slug = EXCLUDE_CRITERIA_PATHS.slug(item);
 		if (slug && EXCLUDE_SLUGS.includes(slug)) return false;
@@ -165,6 +172,7 @@ export async function generateMerchantFromFormData(data) {
 			const value = CRITERIA_PATHS[key]?.(item);
 			if (value === undefined) return false;
 
+			// Range is a derived UI concept rather than a literal PF2e compendium value.
 			if (key === "range") {
 				if (!matchesIncludedRange(allowedValues, value)) return false;
 				continue;
@@ -200,6 +208,7 @@ export async function generateMerchantFromFormData(data) {
 		console.log("Unsorted Matches:", unsortedMatches);
 	}
 
+	// Merchant inventory is presented in a stable rarity -> level -> name order before any random sampling.
 	const sortedMatches = unsortedMatches.sort((a, b) => {
 		const rarityA = CRITERIA_PATHS.rarity(a);
 		const rarityB = CRITERIA_PATHS.rarity(b);
@@ -220,6 +229,7 @@ export async function generateMerchantFromFormData(data) {
 		console.log("Sorted Matches:", sortedMatches);
 	}
 
+	// Random selection is sampled from the already-sorted pool so the final merchant inventory remains stable.
 	const selectedMatches = (() => {
 		if (amountConfig.type === "set") {
 			const limit = Math.min(amountConfig.count, sortedMatches.length);
@@ -240,6 +250,8 @@ export async function generateMerchantFromFormData(data) {
 		if (amountConfig.type === "random") {
 			if (sortedMatches.length === 0) return [];
 
+			// Clamp the requested random selection to the actual match count so the summary can explain
+			// when the available pool is smaller than the user's requested range.
 			const upper = Math.min(amountConfig.max, sortedMatches.length);
 			const lower = Math.min(amountConfig.min, upper);
 			const target = rollIntegerBetween(lower, upper);
@@ -263,6 +275,7 @@ export async function generateMerchantFromFormData(data) {
 		console.log("Selected Matches:", selectedMatches);
 	}
 
+	// Item documents are cloned into plain objects so quantity can be customized before actor creation.
 	const preparedItems = selectedMatches.map((item) => {
 		const itemData = item.toObject();
 		itemData.system = itemData.system ?? {};
@@ -300,6 +313,7 @@ export async function generateMerchantFromFormData(data) {
 
 	await newMerchant.setFlag(MODULE_ID, "criteria", criteriaSummary);
 
+	// Optional compatibility setup for popular merchant-related PF2e module integrations.
 	if (game.modules.get("itempiles-pf2e")?.active) {
 		if (game.settings.get(MODULE_ID, SETTINGS.ITEM_PILES_SETUP)) {
 			await newMerchant.setFlag("item-piles", "data", {

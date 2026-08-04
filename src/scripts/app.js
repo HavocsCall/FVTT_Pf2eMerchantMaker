@@ -4,6 +4,8 @@ import { generateMerchantFromFormData } from "./generator.js";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
+// Normalizes the checkbox-heavy UI into the explicit criteria contract the generator expects.
+// Range is treated specially because it mixes "melee/ranged" mode flags with nested numeric values.
 function collectCheckedCriteria(form) {
 	const checkedCriteria = form.querySelectorAll(
 		'input[type="checkbox"][name^="include-"]:checked, input[type="checkbox"][name^="exclude-"]:checked'
@@ -53,11 +55,13 @@ function collectCheckedCriteria(form) {
 	return criteriaData;
 }
 
+/** Main Foundry application for building a merchant from PF2e equipment criteria. */
 export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(ApplicationV2) {
 	get title() {
 		return game.i18n.localize("FVTT_PF2EMERCHANTMAKER.NAME");
 	}
 
+	/** Base application configuration shared across every open instance of the form. */
 	static DEFAULT_OPTIONS = {
 		tag: "form",
 		form: {
@@ -71,6 +75,7 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 		resizable: true,
 	};
 
+	/** Template fragments used by the tabbed ApplicationV2 form. */
 	static PARTS = {
 		tabs: { template: "templates/generic/tab-navigation.hbs" },
 		merchantMaker: { template: `modules/${MODULE_ID}/src/templates/pf2eMerchantMaker.hbs` },
@@ -78,6 +83,7 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 		footer: { template: "templates/generic/form-footer.hbs" },
 	};
 
+	/** Single-tab-group definition for the criteria and advanced options views. */
 	static TABS = {
 		primary: {
 			tabs: [
@@ -88,6 +94,7 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 		},
 	};
 
+	/** Injects tab metadata into each rendered template part that needs it. */
 	async _preparePartContext(partId, context) {
 		switch (partId) {
 			case "merchantMaker":
@@ -99,6 +106,7 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 		return context;
 	}
 
+	/** Supplies the form templates with criteria data, tabs, and footer button config. */
 	async _prepareContext(_options) {
 		return {
 			tabs: this._prepareTabs("primary"),
@@ -119,7 +127,10 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 		};
 	}
 
+	/** Converts the form submission into the normalized payload consumed by the generator. */
 	static async handleFormSubmit(_event, form, formData) {
+		// FormDataExtended handles the simple fields, while checkbox criteria are gathered explicitly so
+		// grouped controls like Range do not depend on serializer quirks.
 		const submittedData = {
 			...formData.object,
 			...collectCheckedCriteria(form),
@@ -129,6 +140,7 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 	}
 }
 
+/** Adds the merchant-maker launch button to the Actor Directory footer. */
 export function registerActorDirectoryButton() {
 	Hooks.on("renderActorDirectory", (tab, html) => {
 		const footer = html.querySelector(".directory-footer.action-buttons");
@@ -146,6 +158,7 @@ export function registerActorDirectoryButton() {
 		);
 
 		footer.querySelector(`#${MODULE_ID}`).onclick = async () => {
+			// Criteria are lazy-loaded so the compendium cost is paid only on first use per client.
 			await ensureMerchantDataInitialized();
 
 			if (

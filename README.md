@@ -18,12 +18,6 @@ An advanced options menu for random and set amounts.
 
 ![Advanced Options](images/AdvancedOptions.png)
 
-## Premade Shops
-
-There are some premade shops in a compendium. Currently, there are:
-
-- Runes
-- Skill item bonus items
 
 ## Installation
 
@@ -44,6 +38,13 @@ The merchant is created in your actors, ready for selling.
 ![Merchant Example](images/MerchantExample.png)
 
 The items are sorted by Rarity > Level > Name.
+
+### Premade Shops
+
+There are some premade shops in a compendium. Currently, there are:
+
+- Runes
+- Skill item bonus items
 
 ## Settings
 
@@ -78,4 +79,4 @@ Feel free to create an issue on [GitHub](https://github.com/HavocsCall/FVTT_Pf2e
 
 ## AI Disclaimer
 
-I did use AI to help with some specific things. I did not have AI inject code directly, just talked to it for "rubberducking" and syntax issues. If this puts you off, I completely understand.
+This module was developed with AI-assisted support. All design decisions, implementation choices, and final review were completed by me, and all changes were tested before release.

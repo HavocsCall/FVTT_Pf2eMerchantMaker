@@ -55,6 +55,26 @@ function collectCheckedCriteria(form) {
 	return criteriaData;
 }
 
+function buildCriteriaFieldContext(scope) {
+	return CRITERIA_FIELDS.map((field) => ({
+		...field,
+		id: `${scope}-${field.key}`,
+		inputName: `${scope}-${field.key}`,
+		rangeKindInputName: `${scope}-range-kind`,
+		rangeValueInputName: `${scope}-range-value`,
+		options: (MODULE_STATE.criteria[field.key] ?? []).map((option) => ({
+			label: option,
+			value: option,
+			inputName: `${scope}-${field.key}`,
+		})),
+		rangeOptions: (MODULE_STATE.criteria.range ?? []).map((option) => ({
+			label: option,
+			value: option,
+			inputName: `${scope}-range-value`,
+		})),
+	}));
+}
+
 /** Main Foundry application for building a merchant from PF2e equipment criteria. */
 export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(ApplicationV2) {
 	get title() {
@@ -122,8 +142,8 @@ export class Pf2eMerchantMakerApp extends HandlebarsApplicationMixin(Application
 					icon: "fa-solid fa-arrow-rotate-left",
 				},
 			],
-			criteria: MODULE_STATE.criteria,
-			criteriaFields: CRITERIA_FIELDS,
+			includeCriteriaFields: buildCriteriaFieldContext("include"),
+			excludeCriteriaFields: buildCriteriaFieldContext("exclude"),
 		};
 	}
 

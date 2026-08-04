@@ -1,6 +1,7 @@
 # AGENTS.md
 
 ## Agent behavior
+
 - Do not make any direct changes unless asked to
 - Explain the reasoning behind your suggestions
 - Do not assume anything
@@ -17,6 +18,7 @@
 - Always focus on the best long term code
 
 ## Project Context
+
 - Mod name: `FVTT_Pf2eMerchantMaker`
 - Display Name: `PF2e Merchant Maker`
 - Platform: `FoundryVTT version 14`

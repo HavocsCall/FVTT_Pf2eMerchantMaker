@@ -16,37 +16,37 @@
 
 	<!-- Include Criteria -->
 	<div class="criteria-row">
-		{{#each criteriaFields}}
+		{{#each includeCriteriaFields}}
 			<div class="criteria-block">
 				<h5>{{localize includeLabel}}</h5>
-				<div id="include-{{key}}" class="criteria-options">
+				<div id="{{id}}" class="criteria-options">
 					{{#if isRange}}
 						<div class="range-group">
 							<label class="criteria-option">
-								<input type="checkbox" name="include-range-kind" value="melee" />
+								<input type="checkbox" name="{{rangeKindInputName}}" value="melee" />
 								<span>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.MELEE"}}</span>
 							</label>
 							<div class="range-ranged-group">
 								<label class="criteria-option">
-									<input type="checkbox" name="include-range-kind" value="ranged" />
+									<input type="checkbox" name="{{rangeKindInputName}}" value="ranged" />
 									<span>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.RANGED"}}</span>
 									<span class="range-disclosure" aria-hidden="true"></span>
 								</label>
 								<div class="range-suboptions">
-									{{#each (lookup ../criteria key)}}
+									{{#each rangeOptions}}
 										<label class="criteria-option">
-											<input type="checkbox" name="include-range-value" value="{{this}}" />
-											<span>{{this}}</span>
+											<input type="checkbox" name="{{inputName}}" value="{{value}}" />
+											<span>{{label}}</span>
 										</label>
 									{{/each}}
 								</div>
 							</div>
 						</div>
 					{{else}}
-						{{#each (lookup ../criteria key)}}
+						{{#each options}}
 							<label class="criteria-option">
-								<input type="checkbox" name="include-{{../key}}" value="{{this}}" />
-								<span>{{this}}</span>
+								<input type="checkbox" name="{{inputName}}" value="{{value}}" />
+								<span>{{label}}</span>
 							</label>
 						{{/each}}
 					{{/if}}
@@ -59,37 +59,37 @@
 
 	<!-- Exclude Criteria -->
 	<div class="criteria-row">
-		{{#each criteriaFields}}
+		{{#each excludeCriteriaFields}}
 			<div class="criteria-block">
 				<h5>{{localize excludeLabel}}</h5>
-				<div id="exclude-{{key}}" class="criteria-options">
+				<div id="{{id}}" class="criteria-options">
 					{{#if isRange}}
 						<div class="range-group">
 							<label class="criteria-option">
-								<input type="checkbox" name="exclude-range-kind" value="melee" />
+								<input type="checkbox" name="{{rangeKindInputName}}" value="melee" />
 								<span>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.MELEE"}}</span>
 							</label>
 							<div class="range-ranged-group">
 								<label class="criteria-option">
-									<input type="checkbox" name="exclude-range-kind" value="ranged" />
+									<input type="checkbox" name="{{rangeKindInputName}}" value="ranged" />
 									<span>{{localize "FVTT_PF2EMERCHANTMAKER.WINDOW.RANGED"}}</span>
 									<span class="range-disclosure" aria-hidden="true"></span>
 								</label>
 								<div class="range-suboptions">
-									{{#each (lookup ../criteria key)}}
+									{{#each rangeOptions}}
 										<label class="criteria-option">
-											<input type="checkbox" name="exclude-range-value" value="{{this}}" />
-											<span>{{this}}</span>
+											<input type="checkbox" name="{{inputName}}" value="{{value}}" />
+											<span>{{label}}</span>
 										</label>
 									{{/each}}
 								</div>
 							</div>
 						</div>
 					{{else}}
-						{{#each (lookup ../criteria key)}}
+						{{#each options}}
 							<label class="criteria-option">
-								<input type="checkbox" name="exclude-{{../key}}" value="{{this}}" />
-								<span>{{this}}</span>
+								<input type="checkbox" name="{{inputName}}" value="{{value}}" />
+								<span>{{label}}</span>
 							</label>
 						{{/each}}
 					{{/if}}

@@ -18,7 +18,6 @@ An advanced options menu for random and set amounts.
 
 ![Advanced Options](images/AdvancedOptions.png)
 
-
 ## Installation
 
 For now, use this link in the install module field in FoundryVTT.

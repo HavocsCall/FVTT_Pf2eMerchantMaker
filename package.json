@@ -8,7 +8,7 @@
 	"scripts": {
 		"Compendium-to-Json": "node build/Compendium-to-Json.mjs",
 		"Json-to-Compendium": "node build/Json-to-Compendium.mjs",
-		"sort:premade-shops": "node build/sort-premadeShops-jsons.mjs",
+		"sort-premade-shops": "node build/Sort-Premade-Shops.mjs",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
 		"format": "prettier . --write",

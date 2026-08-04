@@ -31,12 +31,9 @@
       "src": "icons/commodities/treasure/token-engraved-yellow-glowing.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -76,7 +73,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -101,7 +98,8 @@
     "movementAction": null,
     "randomImg": false,
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "depth": 1
   },
   "effects": [],
   "system": {
@@ -208,10 +206,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.DKWuJb2rSgiotOG7",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -307,10 +307,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.DxCuJKynlnMQZHgp",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -406,10 +408,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.pOoEiuEuITm4I2Il",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -505,10 +509,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.KCQRFvUgbyclvOGi",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -604,10 +610,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.rvItjGQaYT7Luwtm",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -703,10 +711,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.woxl2FrrgAcJDu0t",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -803,10 +813,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.OIvT5kbtYWcRc1k2",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -903,10 +915,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.p1oT9B3kdPGJUy3u",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -979,7 +993,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "7.5.2",
     "createdTime": 1760023972900,

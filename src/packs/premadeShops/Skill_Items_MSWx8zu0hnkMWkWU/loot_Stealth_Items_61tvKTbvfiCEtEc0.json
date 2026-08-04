@@ -32,12 +32,9 @@
       "src": "icons/creatures/magical/humanoid-silhouette-dashing-blue.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -77,7 +74,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -102,7 +99,8 @@
     "movementAction": null,
     "randomImg": false,
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "depth": 1
   },
   "effects": [],
   "system": {
@@ -209,10 +207,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -311,10 +311,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -413,10 +415,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -516,10 +520,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -646,10 +652,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -748,10 +756,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -868,10 +878,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -962,10 +974,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1070,10 +1084,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1193,10 +1209,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1288,10 +1306,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1390,10 +1410,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1492,10 +1514,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1604,10 +1628,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1698,10 +1724,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1809,10 +1837,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -1950,10 +1980,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2070,10 +2102,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2244,10 +2278,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2346,10 +2382,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2457,10 +2495,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2569,10 +2609,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2663,10 +2705,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2783,10 +2827,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -2957,10 +3003,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3082,10 +3130,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3188,10 +3238,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3290,10 +3342,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3384,10 +3438,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3476,10 +3532,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3584,10 +3642,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3695,10 +3755,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3798,10 +3860,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -3934,10 +3998,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4070,10 +4136,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4175,10 +4243,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4280,10 +4350,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4372,10 +4444,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4483,10 +4557,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4619,10 +4695,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4745,10 +4823,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4847,10 +4927,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -4983,10 +5065,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5134,10 +5218,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5236,10 +5322,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5347,10 +5435,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5450,10 +5540,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5560,10 +5652,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5663,10 +5757,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5778,10 +5874,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5881,10 +5979,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -5987,10 +6087,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -6107,10 +6209,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -6213,10 +6317,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -6324,10 +6430,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -6420,10 +6528,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.11.1",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -6443,7 +6553,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "7.11.1",
     "createdTime": 1772505769082,

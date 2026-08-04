@@ -32,12 +32,9 @@
       "src": "icons/commodities/treasure/token-engraved-purple-glowing.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -77,7 +74,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -102,7 +99,8 @@
     "movementAction": null,
     "randomImg": false,
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "depth": 1
   },
   "effects": [],
   "system": {
@@ -204,10 +202,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -306,10 +306,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Rm2cojERpLEWB9B3",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -321,6 +323,311 @@
       "flags": {},
       "_id": "8uo4J4Bf2vLaEMvJ",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.8uo4J4Bf2vLaEMvJ"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Convincing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A convincing rune blends in with your armor's decorative elements, such as embossed patterns and colorful ornaments. While wearing the armor, you gain a +1 item bonus to Diplomacy checks to [[/act make-an-impression]] and Request.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:make-an-impression",
+                  "action:request"
+                ]
+              }
+            ],
+            "selector": [
+              "diplomacy"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "convincing",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 45
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ft3Iejj2UlqH4J3J",
+        "createdTime": 1785863947570,
+        "modifiedTime": 1785863947571,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "26h0kCn2HqKvWUdR",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.26h0kCn2HqKvWUdR"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Mobile",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Armor etched with this rune lightens your feet. Once per turn, you can move an additional 5 feet when you Step.</p>"
+        },
+        "rules": [],
+        "slug": "mobile",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 160
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.DDdYXpxPtjvnJLJH",
+        "createdTime": 1785863958669,
+        "modifiedTime": 1785863958669,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "pzwg49BiFrgbd4kb",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.pzwg49BiFrgbd4kb"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Moonweave",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor bathes your wounds in the cool light of the moon. While wearing this armor, whenever you would be healed by a spell or magical effect, you recover an additional @Damage[2[healing]] Hit Points. You regain additional Hit Points from moonweave only the first time you regain HP from a given healing spell or effect, so a spell or effect that heals you repeatedly over a duration would restore additional Hit Points only once, when you're first healed.</p>"
+        },
+        "rules": [],
+        "slug": "moonweave",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 140
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.PV2TxKcs09x9BfCc",
+        "createdTime": 1785863953935,
+        "modifiedTime": 1785863953935,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "U2aEbm7CNyHxaTdO",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.U2aEbm7CNyHxaTdO"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -406,14 +713,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.iTxqImupNnm8gvoe",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 300000,
+      "sort": 600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -505,14 +814,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kEy7Uc1VisizGgtf",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 400000,
+      "sort": 700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -604,14 +915,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.uQOaRpfkUFVYD0Gx",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 500000,
+      "sort": 800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -703,14 +1016,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mKlUg7SWC5LcOqaj",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 600000,
+      "sort": 900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -802,14 +1117,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tpkkAtlMIOL8TnW6",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 700000,
+      "sort": 1000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -901,14 +1218,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.QNPwzwKervKpk6YO",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 800000,
+      "sort": 1100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1000,14 +1319,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.BKjwg0TEGioiYpz1",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 900000,
+      "sort": 1200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1015,6 +1336,102 @@
       "flags": {},
       "_id": "SKDHOiiIAlZin9pA",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.SKDHOiiIAlZin9pA"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Self-Sealing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A suit of armor etched with this rune can create a bolstering magical layer that closes off to protect the wearer against dangerous environments. When you would take environmental damage, or when you enter an environment where you can't safely breathe, your self-sealing armor seals itself shut. It holds 1 minute's worth of air and grants you resistance 10 to environmental damage while sealed. You or another creature can take an Interact action to unseal it at any time. Once unsealed, the armor can't seal itself again for 1 hour.</p>"
+        },
+        "rules": [],
+        "slug": "self-sealing",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 320
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.48tdInl0iSnUA5JA",
+        "createdTime": 1785863974569,
+        "modifiedTime": 1785863974569,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "9xjH1ddGBmS4bdDF",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.9xjH1ddGBmS4bdDF"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -1099,14 +1516,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Z5FvYWLEpWVo3PUF",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1000000,
+      "sort": 1400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1114,6 +1533,320 @@
       "flags": {},
       "_id": "c37P20EgY7y4SFNV",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.c37P20EgY7y4SFNV"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Sunweave",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor glows softly, granting you a +1 item bonus to Perception checks.</p>\n<p><strong>Activate—Glint of Ambition</strong> <span class=\"action-glyph\">f</span> (concentrate, fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're about to attempt a Perception check for initiative</p><hr><p><strong>Effect</strong> You roll the check twice and take the better result.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "perception"
+            ],
+            "type": "item",
+            "value": 1
+          }
+        ],
+        "slug": "sunweave",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 350
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.81Ejj6xXLN3l6uDb",
+        "createdTime": 1785863985241,
+        "modifiedTime": 1785863985241,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "uNFvMYEscQWomsQT",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.uNFvMYEscQWomsQT"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Unnerving",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The sound of weapons clanging against a suit of unnerving armor transforms into an inhuman screech that unsettles enemies and makes them hesitate to attack again. Any creature that hits you with a melee Strike takes a –1 circumstance penalty to its next melee Strike that targets you before the end of your next turn.</p>"
+        },
+        "rules": [],
+        "slug": "unnerving",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 350
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.lVNAswkvRe2ZxKPQ",
+        "createdTime": 1785864003684,
+        "modifiedTime": 1785864003684,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "2m45fC8VMUAksiDW",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.2m45fC8VMUAksiDW"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Convincing (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A convincing rune blends in with your armor's decorative elements, such as embossed patterns and colorful ornaments. While wearing the armor, you gain a +2 item bonus to Diplomacy checks to [[/act make-an-impression]] and Request.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:make-an-impression",
+                  "action:request"
+                ]
+              }
+            ],
+            "selector": [
+              "diplomacy"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "convincing-greater",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 450
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.QyR2zHM3tChs6I6M",
+        "createdTime": 1785864017510,
+        "modifiedTime": 1785864017510,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "xY0xVMIrDHfQNgJ4",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.xY0xVMIrDHfQNgJ4"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -1198,14 +1931,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Lw3B9DpnyrpXD9Di",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1100000,
+      "sort": 1800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1297,14 +2032,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.A2Z7Mh8A59wZb5vv",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1200000,
+      "sort": 1900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1397,14 +2134,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.VDudQ4x2ozosAbTb",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1300000,
+      "sort": 2000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1496,14 +2235,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.LiJMupjynmkM5Mld",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1400000,
+      "sort": 2100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1595,14 +2336,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.45zjE7pj6FUHuz3K",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1500000,
+      "sort": 2200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1695,14 +2438,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.eHfL8Apfx4fxGksT",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1600000,
+      "sort": 2300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1794,14 +2539,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.VYXAdLJdF0XSeX5m",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1700000,
+      "sort": 2400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1893,14 +2640,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.bSm0Hki8N2L50OZw",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1800000,
+      "sort": 2500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1993,14 +2742,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.bxz885LMjLCkpDq3",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1900000,
+      "sort": 2600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2092,14 +2843,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.jrjwukkie7Y7wkxu",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2000000,
+      "sort": 2700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2191,14 +2944,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.HhtZl2pr7xChKu2c",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2100000,
+      "sort": 2800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2290,14 +3045,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fumxKes1z2hLN2U7",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2200000,
+      "sort": 2900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2305,6 +3062,111 @@
       "flags": {},
       "_id": "IdyI5BGDUa4ylNR4",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.IdyI5BGDUa4ylNR4"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Sunweave (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor glows softly, granting you a +2 item bonus to Perception checks.</p>\n<p><strong>Activate—Glint of Ambition</strong> <span class=\"action-glyph\">f</span> (concentrate, fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're about to attempt a Perception check for initiative</p><hr><p><strong>Effect</strong> You roll the check twice and take the better result.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "perception"
+            ],
+            "type": "item",
+            "value": 2
+          }
+        ],
+        "slug": "sunweave-greater",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1200
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mDEkOSueuDOFW6V2",
+        "createdTime": 1785864117922,
+        "modifiedTime": 1785864117922,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "X7dKtixrcg06pcNi",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.X7dKtixrcg06pcNi"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -2389,14 +3251,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.9CAWAKkZE7dr4FlJ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2300000,
+      "sort": 3100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2488,14 +3352,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.8buhFcGwuaJRrp0y",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2400000,
+      "sort": 3200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2587,14 +3453,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ciykvIC4SFFxIfUw",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2500000,
+      "sort": 3300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2686,14 +3554,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.DAWaXFtevHLUJxHB",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2600000,
+      "sort": 3400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2701,6 +3571,198 @@
       "flags": {},
       "_id": "Nf0PLolOuUGQ4duh",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.Nf0PLolOuUGQ4duh"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Moonweave (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor bathes your wounds in the cool light of the moon. While wearing this armor, whenever you would be healed by a spell or magical effect, you recover an additional @Damage[5[healing]] Hit Points. You regain additional Hit Points from moonweave only the first time you regain HP from a given healing spell or effect, so a spell or effect that heals you repeatedly over a duration would restore additional Hit Points only once, when you're first healed.</p>"
+        },
+        "rules": [],
+        "slug": "moonweave-greater",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Lf4j51ICwt4zgxnj",
+        "createdTime": 1785864031626,
+        "modifiedTime": 1785864031626,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3500000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "0XRg6w0viapxuzyd",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.0XRg6w0viapxuzyd"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Safeguarding",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor is overlayed with a shimmering mosaic of pink, turquoise, and blue energy that protects the most vital aspects of your person. When activated, the armor's hue shifts according to the type of resistance you gain: turquoise (mental), blue (poison), or pink (spirit).</p>\n<p><strong>Activate—Adaptive Aegis</strong> <span class=\"action-glyph\">r</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You would take mental, poison, or spirit damage</p><hr><p><strong>Effect</strong> You gain resistance 5 to the triggering damage type that lasts for 10 minutes.</p>"
+        },
+        "rules": [],
+        "slug": "safeguarding",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2600
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.f4GQdPIDAl058wfs",
+        "createdTime": 1785864040627,
+        "modifiedTime": 1785864040627,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "GA8fMEG04cyxDBgB",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.GA8fMEG04cyxDBgB"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -2785,14 +3847,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qfyvOY3JTGUkOipr",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2700000,
+      "sort": 3700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2884,14 +3948,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ds7j3D8IIyxWd2XI",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2800000,
+      "sort": 3800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2983,14 +4049,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.3rlu75EjB2SVAuOI",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2900000,
+      "sort": 3900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3080,14 +4148,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.CJtn848AL7Q0Lxf2",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3000000,
+      "sort": 4000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3179,14 +4249,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.1neYjXMc4srH7KQ0",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3100000,
+      "sort": 4100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3194,6 +4266,119 @@
       "flags": {},
       "_id": "RwrOr4IENXU1UcnK",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.RwrOr4IENXU1UcnK"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Convincing (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A convincing rune blends in with your armor's decorative elements, such as embossed patterns and colorful ornaments. While wearing the armor, you gain a +3 item bonus to Diplomacy checks to [[/act make-an-impression]] and Request.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "action:make-an-impression",
+                  "action:request"
+                ]
+              }
+            ],
+            "selector": [
+              "diplomacy"
+            ],
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "convincing-major",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 16
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 45
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.0IlAAtOLgJ4kA537",
+        "createdTime": 1785864019239,
+        "modifiedTime": 1785864019239,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4200000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "RXYJkxS3deHaPfNl",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.RXYJkxS3deHaPfNl"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -3279,14 +4464,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.68rHNRZmlnyaUbBF",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3200000,
+      "sort": 4300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3378,14 +4565,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.9imz3VgBXCg13RfT",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3300000,
+      "sort": 4400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3477,14 +4666,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.RRFyASbHcdclympe",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3400000,
+      "sort": 4500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3492,6 +4683,102 @@
       "flags": {},
       "_id": "EibuBFzL10uojZSW",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.EibuBFzL10uojZSW"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Moonweave (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor bathes your wounds in the cool light of the moon. While wearing this armor, whenever you would be healed by a spell or magical effect, you recover an additional @Damage[10[healing]] Hit Points. You regain additional Hit Points from moonweave only the first time you regain HP from a given healing spell or effect, so a spell or effect that heals you repeatedly over a duration would restore additional Hit Points only once, when you're first healed.</p>"
+        },
+        "rules": [],
+        "slug": "moonweave-major",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 14000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.2SeX2vfTta5EL8x4",
+        "createdTime": 1785864029149,
+        "modifiedTime": 1785864029150,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4600000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "izoxrtVocppZJ9Yv",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.izoxrtVocppZJ9Yv"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -3576,14 +4863,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.2FjdEflsVldnuebM",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3500000,
+      "sort": 4700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3675,14 +4964,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ujWnpVMkbTljMGN9",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3600000,
+      "sort": 4800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3774,14 +5065,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hGZNrPMdxsabNFLx",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3700000,
+      "sort": 4900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3789,6 +5082,111 @@
       "flags": {},
       "_id": "YLIWK2XZOgBJKYJX",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.YLIWK2XZOgBJKYJX"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Sunweave (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor glows softly, granting you a +3 item bonus to Perception checks.</p>\n<p><strong>Activate—Glint of Ambition</strong> <span class=\"action-glyph\">f</span> (concentrate, fortune)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're about to attempt a Perception check for initiative</p><hr><p><strong>Effect</strong> You roll the check twice and take the better result.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "perception"
+            ],
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "sunweave-major",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 24000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yYCZXExIR7b9PO4V",
+        "createdTime": 1785864115146,
+        "modifiedTime": 1785864115146,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "rzOlRbHDZa0wS4a4",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.rzOlRbHDZa0wS4a4"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -3873,14 +5271,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Ztb4xv4UGZbF32TE",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3800000,
+      "sort": 5100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3972,14 +5372,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.NJtIwMIzjdRqupAM",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3900000,
+      "sort": 5200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4069,14 +5471,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.gSSibF07emWGpGKw",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4000000,
+      "sort": 5300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4169,14 +5573,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kOEZCUTCPCqCFoJf",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4100000,
+      "sort": 5400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4269,14 +5675,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.QDYPr19De3TBIysx",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4200000,
+      "sort": 5500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4369,14 +5777,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.nGZPhGpCxM8U1JXv",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4300000,
+      "sort": 5600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4468,14 +5878,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ioLWDzXp2dG7ZMHf",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4400000,
+      "sort": 5700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4567,14 +5979,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.XkjOK05Gw0o3iycr",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4500000,
+      "sort": 5800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4664,14 +6078,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4cbe0WVSHn1FxygQ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4600000,
+      "sort": 5900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4763,14 +6179,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.n8nLwFR4VFFmAny5",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4700000,
+      "sort": 6000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4778,6 +6196,102 @@
       "flags": {},
       "_id": "P1A5byRW30swOv48",
       "_key": "!actors.items!CjzX8QeJbbfDnCQ0.P1A5byRW30swOv48"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Sidestepping",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A suit of armor etched with this rune can cause its wearer's form to vibrate slightly out of phase with the rest of the world, allowing them to impossibly pass through solid objects.</p>\n<p><strong>Activate—Phase Through</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>Frequency</strong> once per day</p><hr><p><strong>Effect</strong> Until the end of your current turn, you can move through non-magical solid surfaces. Treat any movement through an item thicker than air as difficult terrain. When the duration ends, if you're sharing space with a solid item, you'll be shoved into the closest unoccupied space and take @Damage[6d6[bludgeoning]] damage.</p>"
+        },
+        "rules": [],
+        "slug": "sidestepping",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 13
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.E4iDTr5likUCR6gz",
+        "createdTime": 1785864078407,
+        "modifiedTime": 1785864078407,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 6100000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "YAwZxDmEy0GsZD9s",
+      "_key": "!actors.items!CjzX8QeJbbfDnCQ0.YAwZxDmEy0GsZD9s"
     },
     {
       "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
@@ -4862,14 +6376,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ZTdRDRew1B0zTGiU",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4800000,
+      "sort": 6200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4961,14 +6477,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.o02lg3k1RBoFXVFV",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4900000,
+      "sort": 6300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5060,14 +6578,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.q70WXJO1rswduHuT",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5000000,
+      "sort": 6400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5159,14 +6679,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.dLYifig01WulSNVF",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5100000,
+      "sort": 6500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5256,14 +6778,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6PW3zAn8fWW3IYA0",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5200000,
+      "sort": 6600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5355,14 +6879,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mfhcGeS0L7pPZnex",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5300000,
+      "sort": 6700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5456,14 +6982,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.1n22FbWdDNC7tLT6",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5400000,
+      "sort": 6800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5556,14 +7084,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.IA7ySNhJxINR7x2e",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5500000,
+      "sort": 6900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5655,14 +7185,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Oj3TuNNUT3ayL3Ea",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5600000,
+      "sort": 7000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5733,7 +7265,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "7.5.2",
     "createdTime": 1760023972900,

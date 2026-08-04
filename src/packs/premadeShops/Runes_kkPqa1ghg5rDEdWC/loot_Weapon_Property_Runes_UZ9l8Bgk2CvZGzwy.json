@@ -31,12 +31,9 @@
       "src": "icons/commodities/treasure/token-engraved-green-glowing.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -76,7 +73,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -101,7 +98,8 @@
     "movementAction": null,
     "randomImg": false,
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "depth": 1
   },
   "effects": [],
   "system": {
@@ -211,10 +209,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tEXUCp02ylyoJoyP",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -316,10 +316,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -421,10 +423,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5QKAoWrpSetjHVJs",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -436,6 +440,198 @@
       "flags": {},
       "_id": "5pcEcRPjHN0kzfj0",
       "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.5pcEcRPjHN0kzfj0"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Energy Vulnerability",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A weapon etched with this rune has a sheen of a color corresponding to the energy type chosen when the rune is created: green (acid), blue (cold), white (electricity), orange (fire), or yellow (sonic). When you critically hit a target with a weapon with this rune, the target gains weakness 5 to the chosen energy type until the end of your next turn. This weakness isn't cumulative with any weakness to that energy type the target already has and doesn't affect a creature with immunity or resistance to that energy type.</p>"
+        },
+        "rules": [],
+        "slug": "energy-vulnerability",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 90
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Nu7RhPPOyUcRjUDy",
+        "createdTime": 1785864243109,
+        "modifiedTime": 1785864243109,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "9QZIU4y0gKZvCeIs",
+      "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.9QZIU4y0gKZvCeIs"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Energy Vulnerability (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A weapon etched with this rune has a sheen of a color corresponding to the energy type chosen when the rune is created: green (acid), blue (cold), white (electricity), orange (fire), or yellow (sonic). When you critically hit a target with a weapon with this rune, the target gains weakness 10 to the chosen energy type until the end of your next turn. This weakness isn't cumulative with any weakness to that energy type the target already has and doesn't affect a creature with immunity or resistance to that energy type.</p>"
+        },
+        "rules": [],
+        "slug": "energy-vulnerability-greater",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 9000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.h6JfPh8XEjH9HlDk",
+        "createdTime": 1785864246486,
+        "modifiedTime": 1785864246487,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "R0HcIFddZh48eXOZ",
+      "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.R0HcIFddZh48eXOZ"
     },
     {
       "_id": "3DhyAP4EVAUN1zuU",
@@ -523,14 +719,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 400000,
+      "sort": 600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -629,14 +827,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.r28DjJEjF6jvCcfb",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 500000,
+      "sort": 700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -734,14 +934,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.OClYfRHzoynib6wX",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 600000,
+      "sort": 800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -842,14 +1044,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.P6v2AtJw7AUwaDzf",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 700000,
+      "sort": 900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -947,14 +1151,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.R8I13CDRzvpVXOVe",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 800000,
+      "sort": 1000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1052,14 +1258,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.LwQb7ryTC8FlOXgX",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 900000,
+      "sort": 1100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1070,6 +1278,102 @@
         }
       },
       "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.YwWOHXEv32uZQreo"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Deflecting",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When using a weapon etched with this rune to parry, you have the potential to reduce the damage you take.</p>\n<p><strong>Activate—Deflecting Parry</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're critically hit with a Strike that deals physical damage</p>\n<p><strong>Requirements</strong> You're benefiting from the bonus to AC from the weapon's parry trait</p><hr><p><strong>Effect</strong> You gain resistance 5 to physical damage against the triggering Strike.</p>"
+        },
+        "rules": [],
+        "slug": "deflecting",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 230
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-melee-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.djfRlJTck2pVnIjA",
+        "createdTime": 1785864267327,
+        "modifiedTime": 1785864267327,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "lbqmwZCmYJyeqWxD",
+      "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.lbqmwZCmYJyeqWxD"
     },
     {
       "_id": "lefF4dQClTjjY2uF",
@@ -1157,14 +1461,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1000000,
+      "sort": 1300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1262,14 +1568,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6XX3tYxkyQXCMAbd",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1100000,
+      "sort": 1400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1367,14 +1675,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.cHCaDiKel0qAIQmC",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1200000,
+      "sort": 1500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1472,14 +1782,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.GNX0BNOoCSOYPedi",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1300000,
+      "sort": 1600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1579,14 +1891,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yGgsoSA8EaaEsYZn",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1400000,
+      "sort": 1700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1684,14 +1998,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fo6Yhq5mbQXsnZs0",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1500000,
+      "sort": 1800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1790,14 +2106,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6llILJtsTPgtYXgx",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1600000,
+      "sort": 1900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -1896,14 +2214,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Wm0X7Pfd1bfocPSv",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1700000,
+      "sort": 2000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2003,14 +2323,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fyiW23MFe8p06KL5",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1800000,
+      "sort": 2100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2109,14 +2431,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.XszNvxnymWYRaoTp",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 1900000,
+      "sort": 2200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2215,14 +2539,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.M5M1WJ5KzbYfRGsY",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2000000,
+      "sort": 2300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2321,14 +2647,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.NVst7e69agGG9Qwd",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2100000,
+      "sort": 2400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2427,14 +2755,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.dTxbaa7HSiJbIuNN",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2200000,
+      "sort": 2500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2533,14 +2863,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.y9RUbQec9zGeqqcE",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2300000,
+      "sort": 2600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2638,14 +2970,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.bJORQsO9E1JCJh6i",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2400000,
+      "sort": 2700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2743,14 +3077,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qUnDHEXteUQGE8yp",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2500000,
+      "sort": 2800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2848,14 +3184,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.z8nKK4rSUGQVT2t9",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2600000,
+      "sort": 2900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2954,14 +3292,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.H9qYN48voa2ZDy3i",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2700000,
+      "sort": 3000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -2972,6 +3312,103 @@
         }
       },
       "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.JTN7xBEtx0lwy9qe"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Impactful",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a @Check[fortitude|dc:27|name:Resist Force Push|showDC:all] save or be pushed 5 feet away from you.</p>"
+        },
+        "rules": [],
+        "slug": "impactful",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "force",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.H9qYN48voa2ZDy3i",
+        "createdTime": 1785864273700,
+        "modifiedTime": 1785864273700,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3100000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "dikbRvDf6js6BMR5",
+      "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.dikbRvDf6js6BMR5"
     },
     {
       "_id": "0RGU00TPjHBhzbS6",
@@ -3059,14 +3496,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.DH0kB9Wbr5pDeunX",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2800000,
+      "sort": 3200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3166,14 +3605,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.T5KifnxLN3vWuUJa",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 2900000,
+      "sort": 3300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3272,14 +3713,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.gmMrJREf4JSHd2dZ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3000000,
+      "sort": 3400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3377,14 +3820,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.LbdnZFlyLFdAE617",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3100000,
+      "sort": 3500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3485,14 +3930,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.uz3JCjRvkE44jxMd",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3200000,
+      "sort": 3600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3590,14 +4037,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.WHwprq9Xym2DOr2x",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3300000,
+      "sort": 3700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3695,14 +4144,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.oVrVzML63VFvVfKk",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3400000,
+      "sort": 3800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3801,14 +4252,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hebf5k3cd7LO6luX",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3500000,
+      "sort": 3900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -3907,14 +4360,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.vQUIUAFOTOWj3ohh",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3600000,
+      "sort": 4000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4014,14 +4469,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.HGsA5gXtaAA65n9e",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3700000,
+      "sort": 4100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4120,14 +4577,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.RSZwUlCzUX7Nb4UA",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3800000,
+      "sort": 4200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4226,14 +4685,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Sexud7FdxIrg50vU",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 3900000,
+      "sort": 4300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4333,14 +4794,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.h4n9PdQrOkCrJ9sY",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4000000,
+      "sort": 4400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4439,14 +4902,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TEa1oKZbwsOvC6TZ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4100000,
+      "sort": 4500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4545,14 +5010,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Lb7F2BR9X9TF1vjX",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4200000,
+      "sort": 4600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4651,14 +5118,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ri9QkRCD6cAbQ6t3",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4300000,
+      "sort": 4700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4669,6 +5138,103 @@
         }
       },
       "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.idHKSPIKcef1EAQ0"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Impactful (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a @Check[fortitude|dc:37|name:Resist Force Push|showDC:all] save or be pushed 10 feet away from you.</p>"
+        },
+        "rules": [],
+        "slug": "impactful-greater",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "force",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 17
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 15000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ri9QkRCD6cAbQ6t3",
+        "createdTime": 1785864275335,
+        "modifiedTime": 1785864275335,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "p9E4HWHG01VbKnw0",
+      "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.p9E4HWHG01VbKnw0"
     },
     {
       "_id": "XveQuk78yF1iWonu",
@@ -4756,14 +5322,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.n8MonEa4ZBdvEovc",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4400000,
+      "sort": 4900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4863,14 +5431,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.aXqCFjLSSjC3a1Mq",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4500000,
+      "sort": 5000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -4968,14 +5538,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.uU4VC8OlhDHslT4i",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4600000,
+      "sort": 5100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5073,14 +5645,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.pcGdJvwun0tjrUTz",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4700000,
+      "sort": 5200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5178,14 +5752,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.JY8X4RSfg6xIqAC9",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4800000,
+      "sort": 5300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5283,14 +5859,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7vwcuBIe4BNS5uuE",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 4900000,
+      "sort": 5400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5385,14 +5963,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5000000,
+      "sort": 5500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5403,6 +5983,102 @@
         }
       },
       "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.1GoNMVXPQ0u7Sqmd"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Bane",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A bane rune grants you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures. The crafter chooses aberration, animal, beast, celestial, construct, dragon, elemental, fey, fiend, giant, monitor, ooze, or both fungus and plant. The weapon deals 1d6 additional damage of the weapon's damage type to creatures with the chosen trait or traits. The benefit doesn't apply against creatures of the chosen type disguised as other creatures. It's up to GM discretion whether the bane rune applies against a creature disguised as a creature of the chosen type.</p>\n<p>The GM might allow bane runes for other creature traits, such as astral, demon, dream, or vampire. However, the humanoid trait, the undead trait, and the traits for specific types of humanoids (such as elf) are never a valid option.</p>"
+        },
+        "rules": [],
+        "slug": "bane",
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Impossible Magic",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf",
+        "createdTime": 1785864255998,
+        "modifiedTime": 1785864255999,
+        "lastModifiedBy": "AXtnNvLokad0OHuR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5600000,
+      "ownership": {
+        "default": 0,
+        "AXtnNvLokad0OHuR": 3
+      },
+      "flags": {},
+      "_id": "RLlLvv7C5SUmKGkA",
+      "_key": "!actors.items!UZ9l8Bgk2CvZGzwy.RLlLvv7C5SUmKGkA"
     },
     {
       "img": "icons/commodities/treasure/brooch-gold-green.webp",
@@ -5490,14 +6166,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fqnjZzwBi9GH4CXO",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5100000,
+      "sort": 5700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5590,14 +6268,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.T4gTHDKJ0HI10p3y",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5200000,
+      "sort": 5800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5698,14 +6378,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tvFMexALNZ70NVwh",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5300000,
+      "sort": 5900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5803,14 +6485,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.I8XecIUYhwagAnXv",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5400000,
+      "sort": 6000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -5905,14 +6589,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Qqh586pudsEqITUk",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5500000,
+      "sort": 6100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6010,14 +6696,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.p6RmUi2zCSmjd737",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5600000,
+      "sort": 6200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6115,14 +6803,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.2ovu1AioLLff9p8w",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5700000,
+      "sort": 6300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6221,14 +6911,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.C9wOlvuVCjVbz1YQ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5800000,
+      "sort": 6400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6326,14 +7018,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.cvb47A6K1w7RfNiv",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 5900000,
+      "sort": 6500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6431,14 +7125,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yMEDmJWDPv2i78WO",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6000000,
+      "sort": 6600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6536,14 +7232,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.t6SSQYruLsDWj5Tl",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6100000,
+      "sort": 6700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6641,14 +7339,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TRUl7Iro5aKtqFMA",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6200000,
+      "sort": 6800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6746,14 +7446,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.SuKERInt6Z3I3bCa",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6300000,
+      "sort": 6900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6851,14 +7553,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.SV7W0lC2d8mfYuhy",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6400000,
+      "sort": 7000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -6956,14 +7660,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mcBXIHJGVQrbDLxi",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6500000,
+      "sort": 7100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7058,14 +7764,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.o0XXVVymB8kluwLK",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6600000,
+      "sort": 7200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7163,14 +7871,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.NCE7g1U3q3RYwCY2",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6700000,
+      "sort": 7300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7268,14 +7978,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.BuQsMeD7IP4mvDCQ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6800000,
+      "sort": 7400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7370,14 +8082,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.wvo5Qaj5qn7jFHaA",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 6900000,
+      "sort": 7500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7472,14 +8186,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.DCPsilr8wbPXxTUv",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7000000,
+      "sort": 7600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7578,14 +8294,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.zEys8FeMMAwTqwgW",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7100000,
+      "sort": 7700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7683,14 +8401,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hg3IogR8ue2IWwgS",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7200000,
+      "sort": 7800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7788,14 +8508,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.QNaCujl2faKRyLD1",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7300000,
+      "sort": 7900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7893,14 +8615,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.payq4TwkN2BRF6fs",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7400000,
+      "sort": 8000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -7998,14 +8722,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qL1S3vGfv8Dh5yAE",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7500000,
+      "sort": 8100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8103,14 +8829,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.lo5QOMA9VAUwUVl7",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7600000,
+      "sort": 8200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8208,14 +8936,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.AgDNThyJHtsp1Vjt",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7700000,
+      "sort": 8300000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8313,14 +9043,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kY41VIXUSEJYEznp",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7800000,
+      "sort": 8400000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8418,14 +9150,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.S9eytXwDMdwdSh2z",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 7900000,
+      "sort": 8500000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8523,14 +9257,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.i9hF185TRK0cH8B4",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 8000000,
+      "sort": 8600000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8628,14 +9364,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4DXupoMmwenFn4Kc",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 8100000,
+      "sort": 8700000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8733,14 +9471,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.EjV3Pb13DLzGTCcY",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 8200000,
+      "sort": 8800000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8840,14 +9580,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.oL8G6OqITPJ5Fd6A",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 8300000,
+      "sort": 8900000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -8945,14 +9687,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.CxadMTEjnuXyqmcQ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 8400000,
+      "sort": 9000000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -9050,14 +9794,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.KnZL0xPWDzQx9vWQ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 8500000,
+      "sort": 9100000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -9155,14 +9901,16 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6xaxxKfvXED6LfIY",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "14.361",
         "systemId": "pf2e",
         "systemVersion": "7.5.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
-      "sort": 8600000,
+      "sort": 9200000,
       "ownership": {
         "default": 0,
         "UPnjMbTUnpLyKVOr": 3
@@ -9241,7 +9989,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "7.5.2",
     "createdTime": 1760023972900,

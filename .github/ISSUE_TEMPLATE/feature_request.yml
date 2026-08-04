@@ -1,0 +1,98 @@
+name: Feature Request
+description: Suggest an improvement or new capability for this Foundry VTT module
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the feature as clearly as you can. Concrete use cases and examples make it much easier to evaluate and scope.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the feature request.
+      placeholder: Add a way to save and reload merchant criteria presets.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What problem would this solve, or what workflow would it improve?
+      placeholder: |
+        ex.
+        I frequently rebuild the same merchant types and currently have to re-enter the same criteria every time.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the behavior or UI you would like to see.
+      placeholder: |
+        ex.
+        Add save/load preset buttons to the merchant form so criteria selections can be reused.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: If you have other ideas or workarounds, list them here.
+      placeholder: |
+        ex.
+        - Saving presets in world settings
+        - Saving presets per user
+        - A compendium of saved merchant definitions
+
+  - type: input
+    id: foundry_version
+    attributes:
+      label: Foundry VTT Version
+      placeholder: ex. 14.331
+
+  - type: input
+    id: system_name_version
+    attributes:
+      label: Game System and Version
+      placeholder: ex. PF2E 7.8.0
+
+  - type: input
+    id: module_version
+    attributes:
+      label: Module Version
+      placeholder: ex. 1.2.3
+
+  - type: textarea
+    id: other_active_modules
+    attributes:
+      label: Other Active Modules
+      description: List any modules that may be related to this request, especially integrations or UI modifiers.
+      placeholder: |
+        ex.
+        - Item Piles: PF2e
+        - PF2e Toolbelt
+
+  - type: textarea
+    id: mocks_examples
+    attributes:
+      label: Mockups / Examples / References
+      description: Add screenshots, links, or examples from other modules if helpful.
+
+  - type: textarea
+    id: module_specific
+    attributes:
+      label: Module-Specific Notes
+      description: Add anything specific to this module that matters for this request.
+      placeholder: |
+        ex.
+        - Relevant settings:
+        - Affected compendiums:
+        - Merchant criteria involved:
+        - Integration features involved:
